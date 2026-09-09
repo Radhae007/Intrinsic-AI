@@ -1,0 +1,98 @@
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/environment/aic_assets.dsv
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Axia80 M20/axia80_m20_macro.xacro
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Axia80 M20/axia_ft_sensor_visual.glb
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Axia80 M20/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Axia80 M20/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Basler Camera/basler_cam_visual.glb
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Basler Camera/basler_camera_macro.xacro
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Basler Camera/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Basler Camera/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Camera Mount/V1015087.stl
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Camera Mount/cam_mount_macro.xacro
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Camera Mount/cam_mount_visual.glb
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Camera Mount/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Camera Mount/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure Walls/enclosure_walls_visual.glb
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure Walls/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure Walls/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure/enclosure_visual.glb
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure/enclosurewalls_visual.glb
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure/light_visual.glb
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Floor/floor_visual.glb
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Floor/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Floor/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Floor/walls_visual.glb
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/LC Mount/lc_mount_macro.xacro
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/LC Mount/lc_mount_visual.glb
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/LC Mount/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/LC Mount/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/LC Plug/lc_plug_visual.glb
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/LC Plug/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/LC Plug/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card Mount/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card Mount/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card Mount/nic_card_mount_macro.xacro
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card Mount/nic_card_mount_visual.glb
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card Mount/nic_card_visual.glb
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card/nic_card_visual.glb
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Robotiq Hand-E/hande_base_visual.glb
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Robotiq Hand-E/hande_finger_visual.glb
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Robotiq Hand-E/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Robotiq Hand-E/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Robotiq Hand-E/robotiq_hande.ros2_control.xacro
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Robotiq Hand-E/robotiq_hande_macro.xacro
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Mount/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Mount/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Mount/sc_mount_macro.xacro
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Mount/sc_mount_visual.glb
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Plug/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Plug/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Plug/sc_plug_visual.glb
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Port/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Port/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Port/sc_port_macro.xacro
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Port/sc_port_visual.glb
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SFP Module/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SFP Module/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SFP Module/sfp_module_visual.glb
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SFP Mount/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SFP Mount/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SFP Mount/sfp_mount_macro.xacro
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SFP Mount/sfp_mount_visual.glb
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Task Board Base/base_visual.glb
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Task Board Base/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Task Board Base/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Task Board Base/task_board_base_macro.xacro
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/cable_base_c_rotated/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/cable_base_c_rotated/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/cable_base_c_rotated_reversed/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/cable_base_c_rotated_reversed/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/lc_cable/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/lc_cable/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/lc_sc_cable/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/lc_sc_cable/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/sc_cable/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/sc_cable/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/sfp_sc_cable/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/sfp_sc_cable/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/sfp_sc_cable_reversed/model.config
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/sfp_sc_cable_reversed/model.sdf
+/home/radhae/ws_aic/install/aic_assets/share/ament_index/resource_index/package_run_dependencies/aic_assets
+/home/radhae/ws_aic/install/aic_assets/share/ament_index/resource_index/parent_prefix_path/aic_assets
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/environment/ament_prefix_path.sh
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/environment/ament_prefix_path.dsv
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/environment/path.sh
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/environment/path.dsv
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/local_setup.bash
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/local_setup.sh
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/local_setup.zsh
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/local_setup.dsv
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/package.dsv
+/home/radhae/ws_aic/install/aic_assets/share/ament_index/resource_index/packages/aic_assets
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/cmake/aic_assetsConfig.cmake
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/cmake/aic_assetsConfig-version.cmake
+/home/radhae/ws_aic/install/aic_assets/share/aic_assets/package.xml

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/radhae/ws_aic/src/aic/aic_interfaces/aic_task_interfaces" FILES "/home/radhae/ws_aic/build/aic_task_interfaces/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/aic_task_interfaces")

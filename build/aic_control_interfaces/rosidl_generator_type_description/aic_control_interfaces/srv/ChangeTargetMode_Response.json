@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "aic_control_interfaces/srv/ChangeTargetMode_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "aic_control_interfaces/srv/ChangeTargetMode_Response",
+      "hash_string": "RIHS01_ec792826b269e4b5a4ccf8942f42e7f79bdb772874fb33c695df9e5f6581d6ff"
+    }
+  ]
+}

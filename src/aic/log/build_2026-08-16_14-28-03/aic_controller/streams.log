@@ -1,0 +1,42 @@
+[0.039s] Invoking command in '/home/radhae/ws_aic/src/aic/build/aic_controller': AMENT_PREFIX_PATH=/home/radhae/ws_aic/src/aic/install/aic_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/radhae/ws_aic/src/aic/install/aic_control_interfaces:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/radhae/cognipilot/cranium/install/synapse_ros:/home/radhae/cognipilot/cranium/install/synapse_gz:/home/radhae/cognipilot/cranium/install/synapse_tinyframe:/home/radhae/cognipilot/cranium/install/synapse_protobuf:/home/radhae/cognipilot/cranium/install/corti:/home/radhae/cognipilot/cranium/install/synapse_msgs:/home/radhae/cognipilot/cranium/install/dream_world:/home/radhae/cognipilot/cranium/install/cerebri_bringup:/home/radhae/cognipilot/cranium/install/b3rb_simulator:/home/radhae/cognipilot/cranium/install/b3rb_desktop:/home/radhae/cognipilot/cranium/install/b3rb_rviz:/home/radhae/cognipilot/cranium/install/b3rb_nav2:/home/radhae/cognipilot/cranium/install/b3rb_gz_resource:/home/radhae/cognipilot/cranium/install/b3rb_gz_bringup:/home/radhae/cognipilot/cranium/install/b3rb_description:/home/radhae/ws_aic/src/aic/.pixi/envs/default LD_LIBRARY_PATH=/home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib:${LD_LIBRARY_PATH} PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/src/aic/install/aic_controller
+[0.310s] -- The C compiler identification is GNU 13.3.0
+[0.479s] -- The CXX compiler identification is GNU 13.3.0
+[0.502s] -- Detecting C compiler ABI info
+[0.788s] -- Detecting C compiler ABI info - done
+[0.812s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.813s] -- Detecting C compile features
+[0.813s] -- Detecting C compile features - done
+[0.876s] -- Detecting CXX compiler ABI info
+[1.161s] -- Detecting CXX compiler ABI info - done
+[1.193s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.193s] -- Detecting CXX compile features
+[1.194s] -- Detecting CXX compile features - done
+[1.250s] -- Found ament_cmake: 2.7.5 (/home/radhae/ws_aic/src/aic/.pixi/envs/default/share/ament_cmake/cmake)
+[1.567s] -- Found Python3: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/python3 (found version "3.12.12") found components: Interpreter
+[1.659s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.797s] -- Found ament_cmake_ros: 0.14.7 (/home/radhae/ws_aic/src/aic/.pixi/envs/default/share/ament_cmake_ros/cmake)
+[1.837s] -- Found aic_control_interfaces: 0.0.1 (/home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake)
+[1.898s] -- Found rosidl_generator_c: 4.9.6 (/home/radhae/ws_aic/src/aic/.pixi/envs/default/share/rosidl_generator_c/cmake)
+[1.927s] -- Found rosidl_generator_cpp: 4.9.6 (/home/radhae/ws_aic/src/aic/.pixi/envs/default/share/rosidl_generator_cpp/cmake)
+[1.970s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.008s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.153s] -- Found control_msgs: 6.8.0 (/home/radhae/ws_aic/src/aic/.pixi/envs/default/share/control_msgs/cmake)
+[2.304s] [31mCMake Error at CMakeLists.txt:30 (find_package):
+[2.305s]   By not providing "Findcontroller_interface.cmake" in CMAKE_MODULE_PATH this
+[2.305s]   project has asked CMake to find a package configuration file provided by
+[2.305s]   "controller_interface", but CMake did not find one.
+[2.305s] 
+[2.305s]   Could not find a package configuration file provided by
+[2.305s]   "controller_interface" with any of the following names:
+[2.305s] 
+[2.305s]     controller_interfaceConfig.cmake
+[2.305s]     controller_interface-config.cmake
+[2.305s] 
+[2.305s]   Add the installation prefix of "controller_interface" to CMAKE_PREFIX_PATH
+[2.306s]   or set "controller_interface_DIR" to a directory containing one of the
+[2.306s]   above files.  If "controller_interface" provides a separate development
+[2.306s]   package or SDK, be sure it has been installed.
+[2.306s] 
+[2.306s] [0m
+[2.306s] -- Configuring incomplete, errors occurred!
+[2.314s] Invoked command in '/home/radhae/ws_aic/src/aic/build/aic_controller' returned '1': AMENT_PREFIX_PATH=/home/radhae/ws_aic/src/aic/install/aic_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/radhae/ws_aic/src/aic/install/aic_control_interfaces:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/radhae/cognipilot/cranium/install/synapse_ros:/home/radhae/cognipilot/cranium/install/synapse_gz:/home/radhae/cognipilot/cranium/install/synapse_tinyframe:/home/radhae/cognipilot/cranium/install/synapse_protobuf:/home/radhae/cognipilot/cranium/install/corti:/home/radhae/cognipilot/cranium/install/synapse_msgs:/home/radhae/cognipilot/cranium/install/dream_world:/home/radhae/cognipilot/cranium/install/cerebri_bringup:/home/radhae/cognipilot/cranium/install/b3rb_simulator:/home/radhae/cognipilot/cranium/install/b3rb_desktop:/home/radhae/cognipilot/cranium/install/b3rb_rviz:/home/radhae/cognipilot/cranium/install/b3rb_nav2:/home/radhae/cognipilot/cranium/install/b3rb_gz_resource:/home/radhae/cognipilot/cranium/install/b3rb_gz_bringup:/home/radhae/cognipilot/cranium/install/b3rb_description:/home/radhae/ws_aic/src/aic/.pixi/envs/default LD_LIBRARY_PATH=/home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib:${LD_LIBRARY_PATH} PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/src/aic/install/aic_controller

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "aic_task_interfaces__py",
+		"source" : "/home/radhae/ws_aic/build/aic_task_interfaces/aic_task_interfaces__py"
+	}
+}

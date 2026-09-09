@@ -1,0 +1,220 @@
+[0.050s] Invoking command in '/home/radhae/ws_aic/src/aic/build/aic_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --build /home/radhae/ws_aic/src/aic/build/aic_control_interfaces -- -j12 -l12
+[0.333s] [  1%] Built target aic_control_interfaces__rosidl_generator_type_description
+[0.348s] [  1%] Built target ament_cmake_python_symlink_aic_control_interfaces
+[0.361s] [  2%] Built target aic_control_interfaces__rs
+[0.446s] [  3%] Built target aic_control_interfaces__cpp
+[0.462s] [ 27%] Built target aic_control_interfaces__rosidl_generator_c
+[0.683s] [ 36%] Built target aic_control_interfaces__rosidl_typesupport_cpp
+[0.686s] [ 47%] Built target aic_control_interfaces__rosidl_typesupport_c
+[0.686s] [ 55%] Built target aic_control_interfaces__rosidl_typesupport_introspection_cpp
+[0.694s] [ 64%] Built target aic_control_interfaces__rosidl_typesupport_introspection_c
+[0.709s] [ 74%] Built target aic_control_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.721s] [ 83%] Built target aic_control_interfaces__rosidl_typesupport_fastrtps_c
+[0.730s] running egg_info
+[0.751s] writing aic_control_interfaces.egg-info/PKG-INFO
+[0.755s] writing dependency_links to aic_control_interfaces.egg-info/dependency_links.txt
+[0.755s] writing top-level names to aic_control_interfaces.egg-info/top_level.txt
+[0.806s] reading manifest file 'aic_control_interfaces.egg-info/SOURCES.txt'
+[0.806s] writing manifest file 'aic_control_interfaces.egg-info/SOURCES.txt'
+[0.865s] [ 83%] Built target aic_control_interfaces
+[0.878s] [ 83%] Built target ament_cmake_python_build_aic_control_interfaces_egg
+[0.990s] [ 84%] Built target aic_control_interfaces__py
+[1.104s] [ 92%] Built target aic_control_interfaces__rosidl_generator_py
+[1.226s] [ 95%] Built target aic_control_interfaces_s__rosidl_typesupport_fastrtps_c
+[1.229s] [ 97%] Built target aic_control_interfaces_s__rosidl_typesupport_introspection_c
+[1.232s] [100%] Built target aic_control_interfaces_s__rosidl_typesupport_c
+[1.269s] Invoked command in '/home/radhae/ws_aic/src/aic/build/aic_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --build /home/radhae/ws_aic/src/aic/build/aic_control_interfaces -- -j12 -l12
+[1.270s] Invoking command in '/home/radhae/ws_aic/src/aic/build/aic_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --install /home/radhae/ws_aic/src/aic/build/aic_control_interfaces
+[1.404s] -- Install configuration: ""
+[1.404s] -- Execute custom install script
+[1.404s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/ament_index/resource_index/rosidl_interfaces/aic_control_interfaces
+[1.404s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/msg/ControllerState.json
+[1.405s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/msg/JointMotionUpdate.json
+[1.405s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/msg/MotionUpdate.json
+[1.405s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/msg/TargetMode.json
+[1.405s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/msg/TrajectoryGenerationMode.json
+[1.405s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/srv/ChangeTargetMode.json
+[1.407s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/controller_state.h
+[1.407s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/controller_state__functions.h
+[1.407s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/controller_state__struct.h
+[1.407s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/controller_state__type_support.h
+[1.408s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/joint_motion_update__functions.h
+[1.408s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/joint_motion_update__struct.h
+[1.408s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/joint_motion_update__type_support.h
+[1.408s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/motion_update__functions.h
+[1.408s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/motion_update__struct.h
+[1.408s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/motion_update__type_support.h
+[1.408s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/target_mode__functions.h
+[1.408s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/target_mode__struct.h
+[1.408s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/target_mode__type_support.h
+[1.408s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/trajectory_generation_mode__functions.h
+[1.408s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/trajectory_generation_mode__struct.h
+[1.408s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/trajectory_generation_mode__type_support.h
+[1.409s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/joint_motion_update.h
+[1.409s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/motion_update.h
+[1.409s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.409s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/target_mode.h
+[1.409s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/trajectory_generation_mode.h
+[1.409s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/srv/change_target_mode.h
+[1.409s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/srv/detail/change_target_mode__functions.h
+[1.409s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/srv/detail/change_target_mode__struct.h
+[1.409s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/srv/detail/change_target_mode__type_support.h
+[1.410s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/controller_state__rosidl_typesupport_fastrtps_c.h
+[1.410s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/joint_motion_update__rosidl_typesupport_fastrtps_c.h
+[1.410s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/motion_update__rosidl_typesupport_fastrtps_c.h
+[1.410s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/target_mode__rosidl_typesupport_fastrtps_c.h
+[1.410s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/trajectory_generation_mode__rosidl_typesupport_fastrtps_c.h
+[1.410s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.410s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/srv/detail/change_target_mode__rosidl_typesupport_fastrtps_c.h
+[1.411s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/controller_state.hpp
+[1.411s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/controller_state__builder.hpp
+[1.411s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/controller_state__struct.hpp
+[1.411s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/controller_state__traits.hpp
+[1.411s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/controller_state__type_support.hpp
+[1.411s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/joint_motion_update__builder.hpp
+[1.411s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/joint_motion_update__struct.hpp
+[1.411s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/joint_motion_update__traits.hpp
+[1.412s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/joint_motion_update__type_support.hpp
+[1.412s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/motion_update__builder.hpp
+[1.412s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/motion_update__struct.hpp
+[1.412s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/motion_update__traits.hpp
+[1.412s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/motion_update__type_support.hpp
+[1.412s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/target_mode__builder.hpp
+[1.412s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/target_mode__struct.hpp
+[1.412s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/target_mode__traits.hpp
+[1.412s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/target_mode__type_support.hpp
+[1.412s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/trajectory_generation_mode__builder.hpp
+[1.412s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/trajectory_generation_mode__struct.hpp
+[1.412s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/trajectory_generation_mode__traits.hpp
+[1.413s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/trajectory_generation_mode__type_support.hpp
+[1.413s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/joint_motion_update.hpp
+[1.413s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/motion_update.hpp
+[1.413s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.413s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/target_mode.hpp
+[1.413s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/trajectory_generation_mode.hpp
+[1.413s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/srv/change_target_mode.hpp
+[1.413s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/srv/detail/change_target_mode__builder.hpp
+[1.413s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/srv/detail/change_target_mode__struct.hpp
+[1.413s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/srv/detail/change_target_mode__traits.hpp
+[1.413s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/srv/detail/change_target_mode__type_support.hpp
+[1.414s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.414s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/joint_motion_update__rosidl_typesupport_fastrtps_cpp.hpp
+[1.414s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/motion_update__rosidl_typesupport_fastrtps_cpp.hpp
+[1.414s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/target_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[1.414s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/trajectory_generation_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[1.414s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.414s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/srv/detail/change_target_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[1.415s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/controller_state__rosidl_typesupport_introspection_c.h
+[1.415s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/joint_motion_update__rosidl_typesupport_introspection_c.h
+[1.415s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/motion_update__rosidl_typesupport_introspection_c.h
+[1.415s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/target_mode__rosidl_typesupport_introspection_c.h
+[1.415s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/trajectory_generation_mode__rosidl_typesupport_introspection_c.h
+[1.415s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.415s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/srv/detail/change_target_mode__rosidl_typesupport_introspection_c.h
+[1.415s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/controller_state__rosidl_typesupport_introspection_cpp.hpp
+[1.416s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/joint_motion_update__rosidl_typesupport_introspection_cpp.hpp
+[1.416s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/motion_update__rosidl_typesupport_introspection_cpp.hpp
+[1.416s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/target_mode__rosidl_typesupport_introspection_cpp.hpp
+[1.416s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/msg/detail/trajectory_generation_mode__rosidl_typesupport_introspection_cpp.hpp
+[1.416s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/include/aic_control_interfaces/aic_control_interfaces/srv/detail/change_target_mode__rosidl_typesupport_introspection_cpp.hpp
+[1.416s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/environment/pythonpath.sh
+[1.416s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/environment/pythonpath.dsv
+[1.416s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces-0.0.1-py3.12.egg-info/PKG-INFO
+[1.416s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces-0.0.1-py3.12.egg-info/SOURCES.txt
+[1.416s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces-0.0.1-py3.12.egg-info/dependency_links.txt
+[1.417s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces-0.0.1-py3.12.egg-info/top_level.txt
+[1.417s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/__init__.py
+[1.417s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/_aic_control_interfaces_s.ep.rosidl_typesupport_c.c
+[1.417s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/_aic_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.417s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/_aic_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.417s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/aic_control_interfaces_s__rosidl_typesupport_c.so
+[1.418s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/aic_control_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[1.418s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/aic_control_interfaces_s__rosidl_typesupport_introspection_c.so
+[1.418s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/msg/__init__.py
+[1.418s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/msg/_controller_state.py
+[1.418s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/msg/_controller_state_s.c
+[1.418s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/msg/_joint_motion_update.py
+[1.418s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/msg/_joint_motion_update_s.c
+[1.418s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/msg/_motion_update.py
+[1.418s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/msg/_motion_update_s.c
+[1.418s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/msg/_target_mode.py
+[1.418s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/msg/_target_mode_s.c
+[1.418s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/msg/_trajectory_generation_mode.py
+[1.418s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/msg/_trajectory_generation_mode_s.c
+[1.419s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/srv/__init__.py
+[1.419s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/srv/_change_target_mode.py
+[1.419s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/srv/_change_target_mode_s.c
+[1.419s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/aic_control_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[1.419s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/aic_control_interfaces_s__rosidl_typesupport_introspection_c.so
+[1.419s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/aic_control_interfaces_s__rosidl_typesupport_c.so
+[1.419s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/ament_index/resource_index/rust_packages/aic_control_interfaces
+[1.420s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/rust/Cargo.toml
+[1.420s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/rust/build.rs
+[1.420s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/rust/src/lib.rs
+[1.420s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/rust/src/msg.rs
+[1.420s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/rust/src/msg/rmw.rs
+[1.420s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/rust/src/srv.rs
+[1.420s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/rust/src/srv/rmw.rs
+[1.420s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/msg/ControllerState.idl
+[1.420s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/msg/JointMotionUpdate.idl
+[1.420s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/msg/MotionUpdate.idl
+[1.421s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/msg/TargetMode.idl
+[1.421s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/msg/TrajectoryGenerationMode.idl
+[1.421s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/srv/ChangeTargetMode.idl
+[1.421s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/msg/ControllerState.msg
+[1.421s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/msg/JointMotionUpdate.msg
+[1.421s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/msg/MotionUpdate.msg
+[1.421s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/msg/TargetMode.msg
+[1.421s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/msg/TrajectoryGenerationMode.msg
+[1.422s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/srv/ChangeTargetMode.srv
+[1.422s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/ament_index/resource_index/package_run_dependencies/aic_control_interfaces
+[1.422s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/ament_index/resource_index/parent_prefix_path/aic_control_interfaces
+[1.422s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/environment/ament_prefix_path.sh
+[1.422s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/environment/ament_prefix_path.dsv
+[1.422s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/environment/path.sh
+[1.422s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/environment/path.dsv
+[1.423s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/local_setup.bash
+[1.423s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/local_setup.sh
+[1.423s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/local_setup.zsh
+[1.423s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/local_setup.dsv
+[1.423s] -- Symlinking: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/package.dsv
+[1.444s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/ament_index/resource_index/packages/aic_control_interfaces
+[1.445s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.445s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.445s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.445s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.445s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.445s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.446s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.446s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/aic_control_interfacesConfig.cmake
+[1.446s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/aic_control_interfacesConfig-version.cmake
+[1.446s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/package.xml
+[1.446s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/libaic_control_interfaces__rosidl_generator_c.so
+[1.447s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/libaic_control_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.447s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/libaic_control_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.447s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/libaic_control_interfaces__rosidl_typesupport_introspection_c.so
+[1.448s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/libaic_control_interfaces__rosidl_typesupport_c.so
+[1.448s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/libaic_control_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.448s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/libaic_control_interfaces__rosidl_typesupport_cpp.so
+[1.491s] Listing '/home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces'...
+[1.491s] Listing '/home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/msg'...
+[1.491s] Listing '/home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/python3.12/site-packages/aic_control_interfaces/srv'...
+[1.496s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/lib/libaic_control_interfaces__rosidl_generator_py.so
+[1.496s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/export_aic_control_interfaces__rosidl_generator_cExport.cmake
+[1.496s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/export_aic_control_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.497s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/export_aic_control_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.497s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/export_aic_control_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.497s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/export_aic_control_interfaces__rosidl_generator_cppExport.cmake
+[1.497s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/export_aic_control_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.497s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/export_aic_control_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.497s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/aic_control_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.497s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/aic_control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.497s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/aic_control_interfaces__rosidl_typesupport_cExport.cmake
+[1.497s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/aic_control_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.497s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/aic_control_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.498s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/aic_control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.498s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/aic_control_interfaces__rosidl_typesupport_cppExport.cmake
+[1.498s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/aic_control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.498s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/export_aic_control_interfaces__rosidl_generator_pyExport.cmake
+[1.498s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake/export_aic_control_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.503s] Invoked command in '/home/radhae/ws_aic/src/aic/build/aic_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --install /home/radhae/ws_aic/src/aic/build/aic_control_interfaces

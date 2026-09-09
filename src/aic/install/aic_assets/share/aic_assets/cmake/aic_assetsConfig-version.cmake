@@ -1,0 +1,1 @@
+/home/radhae/ws_aic/src/aic/build/aic_assets/ament_cmake_core/aic_assetsConfig-version.cmake

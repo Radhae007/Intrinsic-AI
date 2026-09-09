@@ -1,0 +1,34 @@
+[33mCMake Warning (dev) at /opt/ros/kilted/share/realtime_tools/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/kilted/share/realtime_tools/cmake/realtime_toolsConfig.cmake:41 (include)
+  /opt/ros/kilted/share/hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/kilted/share/hardware_interface/cmake/hardware_interfaceConfig.cmake:41 (include)
+  /opt/ros/kilted/share/controller_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/kilted/share/controller_interface/cmake/controller_interfaceConfig.cmake:41 (include)
+  CMakeLists.txt:30 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[31mCMake Error at /home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/python3.12/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package):
+  By not providing "FindCeres.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "Ceres", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "Ceres" (requested
+  version 2.2.0) with any of the following names:
+
+    CeresConfig.cmake
+    ceres-config.cmake
+
+  Add the installation prefix of "Ceres" to CMAKE_PREFIX_PATH or set
+  "Ceres_DIR" to a directory containing one of the above files.  If "Ceres"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+Call Stack (most recent call first):
+  /opt/ros/kilted/share/sophus/cmake/SophusConfig.cmake:21 (find_dependency)
+  CMakeLists.txt:34 (find_package)
+
+[0m

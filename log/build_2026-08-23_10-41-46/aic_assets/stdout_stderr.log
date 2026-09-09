@@ -1,0 +1,114 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/radhae/ws_aic/build/aic_assets
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/environment/aic_assets.dsv
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Axia80 M20/axia80_m20_macro.xacro
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Axia80 M20/axia_ft_sensor_visual.glb
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Axia80 M20/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Axia80 M20/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Basler Camera/basler_cam_visual.glb
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Basler Camera/basler_camera_macro.xacro
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Basler Camera/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Basler Camera/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Camera Mount/V1015087.stl
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Camera Mount/cam_mount_macro.xacro
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Camera Mount/cam_mount_visual.glb
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Camera Mount/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Camera Mount/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure Walls/enclosure_walls_visual.glb
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure Walls/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure Walls/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure/enclosure_visual.glb
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure/enclosurewalls_visual.glb
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure/light_visual.glb
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Floor/floor_visual.glb
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Floor/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Floor/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Floor/walls_visual.glb
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/LC Mount/lc_mount_macro.xacro
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/LC Mount/lc_mount_visual.glb
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/LC Mount/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/LC Mount/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/LC Plug/lc_plug_visual.glb
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/LC Plug/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/LC Plug/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card Mount/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card Mount/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card Mount/nic_card_mount_macro.xacro
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card Mount/nic_card_mount_visual.glb
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card Mount/nic_card_visual.glb
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card/nic_card_visual.glb
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Robotiq Hand-E/hande_base_visual.glb
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Robotiq Hand-E/hande_finger_visual.glb
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Robotiq Hand-E/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Robotiq Hand-E/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Robotiq Hand-E/robotiq_hande.ros2_control.xacro
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Robotiq Hand-E/robotiq_hande_macro.xacro
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Mount/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Mount/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Mount/sc_mount_macro.xacro
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Mount/sc_mount_visual.glb
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Plug/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Plug/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Plug/sc_plug_visual.glb
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Port/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Port/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Port/sc_port_macro.xacro
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Port/sc_port_visual.glb
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SFP Module/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SFP Module/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SFP Module/sfp_module_visual.glb
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SFP Mount/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SFP Mount/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SFP Mount/sfp_mount_macro.xacro
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SFP Mount/sfp_mount_visual.glb
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Task Board Base/base_visual.glb
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Task Board Base/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Task Board Base/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Task Board Base/task_board_base_macro.xacro
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/cable_base_c_rotated/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/cable_base_c_rotated/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/cable_base_c_rotated_reversed/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/cable_base_c_rotated_reversed/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/lc_cable/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/lc_cable/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/lc_sc_cable/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/lc_sc_cable/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/sc_cable/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/sc_cable/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/sfp_sc_cable/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/sfp_sc_cable/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/sfp_sc_cable_reversed/model.config
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/sfp_sc_cable_reversed/model.sdf
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/ament_index/resource_index/package_run_dependencies/aic_assets
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/ament_index/resource_index/parent_prefix_path/aic_assets
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/environment/ament_prefix_path.sh
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/environment/ament_prefix_path.dsv
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/environment/path.sh
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/environment/path.dsv
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/local_setup.bash
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/local_setup.sh
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/local_setup.zsh
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/local_setup.dsv
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/package.dsv
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/ament_index/resource_index/packages/aic_assets
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/cmake/aic_assetsConfig.cmake
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/cmake/aic_assetsConfig-version.cmake
+-- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/package.xml

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/radhae/ws_aic/src/aic/aic_interfaces/aic_engine_interfaces" FILES "/opt/ros/kilted/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/aic_engine_interfaces/environment")

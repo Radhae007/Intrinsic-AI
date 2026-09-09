@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/radhae/ws_aic/src/aic/aic_interfaces/aic_task_interfaces" FILES "/opt/ros/kilted/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/aic_task_interfaces/environment")

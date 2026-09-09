@@ -1,0 +1,44 @@
+[0.065s] Invoking command in '/home/radhae/ws_aic/build/aic_model_interfaces': AMENT_PREFIX_PATH=/home/radhae/ws_aic/install/aic_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/radhae/ws_aic/install/aic_control_interfaces:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/radhae/ws_aic/src/aic/install/aic_task_interfaces:/home/radhae/ws_aic/src/aic/install/aic_description:/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces:/home/radhae/ws_aic/src/aic/install/aic_control_interfaces:/home/radhae/ws_aic/src/aic/install/aic_assets:/home/radhae/cognipilot/cranium/install/synapse_ros:/home/radhae/cognipilot/cranium/install/synapse_gz:/home/radhae/cognipilot/cranium/install/synapse_tinyframe:/home/radhae/cognipilot/cranium/install/synapse_protobuf:/home/radhae/cognipilot/cranium/install/corti:/home/radhae/cognipilot/cranium/install/synapse_msgs:/home/radhae/cognipilot/cranium/install/dream_world:/home/radhae/cognipilot/cranium/install/cerebri_bringup:/home/radhae/cognipilot/cranium/install/b3rb_simulator:/home/radhae/cognipilot/cranium/install/b3rb_desktop:/home/radhae/cognipilot/cranium/install/b3rb_rviz:/home/radhae/cognipilot/cranium/install/b3rb_nav2:/home/radhae/cognipilot/cranium/install/b3rb_gz_resource:/home/radhae/cognipilot/cranium/install/b3rb_gz_bringup:/home/radhae/cognipilot/cranium/install/b3rb_description:/opt/ros/kilted:/home/radhae/ws_aic/src/aic/.pixi/envs/default:/home/radhae/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble LD_LIBRARY_PATH=/home/radhae/ws_aic/install/aic_control_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/radhae/ws_aic/install/aic_control_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_interfaces/aic_model_interfaces -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/install/aic_model_interfaces
+[0.201s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.201s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.201s]   CMake.
+[0.201s] 
+[0.201s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.202s]   to tell CMake that the project requires at least <min> but has been updated
+[0.202s]   to work with policies introduced by <max> or earlier.
+[0.202s] 
+[0.202s] [0m
+[0.368s] -- The C compiler identification is GNU 15.2.0
+[0.644s] -- The CXX compiler identification is GNU 15.2.0
+[0.672s] -- Detecting C compiler ABI info
+[0.953s] -- Detecting C compiler ABI info - done
+[0.998s] -- Check for working C compiler: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cc - skipped
+[0.998s] -- Detecting C compile features
+[0.999s] -- Detecting C compile features - done
+[1.069s] -- Detecting CXX compiler ABI info
+[1.397s] -- Detecting CXX compiler ABI info - done
+[1.448s] -- Check for working CXX compiler: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/c++ - skipped
+[1.448s] -- Detecting CXX compile features
+[1.449s] -- Detecting CXX compile features - done
+[1.494s] -- Found aic_control_interfaces: 0.0.1 (/home/radhae/ws_aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake)
+[2.056s] -- Found Python3: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/python3 (found version "3.12.13") found components: Interpreter
+[2.418s] -- Found rosidl_generator_c: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[2.456s] -- Found rosidl_generator_cpp: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[2.500s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.545s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.739s] -- Found rosidl_default_generators: 1.7.2 (/opt/ros/kilted/share/rosidl_default_generators/cmake)
+[2.799s] -- Found rosidl_adapter: 4.9.6 (/opt/ros/kilted/share/rosidl_adapter/cmake)
+[2.812s] -- Found sensor_msgs: 5.5.2 (/opt/ros/kilted/share/sensor_msgs/cmake)
+[3.983s] -- Found ament_cmake_cppcheck: 0.19.2 (/opt/ros/kilted/share/ament_cmake_cppcheck/cmake)
+[3.991s] -- Found ament_cmake_cpplint: 0.19.2 (/opt/ros/kilted/share/ament_cmake_cpplint/cmake)
+[3.999s] -- Found ament_cmake_uncrustify: 0.19.2 (/opt/ros/kilted/share/ament_cmake_uncrustify/cmake)
+[4.011s] -- Found ament_cmake_ros_core: 0.14.7 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)
+[5.735s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.450s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.196s] -- Found Python3: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/python3 (found version "3.12.13") found components: Interpreter Development NumPy Development.Module Development.Embed
+[7.318s] -- Found ament_cmake_flake8: 0.19.2 (/opt/ros/kilted/share/ament_cmake_flake8/cmake)
+[7.331s] -- Found ament_cmake_pep257: 0.19.2 (/opt/ros/kilted/share/ament_cmake_pep257/cmake)
+[7.440s] -- Found Python3: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/python3 (found version "3.12.13") found components: Interpreter
+[7.449s] -- Configuring done (7.2s)
+[7.521s] -- Generating done (0.1s)
+[7.533s] -- Build files have been written to: /home/radhae/ws_aic/build/aic_model_interfaces

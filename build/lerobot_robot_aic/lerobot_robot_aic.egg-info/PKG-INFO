@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: lerobot_robot_aic
+Version: 0.0.0
+Maintainer: koonpeng
+Maintainer-email: koonpeng@intrinsic.ai
+Requires-Dist: pyspacemouse
+Requires-Dist: setuptools
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist

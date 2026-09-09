@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/radhae/ws_aic/src/aic/aic_interfaces/aic_control_interfaces" FILES "/home/radhae/ws_aic/build/aic_control_interfaces/rosidl_adapter/aic_control_interfaces/msg/TargetMode.idl" "DESTINATION" "share/aic_control_interfaces/msg")

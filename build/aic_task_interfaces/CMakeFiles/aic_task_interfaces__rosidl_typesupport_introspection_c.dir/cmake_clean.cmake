@@ -1,0 +1,18 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/aic_task_interfaces__rosidl_typesupport_introspection_c.dir/link.d"
+  "CMakeFiles/aic_task_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aic_task_interfaces/action/detail/insert_cable__type_support.c.o"
+  "CMakeFiles/aic_task_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aic_task_interfaces/action/detail/insert_cable__type_support.c.o.d"
+  "CMakeFiles/aic_task_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aic_task_interfaces/msg/detail/task__type_support.c.o"
+  "CMakeFiles/aic_task_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aic_task_interfaces/msg/detail/task__type_support.c.o.d"
+  "libaic_task_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libaic_task_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/aic_task_interfaces/action/detail/insert_cable__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/aic_task_interfaces/action/detail/insert_cable__type_support.c"
+  "rosidl_typesupport_introspection_c/aic_task_interfaces/msg/detail/task__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/aic_task_interfaces/msg/detail/task__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/aic_task_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

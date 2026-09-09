@@ -1,0 +1,35 @@
+[0.041s] Invoking command in '/home/radhae/ws_aic/src/aic/build/aic_engine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_engine -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/src/aic/install/aic_engine
+[0.288s] -- The C compiler identification is GNU 13.3.0
+[0.465s] -- The CXX compiler identification is GNU 13.3.0
+[0.488s] -- Detecting C compiler ABI info
+[0.757s] -- Detecting C compiler ABI info - done
+[0.787s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.787s] -- Detecting C compile features
+[0.787s] -- Detecting C compile features - done
+[0.850s] -- Detecting CXX compiler ABI info
+[1.111s] -- Detecting CXX compiler ABI info - done
+[1.144s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.144s] -- Detecting CXX compile features
+[1.145s] -- Detecting CXX compile features - done
+[1.196s] -- Found ament_cmake: 2.7.5 (/home/radhae/ws_aic/src/aic/.pixi/envs/default/share/ament_cmake/cmake)
+[1.444s] -- Found Python3: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/python3 (found version "3.12.12") found components: Interpreter
+[1.511s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.630s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[1.630s]   By not providing "Findaic_scoring.cmake" in CMAKE_MODULE_PATH this project
+[1.630s]   has asked CMake to find a package configuration file provided by
+[1.630s]   "aic_scoring", but CMake did not find one.
+[1.630s] 
+[1.630s]   Could not find a package configuration file provided by "aic_scoring" with
+[1.630s]   any of the following names:
+[1.630s] 
+[1.631s]     aic_scoringConfig.cmake
+[1.631s]     aic_scoring-config.cmake
+[1.631s] 
+[1.631s]   Add the installation prefix of "aic_scoring" to CMAKE_PREFIX_PATH or set
+[1.631s]   "aic_scoring_DIR" to a directory containing one of the above files.  If
+[1.631s]   "aic_scoring" provides a separate development package or SDK, be sure it
+[1.631s]   has been installed.
+[1.631s] 
+[1.631s] [0m
+[1.631s] -- Configuring incomplete, errors occurred!
+[1.637s] Invoked command in '/home/radhae/ws_aic/src/aic/build/aic_engine' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_engine -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/src/aic/install/aic_engine

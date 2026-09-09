@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/radhae/ws_aic/src/aic/aic_assets" FILES "/opt/ros/kilted/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/aic_assets/environment")

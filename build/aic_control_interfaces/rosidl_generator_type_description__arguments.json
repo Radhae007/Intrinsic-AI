@@ -1,0 +1,19 @@
+{
+  "package_name": "aic_control_interfaces",
+  "output_dir": "/home/radhae/ws_aic/build/aic_control_interfaces/rosidl_generator_type_description/aic_control_interfaces",
+  "idl_tuples": [
+    "/home/radhae/ws_aic/build/aic_control_interfaces/rosidl_adapter/aic_control_interfaces:msg/ControllerState.idl",
+    "/home/radhae/ws_aic/build/aic_control_interfaces/rosidl_adapter/aic_control_interfaces:msg/JointMotionUpdate.idl",
+    "/home/radhae/ws_aic/build/aic_control_interfaces/rosidl_adapter/aic_control_interfaces:msg/MotionUpdate.idl",
+    "/home/radhae/ws_aic/build/aic_control_interfaces/rosidl_adapter/aic_control_interfaces:msg/TargetMode.idl",
+    "/home/radhae/ws_aic/build/aic_control_interfaces/rosidl_adapter/aic_control_interfaces:msg/TrajectoryGenerationMode.idl",
+    "/home/radhae/ws_aic/build/aic_control_interfaces/rosidl_adapter/aic_control_interfaces:srv/ChangeTargetMode.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/kilted/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/kilted/share/geometry_msgs",
+    "std_msgs:/opt/ros/kilted/share/std_msgs",
+    "trajectory_msgs:/opt/ros/kilted/share/trajectory_msgs",
+    "service_msgs:/opt/ros/kilted/share/service_msgs"
+  ]
+}

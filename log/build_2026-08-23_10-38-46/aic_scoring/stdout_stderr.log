@@ -1,0 +1,161 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+-- Found Python3: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/python3 (found version "3.12.13") found components: Interpreter
+-- Found aic_control_interfaces: 0.0.1 (/home/radhae/ws_aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake)
+-- Found rosidl_generator_c: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found gz_math_vendor: 0.2.6 (/opt/ros/kilted/share/gz_math_vendor/cmake)
+-- Looking for gz-math8 -- found version 8.2.1
+-- Searching for dependencies of gz-math8
+-- Looking for gz-utils3 -- found version 3.1.1
+-- Searching for dependencies of gz-utils3
+-- Found rclcpp: 29.5.7 (/opt/ros/kilted/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+-- Found rmw_zenoh_cpp: 0.6.6 (/opt/ros/kilted/share/rmw_zenoh_cpp/cmake)
+-- Using RMW implementation 'rmw_zenoh_cpp' as default
+-- Found rclcpp_components: 29.5.7 (/opt/ros/kilted/share/rclcpp_components/cmake)
+-- Found ros_gz_interfaces: 2.1.17 (/opt/ros/kilted/share/ros_gz_interfaces/cmake)
+-- Found rosbag2_cpp: 0.32.0 (/opt/ros/kilted/share/rosbag2_cpp/cmake)
+-- Found TinyXML2 via Config file: /home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/tinyxml2
+-- Setting yaml-cpp_DIR to: '/opt/ros/kilted/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found sensor_msgs: 5.5.2 (/opt/ros/kilted/share/sensor_msgs/cmake)
+-- Found tf2: 0.41.6 (/opt/ros/kilted/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.41.6 (/opt/ros/kilted/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.4.0 (/opt/ros/kilted/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "5.0.1")
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Eigen3: TRUE
+-- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+-- Configuring done (3.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/radhae/ws_aic/build/aic_scoring
+[ 14%] [32mBuilding CXX object CMakeFiles/aic_scoring.dir/src/ScoringTier1.cc.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/aic_scoring.dir/src/ScoringTier2.cc.o[0m
+[ 42%] [1m[32mLinking CXX shared library libaic_scoring.so[0m
+[ 42%] Built target aic_scoring
+[ 57%] [32mBuilding CXX object CMakeFiles/scoring_tier1_main.dir/src/ScoringTier1_main.cc.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/scoring_tier2_main.dir/src/ScoringTier2_main.cc.o[0m
+[ 85%] [1m[32mLinking CXX executable scoring_tier1_main[0m
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: warning: libtinyxml2.so.10, needed by /opt/ros/kilted/lib/librosbag2_cpp.so, not found (try using -rpath or -rpath-link)
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: warning: libspdlog.so.1.12, needed by /opt/ros/kilted/lib/librcl_logging_spdlog.so, not found (try using -rpath or -rpath-link)
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::file_helper::~file_helper()'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::basic_file_sink<std::mutex>::flush_()'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::logger::log_it_(spdlog::details::log_msg const&, bool, bool)'
+[100%] [1m[32mLinking CXX executable scoring_tier2_main[0m
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::set_formatter(std::unique_ptr<spdlog::formatter, std::default_delete<spdlog::formatter> >)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtracetools.so: undefined reference to `dlopen@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::backtracer::enabled() const'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::registry::instance()'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::log(spdlog::details::log_msg const&)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::set_pattern(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtf2_ros.so: undefined reference to `pthread_rwlock_wrlock@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::drop(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::logger::set_pattern(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, spdlog::pattern_time_type)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcutils.so: undefined reference to `dlinfo@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::set_pattern_(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcutils.so: undefined reference to `dlerror@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/opt/gz_math_vendor/lib/libgz-math8.so.8.2.1: undefined reference to `__isoc23_strtol@GLIBC_2.38'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librosbag2_cpp.so: undefined reference to `pthread_cond_clockwait@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librclcpp.so: undefined reference to `sem_init@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::periodic_worker::~periodic_worker()'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librclcpp.so: undefined reference to `sem_destroy@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librosbag2_cpp.so: undefined reference to `__isoc23_strtoul@GLIBC_2.38'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::log_msg::log_msg(spdlog::source_loc, fmt::v9::basic_string_view<char>, spdlog::level::level_enum, fmt::v9::basic_string_view<char>)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `vtable for spdlog::logger'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librosbag2_cpp.so: undefined reference to `__libc_single_threaded@GLIBC_2.32'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/opt/gz_math_vendor/lib/libgz-math8.so.8.2.1: undefined reference to `log@GLIBC_2.29'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::registry::flush_all()'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtracetools.so: undefined reference to `dlclose@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::flush()'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::logger::flush_on(spdlog::level::level_enum)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtf2_ros.so: undefined reference to `pthread_rwlock_rdlock@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librclcpp.so: undefined reference to `sem_post@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libament_index_cpp.so: undefined reference to `stat@GLIBC_2.33'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtf2_ros.so: undefined reference to `pthread_once@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/opt/gz_math_vendor/lib/libgz-math8.so.8.2.1: undefined reference to `fmod@GLIBC_2.38'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::basic_file_sink<std::mutex>::sink_it_(spdlog::details::log_msg const&)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::set_formatter_(std::unique_ptr<spdlog::formatter, std::default_delete<spdlog::formatter> >)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/opt/gz_math_vendor/lib/libgz-math8.so.8.2.1: undefined reference to `pow@GLIBC_2.29'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::logger::set_level(spdlog::level::level_enum)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librclcpp.so: undefined reference to `sem_wait@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtracetools.so: undefined reference to `dladdr@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtf2_ros.so: undefined reference to `pthread_rwlock_unlock@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtracetools.so: undefined reference to `dlsym@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::basic_file_sink<std::mutex>::basic_file_sink(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool, spdlog::file_event_handlers const&)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::register_logger(std::shared_ptr<spdlog::logger>)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/scoring_tier1_main.dir/build.make:253: scoring_tier1_main] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:191: CMakeFiles/scoring_tier1_main.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: warning: libtinyxml2.so.10, needed by /opt/ros/kilted/lib/librosbag2_cpp.so, not found (try using -rpath or -rpath-link)
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: warning: libspdlog.so.1.12, needed by /opt/ros/kilted/lib/librcl_logging_spdlog.so, not found (try using -rpath or -rpath-link)
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::file_helper::~file_helper()'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::basic_file_sink<std::mutex>::flush_()'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::logger::log_it_(spdlog::details::log_msg const&, bool, bool)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::set_formatter(std::unique_ptr<spdlog::formatter, std::default_delete<spdlog::formatter> >)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtracetools.so: undefined reference to `dlopen@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::backtracer::enabled() const'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::registry::instance()'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::log(spdlog::details::log_msg const&)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::set_pattern(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtf2_ros.so: undefined reference to `pthread_rwlock_wrlock@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::drop(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::logger::set_pattern(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, spdlog::pattern_time_type)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcutils.so: undefined reference to `dlinfo@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::set_pattern_(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcutils.so: undefined reference to `dlerror@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/opt/gz_math_vendor/lib/libgz-math8.so.8.2.1: undefined reference to `__isoc23_strtol@GLIBC_2.38'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librosbag2_cpp.so: undefined reference to `pthread_cond_clockwait@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librclcpp.so: undefined reference to `sem_init@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::periodic_worker::~periodic_worker()'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librclcpp.so: undefined reference to `sem_destroy@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librosbag2_cpp.so: undefined reference to `__isoc23_strtoul@GLIBC_2.38'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::log_msg::log_msg(spdlog::source_loc, fmt::v9::basic_string_view<char>, spdlog::level::level_enum, fmt::v9::basic_string_view<char>)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `vtable for spdlog::logger'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librosbag2_cpp.so: undefined reference to `__libc_single_threaded@GLIBC_2.32'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/opt/gz_math_vendor/lib/libgz-math8.so.8.2.1: undefined reference to `log@GLIBC_2.29'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::registry::flush_all()'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtracetools.so: undefined reference to `dlclose@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::flush()'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::logger::flush_on(spdlog::level::level_enum)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtf2_ros.so: undefined reference to `pthread_rwlock_rdlock@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librclcpp.so: undefined reference to `sem_post@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libament_index_cpp.so: undefined reference to `stat@GLIBC_2.33'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtf2_ros.so: undefined reference to `pthread_once@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/opt/gz_math_vendor/lib/libgz-math8.so.8.2.1: undefined reference to `fmod@GLIBC_2.38'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::basic_file_sink<std::mutex>::sink_it_(spdlog::details::log_msg const&)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::set_formatter_(std::unique_ptr<spdlog::formatter, std::default_delete<spdlog::formatter> >)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/opt/gz_math_vendor/lib/libgz-math8.so.8.2.1: undefined reference to `pow@GLIBC_2.29'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::logger::set_level(spdlog::level::level_enum)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librclcpp.so: undefined reference to `sem_wait@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtracetools.so: undefined reference to `dladdr@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtf2_ros.so: undefined reference to `pthread_rwlock_unlock@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtracetools.so: undefined reference to `dlsym@GLIBC_2.34'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::basic_file_sink<std::mutex>::basic_file_sink(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool, spdlog::file_event_handlers const&)'
+/home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::register_logger(std::shared_ptr<spdlog::logger>)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/scoring_tier2_main.dir/build.make:253: scoring_tier2_main] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/scoring_tier2_main.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

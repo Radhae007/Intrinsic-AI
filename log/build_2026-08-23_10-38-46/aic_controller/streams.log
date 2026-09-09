@@ -1,0 +1,73 @@
+[0.071s] Invoking command in '/home/radhae/ws_aic/build/aic_controller': AMENT_PREFIX_PATH=/home/radhae/ws_aic/install/aic_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/radhae/ws_aic/install/aic_control_interfaces:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/radhae/ws_aic/src/aic/install/aic_task_interfaces:/home/radhae/ws_aic/src/aic/install/aic_description:/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces:/home/radhae/ws_aic/src/aic/install/aic_control_interfaces:/home/radhae/ws_aic/src/aic/install/aic_assets:/home/radhae/cognipilot/cranium/install/synapse_ros:/home/radhae/cognipilot/cranium/install/synapse_gz:/home/radhae/cognipilot/cranium/install/synapse_tinyframe:/home/radhae/cognipilot/cranium/install/synapse_protobuf:/home/radhae/cognipilot/cranium/install/corti:/home/radhae/cognipilot/cranium/install/synapse_msgs:/home/radhae/cognipilot/cranium/install/dream_world:/home/radhae/cognipilot/cranium/install/cerebri_bringup:/home/radhae/cognipilot/cranium/install/b3rb_simulator:/home/radhae/cognipilot/cranium/install/b3rb_desktop:/home/radhae/cognipilot/cranium/install/b3rb_rviz:/home/radhae/cognipilot/cranium/install/b3rb_nav2:/home/radhae/cognipilot/cranium/install/b3rb_gz_resource:/home/radhae/cognipilot/cranium/install/b3rb_gz_bringup:/home/radhae/cognipilot/cranium/install/b3rb_description:/opt/ros/kilted:/home/radhae/ws_aic/src/aic/.pixi/envs/default:/home/radhae/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble LD_LIBRARY_PATH=/home/radhae/ws_aic/install/aic_control_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/radhae/ws_aic/install/aic_control_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_controller -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/install/aic_controller
+[0.410s] -- The C compiler identification is GNU 15.2.0
+[0.633s] -- The CXX compiler identification is GNU 15.2.0
+[0.661s] -- Detecting C compiler ABI info
+[0.996s] -- Detecting C compiler ABI info - done
+[1.031s] -- Check for working C compiler: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cc - skipped
+[1.031s] -- Detecting C compile features
+[1.032s] -- Detecting C compile features - done
+[1.086s] -- Detecting CXX compiler ABI info
+[1.457s] -- Detecting CXX compiler ABI info - done
+[1.501s] -- Check for working CXX compiler: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/c++ - skipped
+[1.502s] -- Detecting CXX compile features
+[1.502s] -- Detecting CXX compile features - done
+[1.557s] -- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+[2.109s] -- Found Python3: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/python3 (found version "3.12.13") found components: Interpreter
+[2.367s] -- Found ament_cmake_ros: 0.14.7 (/opt/ros/kilted/share/ament_cmake_ros/cmake)
+[2.401s] -- Found aic_control_interfaces: 0.0.1 (/home/radhae/ws_aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake)
+[2.467s] -- Found rosidl_generator_c: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[2.494s] -- Found rosidl_generator_cpp: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[2.524s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.556s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.691s] -- Found control_msgs: 6.9.0 (/opt/ros/kilted/share/control_msgs/cmake)
+[2.825s] -- Found controller_interface: 5.14.2 (/opt/ros/kilted/share/controller_interface/cmake)
+[2.924s] -- Found TinyXML2 via Config file: /home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/tinyxml2
+[3.000s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[3.009s] -- Found rmw_zenoh_cpp: 0.6.6 (/opt/ros/kilted/share/rmw_zenoh_cpp/cmake)
+[3.011s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[4.124s] [33mCMake Warning (dev) at /opt/ros/kilted/share/realtime_tools/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package):
+[4.124s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[4.124s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[4.124s]   set the policy and suppress this warning.
+[4.125s] 
+[4.125s] Call Stack (most recent call first):
+[4.125s]   /opt/ros/kilted/share/realtime_tools/cmake/realtime_toolsConfig.cmake:41 (include)
+[4.125s]   /opt/ros/kilted/share/hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[4.125s]   /opt/ros/kilted/share/hardware_interface/cmake/hardware_interfaceConfig.cmake:41 (include)
+[4.125s]   /opt/ros/kilted/share/controller_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[4.125s]   /opt/ros/kilted/share/controller_interface/cmake/controller_interfaceConfig.cmake:41 (include)
+[4.125s]   CMakeLists.txt:30 (find_package)
+[4.125s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.125s] [0m
+[4.336s] -- Found generate_parameter_library: 0.7.0 (/opt/ros/kilted/share/generate_parameter_library/cmake)
+[4.347s] -- Found parameter_traits: 0.7.0 (/opt/ros/kilted/share/parameter_traits/cmake)
+[4.409s] -- Found kdl_parser: 2.12.1 (/opt/ros/kilted/share/kdl_parser/cmake)
+[4.445s] -- Found eigen3_cmake_module: 0.4.0 (/opt/ros/kilted/share/eigen3_cmake_module/cmake)
+[4.447s] -- Found Eigen3: TRUE (found version "5.0.1")
+[4.447s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.459s] -- Found kinematics_interface: 2.4.2 (/opt/ros/kilted/share/kinematics_interface/cmake)
+[4.475s] -- Found std_srvs: 5.5.2 (/opt/ros/kilted/share/std_srvs/cmake)
+[4.510s] -- Found tf2_eigen: 0.41.6 (/opt/ros/kilted/share/tf2_eigen/cmake)
+[4.680s] -- Found Eigen3: TRUE (found suitable version "3.4.0", minimum required is "3.4.0")
+[4.704s] [31mCMake Error at /home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/python3.12/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package):
+[4.704s]   By not providing "FindCeres.cmake" in CMAKE_MODULE_PATH this project has
+[4.704s]   asked CMake to find a package configuration file provided by "Ceres", but
+[4.705s]   CMake did not find one.
+[4.705s] 
+[4.705s]   Could not find a package configuration file provided by "Ceres" (requested
+[4.705s]   version 2.2.0) with any of the following names:
+[4.705s] 
+[4.705s]     CeresConfig.cmake
+[4.705s]     ceres-config.cmake
+[4.705s] 
+[4.705s]   Add the installation prefix of "Ceres" to CMAKE_PREFIX_PATH or set
+[4.705s]   "Ceres_DIR" to a directory containing one of the above files.  If "Ceres"
+[4.705s]   provides a separate development package or SDK, be sure it has been
+[4.705s]   installed.
+[4.705s] Call Stack (most recent call first):
+[4.705s]   /opt/ros/kilted/share/sophus/cmake/SophusConfig.cmake:21 (find_dependency)
+[4.705s]   CMakeLists.txt:34 (find_package)
+[4.705s] 
+[4.705s] [0m
+[4.706s] -- Configuring incomplete, errors occurred!
+[4.723s] Invoked command in '/home/radhae/ws_aic/build/aic_controller' returned '1': AMENT_PREFIX_PATH=/home/radhae/ws_aic/install/aic_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/radhae/ws_aic/install/aic_control_interfaces:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/radhae/ws_aic/src/aic/install/aic_task_interfaces:/home/radhae/ws_aic/src/aic/install/aic_description:/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces:/home/radhae/ws_aic/src/aic/install/aic_control_interfaces:/home/radhae/ws_aic/src/aic/install/aic_assets:/home/radhae/cognipilot/cranium/install/synapse_ros:/home/radhae/cognipilot/cranium/install/synapse_gz:/home/radhae/cognipilot/cranium/install/synapse_tinyframe:/home/radhae/cognipilot/cranium/install/synapse_protobuf:/home/radhae/cognipilot/cranium/install/corti:/home/radhae/cognipilot/cranium/install/synapse_msgs:/home/radhae/cognipilot/cranium/install/dream_world:/home/radhae/cognipilot/cranium/install/cerebri_bringup:/home/radhae/cognipilot/cranium/install/b3rb_simulator:/home/radhae/cognipilot/cranium/install/b3rb_desktop:/home/radhae/cognipilot/cranium/install/b3rb_rviz:/home/radhae/cognipilot/cranium/install/b3rb_nav2:/home/radhae/cognipilot/cranium/install/b3rb_gz_resource:/home/radhae/cognipilot/cranium/install/b3rb_gz_bringup:/home/radhae/cognipilot/cranium/install/b3rb_description:/opt/ros/kilted:/home/radhae/ws_aic/src/aic/.pixi/envs/default:/home/radhae/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble LD_LIBRARY_PATH=/home/radhae/ws_aic/install/aic_control_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/radhae/ws_aic/install/aic_control_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_controller -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/install/aic_controller

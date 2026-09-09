@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4b3c82c3246fad8e10f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "aic_gazebo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CablePlugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CablePlugin-0a7022064679b983555a.json",
+					"name" : "CablePlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OffLimitContactsPlugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OffLimitContactsPlugin-e541ad3b3a8759b91dd9.json",
+					"name" : "OffLimitContactsPlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ResetJointsPlugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ResetJointsPlugin-3698f7e59f7874d5ff4d.json",
+					"name" : "ResetJointsPlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ScoringPlugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ScoringPlugin-f07662a2f8ac5c2b1a64.json",
+					"name" : "ScoringPlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "WorldSdfGeneratorPlugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-WorldSdfGeneratorPlugin-2cd1009daf83467f4c53.json",
+					"name" : "WorldSdfGeneratorPlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aic_gazebo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aic_gazebo_uninstall-7adefd52668d8eb66866.json",
+					"name" : "aic_gazebo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-da7e61a33965fc0fc4e2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/radhae/ws_aic/build/aic_gazebo",
+		"source" : "/home/radhae/ws_aic/src/aic/aic_gazebo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

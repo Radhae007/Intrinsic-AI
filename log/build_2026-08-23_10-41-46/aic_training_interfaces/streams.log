@@ -1,0 +1,29 @@
+[0.047s] Invoking command in '/home/radhae/ws_aic/build/aic_training_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted:/home/radhae/ws_aic/src/aic/.pixi/envs/default:/home/radhae/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_utils/aic_training_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/install/aic_training_interfaces
+[0.171s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.171s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.171s]   CMake.
+[0.171s] 
+[0.171s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.171s]   to tell CMake that the project requires at least <min> but has been updated
+[0.171s]   to work with policies introduced by <max> or earlier.
+[0.171s] 
+[0.171s] [0m
+[0.176s] -- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.303s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.309s] -- Found rosidl_default_generators: 1.7.2 (/opt/ros/kilted/share/rosidl_default_generators/cmake)
+[0.314s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.339s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.366s] -- Found rosidl_adapter: 4.9.6 (/opt/ros/kilted/share/rosidl_adapter/cmake)
+[0.711s] -- Found ament_cmake_cppcheck: 0.19.2 (/opt/ros/kilted/share/ament_cmake_cppcheck/cmake)
+[0.711s] -- Found ament_cmake_cpplint: 0.19.2 (/opt/ros/kilted/share/ament_cmake_cpplint/cmake)
+[0.712s] -- Found ament_cmake_uncrustify: 0.19.2 (/opt/ros/kilted/share/ament_cmake_uncrustify/cmake)
+[0.713s] -- Found ament_cmake_ros_core: 0.14.7 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)
+[0.866s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.101s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.351s] -- Found Python3: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/python3 (found version "3.12.13") found components: Interpreter Development NumPy Development.Module Development.Embed
+[1.365s] -- Found ament_cmake_flake8: 0.19.2 (/opt/ros/kilted/share/ament_cmake_flake8/cmake)
+[1.365s] -- Found ament_cmake_pep257: 0.19.2 (/opt/ros/kilted/share/ament_cmake_pep257/cmake)
+[1.414s] -- Found Python3: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/python3 (found version "3.12.13") found components: Interpreter
+[1.426s] -- Configuring done (1.3s)
+[1.483s] -- Generating done (0.1s)
+[1.490s] -- Build files have been written to: /home/radhae/ws_aic/build/aic_training_interfaces

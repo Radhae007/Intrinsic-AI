@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/radhae/ws_aic/build/aic_assets/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

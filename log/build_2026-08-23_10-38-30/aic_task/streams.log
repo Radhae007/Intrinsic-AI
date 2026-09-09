@@ -1,0 +1,27 @@
+[0.769s] Invoking command in '/home/radhae/ws_aic/src/aic/aic_utils/aic_isaac/aic_isaaclab/source/aic_task': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/radhae/ws_aic/build/aic_task/prefix_override:/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/radhae/ws_aic/install/aic_task/lib/python3.12/site-packages:${PYTHONPATH} /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../../../build/aic_task build --build-base /home/radhae/ws_aic/build/aic_task/build install --record /home/radhae/ws_aic/build/aic_task/install.log --single-version-externally-managed
+[1.078s] running egg_info
+[1.100s] creating ../../../../../../../build/aic_task/aic_task.egg-info
+[1.100s] writing ../../../../../../../build/aic_task/aic_task.egg-info/PKG-INFO
+[1.101s] writing dependency_links to ../../../../../../../build/aic_task/aic_task.egg-info/dependency_links.txt
+[1.101s] writing requirements to ../../../../../../../build/aic_task/aic_task.egg-info/requires.txt
+[1.101s] writing top-level names to ../../../../../../../build/aic_task/aic_task.egg-info/top_level.txt
+[1.101s] writing manifest file '../../../../../../../build/aic_task/aic_task.egg-info/SOURCES.txt'
+[1.136s] reading manifest file '../../../../../../../build/aic_task/aic_task.egg-info/SOURCES.txt'
+[1.137s] writing manifest file '../../../../../../../build/aic_task/aic_task.egg-info/SOURCES.txt'
+[1.137s] running build
+[1.137s] running build_py
+[1.137s] creating /home/radhae/ws_aic/build/aic_task/build/lib/aic_task
+[1.137s] copying aic_task/extension.py -> /home/radhae/ws_aic/build/aic_task/build/lib/aic_task
+[1.137s] copying aic_task/__init__.py -> /home/radhae/ws_aic/build/aic_task/build/lib/aic_task
+[1.137s] running install
+[1.141s] running install_lib
+[1.156s] creating /home/radhae/ws_aic/install/aic_task/lib/python3.12/site-packages/aic_task
+[1.156s] copying /home/radhae/ws_aic/build/aic_task/build/lib/aic_task/extension.py -> /home/radhae/ws_aic/install/aic_task/lib/python3.12/site-packages/aic_task
+[1.156s] copying /home/radhae/ws_aic/build/aic_task/build/lib/aic_task/__init__.py -> /home/radhae/ws_aic/install/aic_task/lib/python3.12/site-packages/aic_task
+[1.157s] byte-compiling /home/radhae/ws_aic/install/aic_task/lib/python3.12/site-packages/aic_task/extension.py to extension.cpython-312.pyc
+[1.158s] byte-compiling /home/radhae/ws_aic/install/aic_task/lib/python3.12/site-packages/aic_task/__init__.py to __init__.cpython-312.pyc
+[1.159s] running install_egg_info
+[1.174s] Copying ../../../../../../../build/aic_task/aic_task.egg-info to /home/radhae/ws_aic/install/aic_task/lib/python3.12/site-packages/aic_task-0.1.0-py3.12.egg-info
+[1.174s] running install_scripts
+[1.206s] writing list of installed files to '/home/radhae/ws_aic/build/aic_task/install.log'
+[1.239s] Invoked command in '/home/radhae/ws_aic/src/aic/aic_utils/aic_isaac/aic_isaaclab/source/aic_task' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/radhae/ws_aic/build/aic_task/prefix_override:/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/radhae/ws_aic/install/aic_task/lib/python3.12/site-packages:${PYTHONPATH} /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../../../build/aic_task build --build-base /home/radhae/ws_aic/build/aic_task/build install --record /home/radhae/ws_aic/build/aic_task/install.log --single-version-externally-managed

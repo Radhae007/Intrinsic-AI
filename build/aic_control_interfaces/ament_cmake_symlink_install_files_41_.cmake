@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/radhae/ws_aic/src/aic/aic_interfaces/aic_control_interfaces" FILES "/home/radhae/ws_aic/build/aic_control_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/aic_control_interfaces/cmake")

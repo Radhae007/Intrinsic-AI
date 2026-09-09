@@ -1,0 +1,1 @@
+/home/radhae/ws_aic/src/aic/build/aic_task_interfaces/ament_cmake_core/aic_task_interfacesConfig-version.cmake

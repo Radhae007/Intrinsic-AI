@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "aic_training_interfaces__rs",
+		"source" : "/home/radhae/ws_aic/build/aic_training_interfaces/aic_training_interfaces__rs"
+	}
+}

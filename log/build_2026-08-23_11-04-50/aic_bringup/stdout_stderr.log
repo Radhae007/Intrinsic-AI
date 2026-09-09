@@ -1,0 +1,54 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+-- Found Python3: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/python3 (found version "3.12.13") found components: Interpreter
+-- Configuring done (2.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/radhae/ws_aic/build/aic_bringup
+-- Install configuration: ""
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/aic_bringup/config
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/aic_bringup/config/aic_ros2_controllers.yaml
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/aic_bringup/config/ros_gz_bridge_config.yaml
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/aic_bringup/launch
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/aic_bringup/launch/spawn_cable.launch.py
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/aic_bringup/launch/spawn_task_board.launch.py
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/aic_bringup/launch/aic_gz_bringup.launch.py
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/aic_bringup/rviz
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/aic_bringup/rviz/aic.rviz
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/lib/aic_bringup/test_impedance.py
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/lib/aic_bringup/home_robot.py
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/aic_bringup/environment/gz_config_path.dsv
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/ament_index/resource_index/package_run_dependencies/aic_bringup
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/ament_index/resource_index/parent_prefix_path/aic_bringup
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/aic_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/aic_bringup/environment/ament_prefix_path.dsv
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/aic_bringup/environment/path.sh
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/aic_bringup/environment/path.dsv
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/aic_bringup/local_setup.bash
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/aic_bringup/local_setup.sh
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/aic_bringup/local_setup.zsh
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/aic_bringup/local_setup.dsv
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/aic_bringup/package.dsv
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/ament_index/resource_index/packages/aic_bringup
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/aic_bringup/cmake/aic_bringupConfig.cmake
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/aic_bringup/cmake/aic_bringupConfig-version.cmake
+-- Installing: /home/radhae/ws_aic/install/aic_bringup/share/aic_bringup/package.xml

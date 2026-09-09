@@ -1,0 +1,11 @@
+{
+  "package_name": "aic_control_interfaces",
+  "non_idl_tuples": [
+    "/home/radhae/ws_aic/src/aic/aic_interfaces/aic_control_interfaces:msg/ControllerState.msg",
+    "/home/radhae/ws_aic/src/aic/aic_interfaces/aic_control_interfaces:msg/JointMotionUpdate.msg",
+    "/home/radhae/ws_aic/src/aic/aic_interfaces/aic_control_interfaces:msg/MotionUpdate.msg",
+    "/home/radhae/ws_aic/src/aic/aic_interfaces/aic_control_interfaces:msg/TargetMode.msg",
+    "/home/radhae/ws_aic/src/aic/aic_interfaces/aic_control_interfaces:msg/TrajectoryGenerationMode.msg",
+    "/home/radhae/ws_aic/src/aic/aic_interfaces/aic_control_interfaces:srv/ChangeTargetMode.srv"
+  ]
+}

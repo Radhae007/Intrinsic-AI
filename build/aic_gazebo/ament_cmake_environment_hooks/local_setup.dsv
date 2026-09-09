@@ -1,0 +1,4 @@
+source;share/aic_gazebo/environment/aic_gazebo.sh
+source;share/aic_gazebo/environment/ament_prefix_path.sh
+source;share/aic_gazebo/environment/path.sh
+source;share/aic_gazebo/environment/aic_gazebo.dsv

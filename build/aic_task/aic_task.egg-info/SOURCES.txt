@@ -1,0 +1,10 @@
+pyproject.toml
+setup.py
+../../../../../../../build/aic_task/aic_task.egg-info/PKG-INFO
+../../../../../../../build/aic_task/aic_task.egg-info/SOURCES.txt
+../../../../../../../build/aic_task/aic_task.egg-info/dependency_links.txt
+../../../../../../../build/aic_task/aic_task.egg-info/not-zip-safe
+../../../../../../../build/aic_task/aic_task.egg-info/requires.txt
+../../../../../../../build/aic_task/aic_task.egg-info/top_level.txt
+aic_task/__init__.py
+aic_task/extension.py

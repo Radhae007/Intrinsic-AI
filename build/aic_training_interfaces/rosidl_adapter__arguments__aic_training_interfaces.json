@@ -1,0 +1,6 @@
+{
+  "package_name": "aic_training_interfaces",
+  "non_idl_tuples": [
+    "/home/radhae/ws_aic/src/aic/aic_utils/aic_training_interfaces:srv/ExpandXacro.srv"
+  ]
+}

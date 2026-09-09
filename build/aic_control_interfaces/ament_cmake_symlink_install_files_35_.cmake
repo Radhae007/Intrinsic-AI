@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/radhae/ws_aic/src/aic/aic_interfaces/aic_control_interfaces" FILES "/home/radhae/ws_aic/build/aic_control_interfaces/ament_cmake_index/share/ament_index/resource_index/packages/aic_control_interfaces" "DESTINATION" "share/ament_index/resource_index/packages")

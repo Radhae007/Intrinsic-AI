@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/radhae/ws_aic/src/aic/aic_assets" FILES "/home/radhae/ws_aic/build/aic_assets/ament_cmake_core/aic_assetsConfig.cmake" "/home/radhae/ws_aic/build/aic_assets/ament_cmake_core/aic_assetsConfig-version.cmake" "DESTINATION" "share/aic_assets/cmake")

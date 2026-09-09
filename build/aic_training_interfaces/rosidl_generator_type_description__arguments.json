@@ -1,0 +1,11 @@
+{
+  "package_name": "aic_training_interfaces",
+  "output_dir": "/home/radhae/ws_aic/build/aic_training_interfaces/rosidl_generator_type_description/aic_training_interfaces",
+  "idl_tuples": [
+    "/home/radhae/ws_aic/build/aic_training_interfaces/rosidl_adapter/aic_training_interfaces:srv/ExpandXacro.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/kilted/share/service_msgs",
+    "builtin_interfaces:/opt/ros/kilted/share/builtin_interfaces"
+  ]
+}

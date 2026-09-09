@@ -1,0 +1,164 @@
+[0.081s] Invoking command in '/home/radhae/ws_aic/build/aic_scoring': AMENT_PREFIX_PATH=/home/radhae/ws_aic/install/aic_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/radhae/ws_aic/install/aic_control_interfaces:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/radhae/ws_aic/src/aic/install/aic_task_interfaces:/home/radhae/ws_aic/src/aic/install/aic_description:/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces:/home/radhae/ws_aic/src/aic/install/aic_control_interfaces:/home/radhae/ws_aic/src/aic/install/aic_assets:/home/radhae/cognipilot/cranium/install/synapse_ros:/home/radhae/cognipilot/cranium/install/synapse_gz:/home/radhae/cognipilot/cranium/install/synapse_tinyframe:/home/radhae/cognipilot/cranium/install/synapse_protobuf:/home/radhae/cognipilot/cranium/install/corti:/home/radhae/cognipilot/cranium/install/synapse_msgs:/home/radhae/cognipilot/cranium/install/dream_world:/home/radhae/cognipilot/cranium/install/cerebri_bringup:/home/radhae/cognipilot/cranium/install/b3rb_simulator:/home/radhae/cognipilot/cranium/install/b3rb_desktop:/home/radhae/cognipilot/cranium/install/b3rb_rviz:/home/radhae/cognipilot/cranium/install/b3rb_nav2:/home/radhae/cognipilot/cranium/install/b3rb_gz_resource:/home/radhae/cognipilot/cranium/install/b3rb_gz_bringup:/home/radhae/cognipilot/cranium/install/b3rb_description:/opt/ros/kilted:/home/radhae/ws_aic/src/aic/.pixi/envs/default:/home/radhae/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble LD_LIBRARY_PATH=/home/radhae/ws_aic/install/aic_control_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/radhae/ws_aic/install/aic_control_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_scoring -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/install/aic_scoring
+[0.257s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.257s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.258s]   CMake.
+[0.258s] 
+[0.258s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.258s]   to tell CMake that the project requires at least <min> but has been updated
+[0.258s]   to work with policies introduced by <max> or earlier.
+[0.258s] 
+[0.258s] [0m
+[0.434s] -- The C compiler identification is GNU 15.2.0
+[0.677s] -- The CXX compiler identification is GNU 15.2.0
+[0.710s] -- Detecting C compiler ABI info
+[0.996s] -- Detecting C compiler ABI info - done
+[1.044s] -- Check for working C compiler: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cc - skipped
+[1.044s] -- Detecting C compile features
+[1.045s] -- Detecting C compile features - done
+[1.125s] -- Detecting CXX compiler ABI info
+[1.494s] -- Detecting CXX compiler ABI info - done
+[1.537s] -- Check for working CXX compiler: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/c++ - skipped
+[1.537s] -- Detecting CXX compile features
+[1.538s] -- Detecting CXX compile features - done
+[1.595s] -- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+[2.088s] -- Found Python3: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/python3 (found version "3.12.13") found components: Interpreter
+[2.285s] -- Found aic_control_interfaces: 0.0.1 (/home/radhae/ws_aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake)
+[2.384s] -- Found rosidl_generator_c: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[2.422s] -- Found rosidl_generator_cpp: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[2.466s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.511s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.683s] -- Found gz_math_vendor: 0.2.6 (/opt/ros/kilted/share/gz_math_vendor/cmake)
+[2.708s] -- Looking for gz-math8 -- found version 8.2.1
+[2.715s] -- Searching for dependencies of gz-math8
+[2.717s] -- Looking for gz-utils3 -- found version 3.1.1
+[2.717s] -- Searching for dependencies of gz-utils3
+[2.728s] -- Found rclcpp: 29.5.7 (/opt/ros/kilted/share/rclcpp/cmake)
+[2.860s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[2.876s] -- Found rmw_zenoh_cpp: 0.6.6 (/opt/ros/kilted/share/rmw_zenoh_cpp/cmake)
+[2.879s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[3.055s] -- Found rclcpp_components: 29.5.7 (/opt/ros/kilted/share/rclcpp_components/cmake)
+[3.141s] -- Found ros_gz_interfaces: 2.1.17 (/opt/ros/kilted/share/ros_gz_interfaces/cmake)
+[3.190s] -- Found rosbag2_cpp: 0.32.0 (/opt/ros/kilted/share/rosbag2_cpp/cmake)
+[3.229s] -- Found TinyXML2 via Config file: /home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/tinyxml2
+[3.274s] -- Setting yaml-cpp_DIR to: '/opt/ros/kilted/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[3.289s] -- Found sensor_msgs: 5.5.2 (/opt/ros/kilted/share/sensor_msgs/cmake)
+[3.334s] -- Found tf2: 0.41.6 (/opt/ros/kilted/share/tf2/cmake)
+[3.351s] -- Found tf2_geometry_msgs: 0.41.6 (/opt/ros/kilted/share/tf2_geometry_msgs/cmake)
+[3.408s] -- Found eigen3_cmake_module: 0.4.0 (/opt/ros/kilted/share/eigen3_cmake_module/cmake)
+[3.411s] -- Found Eigen3: TRUE (found version "5.0.1")
+[3.411s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.595s] -- Found Eigen3: TRUE
+[3.619s] -- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[3.731s] -- Configuring done (3.5s)
+[3.779s] -- Generating done (0.0s)
+[3.786s] -- Build files have been written to: /home/radhae/ws_aic/build/aic_scoring
+[3.802s] Invoked command in '/home/radhae/ws_aic/build/aic_scoring' returned '0': AMENT_PREFIX_PATH=/home/radhae/ws_aic/install/aic_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/radhae/ws_aic/install/aic_control_interfaces:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/radhae/ws_aic/src/aic/install/aic_task_interfaces:/home/radhae/ws_aic/src/aic/install/aic_description:/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces:/home/radhae/ws_aic/src/aic/install/aic_control_interfaces:/home/radhae/ws_aic/src/aic/install/aic_assets:/home/radhae/cognipilot/cranium/install/synapse_ros:/home/radhae/cognipilot/cranium/install/synapse_gz:/home/radhae/cognipilot/cranium/install/synapse_tinyframe:/home/radhae/cognipilot/cranium/install/synapse_protobuf:/home/radhae/cognipilot/cranium/install/corti:/home/radhae/cognipilot/cranium/install/synapse_msgs:/home/radhae/cognipilot/cranium/install/dream_world:/home/radhae/cognipilot/cranium/install/cerebri_bringup:/home/radhae/cognipilot/cranium/install/b3rb_simulator:/home/radhae/cognipilot/cranium/install/b3rb_desktop:/home/radhae/cognipilot/cranium/install/b3rb_rviz:/home/radhae/cognipilot/cranium/install/b3rb_nav2:/home/radhae/cognipilot/cranium/install/b3rb_gz_resource:/home/radhae/cognipilot/cranium/install/b3rb_gz_bringup:/home/radhae/cognipilot/cranium/install/b3rb_description:/opt/ros/kilted:/home/radhae/ws_aic/src/aic/.pixi/envs/default:/home/radhae/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble LD_LIBRARY_PATH=/home/radhae/ws_aic/install/aic_control_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/radhae/ws_aic/install/aic_control_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_scoring -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/install/aic_scoring
+[3.804s] Invoking command in '/home/radhae/ws_aic/build/aic_scoring': AMENT_PREFIX_PATH=/home/radhae/ws_aic/install/aic_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/radhae/ws_aic/install/aic_control_interfaces:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/radhae/ws_aic/src/aic/install/aic_task_interfaces:/home/radhae/ws_aic/src/aic/install/aic_description:/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces:/home/radhae/ws_aic/src/aic/install/aic_control_interfaces:/home/radhae/ws_aic/src/aic/install/aic_assets:/home/radhae/cognipilot/cranium/install/synapse_ros:/home/radhae/cognipilot/cranium/install/synapse_gz:/home/radhae/cognipilot/cranium/install/synapse_tinyframe:/home/radhae/cognipilot/cranium/install/synapse_protobuf:/home/radhae/cognipilot/cranium/install/corti:/home/radhae/cognipilot/cranium/install/synapse_msgs:/home/radhae/cognipilot/cranium/install/dream_world:/home/radhae/cognipilot/cranium/install/cerebri_bringup:/home/radhae/cognipilot/cranium/install/b3rb_simulator:/home/radhae/cognipilot/cranium/install/b3rb_desktop:/home/radhae/cognipilot/cranium/install/b3rb_rviz:/home/radhae/cognipilot/cranium/install/b3rb_nav2:/home/radhae/cognipilot/cranium/install/b3rb_gz_resource:/home/radhae/cognipilot/cranium/install/b3rb_gz_bringup:/home/radhae/cognipilot/cranium/install/b3rb_description:/opt/ros/kilted:/home/radhae/ws_aic/src/aic/.pixi/envs/default:/home/radhae/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble LD_LIBRARY_PATH=/home/radhae/ws_aic/install/aic_control_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/radhae/ws_aic/install/aic_control_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --build /home/radhae/ws_aic/build/aic_scoring -- -j12 -l12
+[4.152s] [ 14%] [32mBuilding CXX object CMakeFiles/aic_scoring.dir/src/ScoringTier1.cc.o[0m
+[4.154s] [ 28%] [32mBuilding CXX object CMakeFiles/aic_scoring.dir/src/ScoringTier2.cc.o[0m
+[15.378s] [ 42%] [1m[32mLinking CXX shared library libaic_scoring.so[0m
+[15.739s] [ 42%] Built target aic_scoring
+[15.859s] [ 57%] [32mBuilding CXX object CMakeFiles/scoring_tier1_main.dir/src/ScoringTier1_main.cc.o[0m
+[15.865s] [ 71%] [32mBuilding CXX object CMakeFiles/scoring_tier2_main.dir/src/ScoringTier2_main.cc.o[0m
+[19.611s] [ 85%] [1m[32mLinking CXX executable scoring_tier1_main[0m
+[19.806s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: warning: libtinyxml2.so.10, needed by /opt/ros/kilted/lib/librosbag2_cpp.so, not found (try using -rpath or -rpath-link)
+[19.832s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: warning: libspdlog.so.1.12, needed by /opt/ros/kilted/lib/librcl_logging_spdlog.so, not found (try using -rpath or -rpath-link)
+[19.879s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::file_helper::~file_helper()'
+[19.881s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::basic_file_sink<std::mutex>::flush_()'
+[19.882s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::logger::log_it_(spdlog::details::log_msg const&, bool, bool)'
+[19.883s] [100%] [1m[32mLinking CXX executable scoring_tier2_main[0m
+[19.884s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::set_formatter(std::unique_ptr<spdlog::formatter, std::default_delete<spdlog::formatter> >)'
+[19.884s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtracetools.so: undefined reference to `dlopen@GLIBC_2.34'
+[19.886s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::backtracer::enabled() const'
+[19.888s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::registry::instance()'
+[19.890s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::log(spdlog::details::log_msg const&)'
+[19.892s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::set_pattern(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[19.892s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtf2_ros.so: undefined reference to `pthread_rwlock_wrlock@GLIBC_2.34'
+[19.893s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::drop(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[19.896s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::logger::set_pattern(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, spdlog::pattern_time_type)'
+[19.896s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcutils.so: undefined reference to `dlinfo@GLIBC_2.34'
+[19.898s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::set_pattern_(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[19.898s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcutils.so: undefined reference to `dlerror@GLIBC_2.34'
+[19.898s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/opt/gz_math_vendor/lib/libgz-math8.so.8.2.1: undefined reference to `__isoc23_strtol@GLIBC_2.38'
+[19.898s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librosbag2_cpp.so: undefined reference to `pthread_cond_clockwait@GLIBC_2.34'
+[19.898s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librclcpp.so: undefined reference to `sem_init@GLIBC_2.34'
+[19.900s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::periodic_worker::~periodic_worker()'
+[19.900s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librclcpp.so: undefined reference to `sem_destroy@GLIBC_2.34'
+[19.900s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librosbag2_cpp.so: undefined reference to `__isoc23_strtoul@GLIBC_2.38'
+[19.902s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::log_msg::log_msg(spdlog::source_loc, fmt::v9::basic_string_view<char>, spdlog::level::level_enum, fmt::v9::basic_string_view<char>)'
+[19.904s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `vtable for spdlog::logger'
+[19.904s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librosbag2_cpp.so: undefined reference to `__libc_single_threaded@GLIBC_2.32'
+[19.904s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/opt/gz_math_vendor/lib/libgz-math8.so.8.2.1: undefined reference to `log@GLIBC_2.29'
+[19.906s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::registry::flush_all()'
+[19.906s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtracetools.so: undefined reference to `dlclose@GLIBC_2.34'
+[19.908s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::flush()'
+[19.910s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::logger::flush_on(spdlog::level::level_enum)'
+[19.910s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtf2_ros.so: undefined reference to `pthread_rwlock_rdlock@GLIBC_2.34'
+[19.910s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librclcpp.so: undefined reference to `sem_post@GLIBC_2.34'
+[19.910s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libament_index_cpp.so: undefined reference to `stat@GLIBC_2.33'
+[19.911s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtf2_ros.so: undefined reference to `pthread_once@GLIBC_2.34'
+[19.911s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/opt/gz_math_vendor/lib/libgz-math8.so.8.2.1: undefined reference to `fmod@GLIBC_2.38'
+[19.912s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::basic_file_sink<std::mutex>::sink_it_(spdlog::details::log_msg const&)'
+[19.914s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::set_formatter_(std::unique_ptr<spdlog::formatter, std::default_delete<spdlog::formatter> >)'
+[19.914s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/opt/gz_math_vendor/lib/libgz-math8.so.8.2.1: undefined reference to `pow@GLIBC_2.29'
+[19.916s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::logger::set_level(spdlog::level::level_enum)'
+[19.916s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librclcpp.so: undefined reference to `sem_wait@GLIBC_2.34'
+[19.916s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtracetools.so: undefined reference to `dladdr@GLIBC_2.34'
+[19.916s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtf2_ros.so: undefined reference to `pthread_rwlock_unlock@GLIBC_2.34'
+[19.916s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtracetools.so: undefined reference to `dlsym@GLIBC_2.34'
+[19.918s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::basic_file_sink<std::mutex>::basic_file_sink(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool, spdlog::file_event_handlers const&)'
+[19.920s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::register_logger(std::shared_ptr<spdlog::logger>)'
+[19.928s] collect2: error: ld returned 1 exit status
+[19.936s] gmake[2]: *** [CMakeFiles/scoring_tier1_main.dir/build.make:253: scoring_tier1_main] Error 1
+[19.939s] gmake[1]: *** [CMakeFiles/Makefile2:191: CMakeFiles/scoring_tier1_main.dir/all] Error 2
+[19.939s] gmake[1]: *** Waiting for unfinished jobs....
+[20.074s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: warning: libtinyxml2.so.10, needed by /opt/ros/kilted/lib/librosbag2_cpp.so, not found (try using -rpath or -rpath-link)
+[20.099s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: warning: libspdlog.so.1.12, needed by /opt/ros/kilted/lib/librcl_logging_spdlog.so, not found (try using -rpath or -rpath-link)
+[20.140s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::file_helper::~file_helper()'
+[20.142s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::basic_file_sink<std::mutex>::flush_()'
+[20.144s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::logger::log_it_(spdlog::details::log_msg const&, bool, bool)'
+[20.147s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::set_formatter(std::unique_ptr<spdlog::formatter, std::default_delete<spdlog::formatter> >)'
+[20.147s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtracetools.so: undefined reference to `dlopen@GLIBC_2.34'
+[20.149s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::backtracer::enabled() const'
+[20.152s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::registry::instance()'
+[20.154s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::log(spdlog::details::log_msg const&)'
+[20.156s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::set_pattern(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[20.156s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtf2_ros.so: undefined reference to `pthread_rwlock_wrlock@GLIBC_2.34'
+[20.158s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::drop(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[20.161s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::logger::set_pattern(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, spdlog::pattern_time_type)'
+[20.161s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcutils.so: undefined reference to `dlinfo@GLIBC_2.34'
+[20.163s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::set_pattern_(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[20.163s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcutils.so: undefined reference to `dlerror@GLIBC_2.34'
+[20.163s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/opt/gz_math_vendor/lib/libgz-math8.so.8.2.1: undefined reference to `__isoc23_strtol@GLIBC_2.38'
+[20.163s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librosbag2_cpp.so: undefined reference to `pthread_cond_clockwait@GLIBC_2.34'
+[20.164s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librclcpp.so: undefined reference to `sem_init@GLIBC_2.34'
+[20.167s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::periodic_worker::~periodic_worker()'
+[20.167s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librclcpp.so: undefined reference to `sem_destroy@GLIBC_2.34'
+[20.167s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librosbag2_cpp.so: undefined reference to `__isoc23_strtoul@GLIBC_2.38'
+[20.169s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::log_msg::log_msg(spdlog::source_loc, fmt::v9::basic_string_view<char>, spdlog::level::level_enum, fmt::v9::basic_string_view<char>)'
+[20.172s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `vtable for spdlog::logger'
+[20.172s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librosbag2_cpp.so: undefined reference to `__libc_single_threaded@GLIBC_2.32'
+[20.172s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/opt/gz_math_vendor/lib/libgz-math8.so.8.2.1: undefined reference to `log@GLIBC_2.29'
+[20.174s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::details::registry::flush_all()'
+[20.174s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtracetools.so: undefined reference to `dlclose@GLIBC_2.34'
+[20.177s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::flush()'
+[20.179s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::logger::flush_on(spdlog::level::level_enum)'
+[20.179s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtf2_ros.so: undefined reference to `pthread_rwlock_rdlock@GLIBC_2.34'
+[20.179s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librclcpp.so: undefined reference to `sem_post@GLIBC_2.34'
+[20.179s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libament_index_cpp.so: undefined reference to `stat@GLIBC_2.33'
+[20.179s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtf2_ros.so: undefined reference to `pthread_once@GLIBC_2.34'
+[20.180s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/opt/gz_math_vendor/lib/libgz-math8.so.8.2.1: undefined reference to `fmod@GLIBC_2.38'
+[20.182s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::basic_file_sink<std::mutex>::sink_it_(spdlog::details::log_msg const&)'
+[20.185s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::base_sink<std::mutex>::set_formatter_(std::unique_ptr<spdlog::formatter, std::default_delete<spdlog::formatter> >)'
+[20.185s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/opt/gz_math_vendor/lib/libgz-math8.so.8.2.1: undefined reference to `pow@GLIBC_2.29'
+[20.187s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::logger::set_level(spdlog::level::level_enum)'
+[20.187s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librclcpp.so: undefined reference to `sem_wait@GLIBC_2.34'
+[20.187s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtracetools.so: undefined reference to `dladdr@GLIBC_2.34'
+[20.187s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtf2_ros.so: undefined reference to `pthread_rwlock_unlock@GLIBC_2.34'
+[20.187s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/libtracetools.so: undefined reference to `dlsym@GLIBC_2.34'
+[20.190s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::sinks::basic_file_sink<std::mutex>::basic_file_sink(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool, spdlog::file_event_handlers const&)'
+[20.192s] /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/x86_64-conda-linux-gnu-ld: /opt/ros/kilted/lib/librcl_logging_spdlog.so: undefined reference to `spdlog::register_logger(std::shared_ptr<spdlog::logger>)'
+[20.201s] collect2: error: ld returned 1 exit status
+[20.209s] gmake[2]: *** [CMakeFiles/scoring_tier2_main.dir/build.make:253: scoring_tier2_main] Error 1
+[20.211s] gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/scoring_tier2_main.dir/all] Error 2
+[20.214s] gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,7 @@
+{
+  "package_name": "aic_task_interfaces",
+  "non_idl_tuples": [
+    "/home/radhae/ws_aic/src/aic/aic_interfaces/aic_task_interfaces:msg/Task.msg",
+    "/home/radhae/ws_aic/src/aic/aic_interfaces/aic_task_interfaces:action/InsertCable.action"
+  ]
+}

@@ -1,0 +1,119 @@
+[0.051s] Invoking command in '/home/radhae/ws_aic/build/aic_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted:/home/radhae/ws_aic/src/aic/.pixi/envs/default:/home/radhae/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_assets -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/install/aic_assets
+[0.177s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.177s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.177s]   CMake.
+[0.177s] 
+[0.177s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.178s]   to tell CMake that the project requires at least <min> but has been updated
+[0.178s]   to work with policies introduced by <max> or earlier.
+[0.178s] 
+[0.178s] [0m
+[0.182s] -- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.551s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.689s] -- Configuring done (0.5s)
+[0.695s] -- Generating done (0.0s)
+[0.696s] -- Build files have been written to: /home/radhae/ws_aic/build/aic_assets
+[0.702s] Invoked command in '/home/radhae/ws_aic/build/aic_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted:/home/radhae/ws_aic/src/aic/.pixi/envs/default:/home/radhae/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_assets -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/install/aic_assets
+[0.704s] Invoking command in '/home/radhae/ws_aic/build/aic_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted:/home/radhae/ws_aic/src/aic/.pixi/envs/default:/home/radhae/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --build /home/radhae/ws_aic/build/aic_assets -- -j12 -l12
+[1.001s] Invoked command in '/home/radhae/ws_aic/build/aic_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted:/home/radhae/ws_aic/src/aic/.pixi/envs/default:/home/radhae/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --build /home/radhae/ws_aic/build/aic_assets -- -j12 -l12
+[1.179s] Invoking command in '/home/radhae/ws_aic/build/aic_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted:/home/radhae/ws_aic/src/aic/.pixi/envs/default:/home/radhae/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --install /home/radhae/ws_aic/build/aic_assets
+[1.309s] -- Install configuration: ""
+[1.309s] -- Execute custom install script
+[1.309s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/environment/aic_assets.dsv
+[1.328s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Axia80 M20/axia80_m20_macro.xacro
+[1.353s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Axia80 M20/axia_ft_sensor_visual.glb
+[1.373s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Axia80 M20/model.config
+[1.394s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Axia80 M20/model.sdf
+[1.412s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Basler Camera/basler_cam_visual.glb
+[1.430s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Basler Camera/basler_camera_macro.xacro
+[1.449s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Basler Camera/model.config
+[1.473s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Basler Camera/model.sdf
+[1.497s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Camera Mount/V1015087.stl
+[1.522s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Camera Mount/cam_mount_macro.xacro
+[1.548s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Camera Mount/cam_mount_visual.glb
+[1.574s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Camera Mount/model.config
+[1.600s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Camera Mount/model.sdf
+[1.625s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure Walls/enclosure_walls_visual.glb
+[1.650s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure Walls/model.config
+[1.674s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure Walls/model.sdf
+[1.698s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure/enclosure_visual.glb
+[1.722s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure/enclosurewalls_visual.glb
+[1.743s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure/light_visual.glb
+[1.762s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure/model.config
+[1.781s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Enclosure/model.sdf
+[1.798s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Floor/floor_visual.glb
+[1.825s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Floor/model.config
+[1.847s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Floor/model.sdf
+[1.869s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Floor/walls_visual.glb
+[1.887s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/LC Mount/lc_mount_macro.xacro
+[1.909s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/LC Mount/lc_mount_visual.glb
+[1.930s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/LC Mount/model.config
+[1.948s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/LC Mount/model.sdf
+[1.972s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/LC Plug/lc_plug_visual.glb
+[1.994s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/LC Plug/model.config
+[2.015s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/LC Plug/model.sdf
+[2.034s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card Mount/model.config
+[2.052s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card Mount/model.sdf
+[2.069s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card Mount/nic_card_mount_macro.xacro
+[2.087s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card Mount/nic_card_mount_visual.glb
+[2.105s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card Mount/nic_card_visual.glb
+[2.127s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card/model.config
+[2.149s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card/model.sdf
+[2.166s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/NIC Card/nic_card_visual.glb
+[2.190s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Robotiq Hand-E/hande_base_visual.glb
+[2.209s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Robotiq Hand-E/hande_finger_visual.glb
+[2.227s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Robotiq Hand-E/model.config
+[2.248s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Robotiq Hand-E/model.sdf
+[2.267s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Robotiq Hand-E/robotiq_hande.ros2_control.xacro
+[2.288s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Robotiq Hand-E/robotiq_hande_macro.xacro
+[2.307s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Mount/model.config
+[2.329s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Mount/model.sdf
+[2.347s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Mount/sc_mount_macro.xacro
+[2.364s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Mount/sc_mount_visual.glb
+[2.385s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Plug/model.config
+[2.402s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Plug/model.sdf
+[2.423s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Plug/sc_plug_visual.glb
+[2.442s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Port/model.config
+[2.462s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Port/model.sdf
+[2.481s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Port/sc_port_macro.xacro
+[2.503s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SC Port/sc_port_visual.glb
+[2.527s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SFP Module/model.config
+[2.547s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SFP Module/model.sdf
+[2.565s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SFP Module/sfp_module_visual.glb
+[2.589s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SFP Mount/model.config
+[2.609s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SFP Mount/model.sdf
+[2.628s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SFP Mount/sfp_mount_macro.xacro
+[2.646s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/SFP Mount/sfp_mount_visual.glb
+[2.666s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Task Board Base/base_visual.glb
+[2.688s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Task Board Base/model.config
+[2.707s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Task Board Base/model.sdf
+[2.724s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/Task Board Base/task_board_base_macro.xacro
+[2.740s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/cable_base_c_rotated/model.config
+[2.758s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/cable_base_c_rotated/model.sdf
+[2.774s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/cable_base_c_rotated_reversed/model.config
+[2.792s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/cable_base_c_rotated_reversed/model.sdf
+[2.809s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/lc_cable/model.config
+[2.831s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/lc_cable/model.sdf
+[2.850s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/lc_sc_cable/model.config
+[2.872s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/lc_sc_cable/model.sdf
+[2.890s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/sc_cable/model.config
+[2.909s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/sc_cable/model.sdf
+[2.928s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/sfp_sc_cable/model.config
+[2.947s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/sfp_sc_cable/model.sdf
+[2.969s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/sfp_sc_cable_reversed/model.config
+[2.991s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/models/sfp_sc_cable_reversed/model.sdf
+[3.010s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/ament_index/resource_index/package_run_dependencies/aic_assets
+[3.027s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/ament_index/resource_index/parent_prefix_path/aic_assets
+[3.047s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/environment/ament_prefix_path.sh
+[3.066s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/environment/ament_prefix_path.dsv
+[3.084s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/environment/path.sh
+[3.107s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/environment/path.dsv
+[3.127s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/local_setup.bash
+[3.147s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/local_setup.sh
+[3.166s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/local_setup.zsh
+[3.188s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/local_setup.dsv
+[3.209s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/package.dsv
+[3.226s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/ament_index/resource_index/packages/aic_assets
+[3.244s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/cmake/aic_assetsConfig.cmake
+[3.263s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/cmake/aic_assetsConfig-version.cmake
+[3.280s] -- Symlinking: /home/radhae/ws_aic/install/aic_assets/share/aic_assets/package.xml

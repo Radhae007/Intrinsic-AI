@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "aic_engine_interfaces/srv/ResetJoints_Request",
+      "fields": [
+        {
+          "name": "joint_names",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "initial_positions",
+          "type": {
+            "type_id": 155,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "aic_engine_interfaces/srv/ResetJoints_Request",
+      "hash_string": "RIHS01_63f2e8c308946b1bc593eac17d555bc6819044fea7128f0ae74f0fc2cc73bf65"
+    }
+  ]
+}

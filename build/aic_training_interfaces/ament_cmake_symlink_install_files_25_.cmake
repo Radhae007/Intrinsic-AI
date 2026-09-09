@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/radhae/ws_aic/src/aic/aic_utils/aic_training_interfaces" FILES "/home/radhae/ws_aic/build/aic_training_interfaces/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/aic_training_interfaces/cmake")

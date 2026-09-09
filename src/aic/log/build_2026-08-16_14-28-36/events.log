@@ -1,0 +1,24 @@
+[0.000000] (-) TimerEvent: {}
+[0.000422] (-) JobUnselected: {'identifier': 'aic_adapter'}
+[0.000466] (-) JobUnselected: {'identifier': 'aic_assets'}
+[0.000532] (-) JobUnselected: {'identifier': 'aic_control_interfaces'}
+[0.000570] (-) JobUnselected: {'identifier': 'aic_controller'}
+[0.000602] (-) JobUnselected: {'identifier': 'aic_description'}
+[0.000623] (-) JobUnselected: {'identifier': 'aic_engine'}
+[0.000679] (-) JobUnselected: {'identifier': 'aic_engine_interfaces'}
+[0.000698] (-) JobUnselected: {'identifier': 'aic_example_policies'}
+[0.000717] (-) JobUnselected: {'identifier': 'aic_gazebo'}
+[0.000736] (-) JobUnselected: {'identifier': 'aic_model'}
+[0.000755] (-) JobUnselected: {'identifier': 'aic_model_interfaces'}
+[0.000778] (-) JobUnselected: {'identifier': 'aic_mujoco'}
+[0.000833] (-) JobUnselected: {'identifier': 'aic_scoring'}
+[0.000856] (-) JobUnselected: {'identifier': 'aic_task'}
+[0.000874] (-) JobUnselected: {'identifier': 'aic_task_interfaces'}
+[0.000892] (-) JobUnselected: {'identifier': 'aic_teleoperation'}
+[0.000910] (-) JobUnselected: {'identifier': 'aic_training_interfaces'}
+[0.000934] (-) JobUnselected: {'identifier': 'aic_training_utils'}
+[0.000958] (-) JobUnselected: {'identifier': 'lerobot_robot_aic'}
+[0.000990] (aic_bringup) JobQueued: {'identifier': 'aic_bringup', 'dependencies': OrderedDict({'aic_assets': '/home/radhae/ws_aic/src/aic/install/aic_assets', 'aic_control_interfaces': '/home/radhae/ws_aic/src/aic/install/aic_control_interfaces', 'aic_engine_interfaces': '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces', 'aic_task_interfaces': '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces', 'aic_controller': '/home/radhae/ws_aic/src/aic/install/aic_controller', 'aic_gazebo': '/home/radhae/ws_aic/src/aic/install/aic_gazebo', 'aic_scoring': '/home/radhae/ws_aic/src/aic/install/aic_scoring', 'aic_description': '/home/radhae/ws_aic/src/aic/install/aic_description', 'aic_engine': '/home/radhae/ws_aic/src/aic/install/aic_engine'})}
+[0.001035] (aic_bringup) JobStarted: {'identifier': 'aic_bringup'}
+[0.009502] (aic_bringup) JobEnded: {'identifier': 'aic_bringup', 'rc': 1}
+[0.020059] (-) EventReactorShutdown: {}

@@ -1,0 +1,126 @@
+[0.038s] Invoking command in '/home/radhae/ws_aic/src/aic/build/aic_engine_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --build /home/radhae/ws_aic/src/aic/build/aic_engine_interfaces -- -j12 -l12
+[0.413s] [  2%] Built target aic_engine_interfaces__rs
+[0.413s] [  2%] Built target ament_cmake_python_symlink_aic_engine_interfaces
+[0.414s] [  5%] Built target aic_engine_interfaces__rosidl_generator_type_description
+[0.569s] [  8%] Built target aic_engine_interfaces__cpp
+[0.598s] [ 22%] Built target aic_engine_interfaces__rosidl_generator_c
+[0.843s] [ 31%] Built target aic_engine_interfaces__rosidl_typesupport_c
+[0.857s] [ 40%] Built target aic_engine_interfaces__rosidl_typesupport_introspection_cpp
+[0.858s] [ 48%] Built target aic_engine_interfaces__rosidl_typesupport_fastrtps_c
+[0.860s] [ 57%] Built target aic_engine_interfaces__rosidl_typesupport_introspection_c
+[0.864s] [ 65%] Built target aic_engine_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.885s] [ 74%] Built target aic_engine_interfaces__rosidl_typesupport_cpp
+[0.931s] running egg_info
+[0.948s] writing aic_engine_interfaces.egg-info/PKG-INFO
+[0.949s] writing dependency_links to aic_engine_interfaces.egg-info/dependency_links.txt
+[0.949s] writing top-level names to aic_engine_interfaces.egg-info/top_level.txt
+[1.008s] reading manifest file 'aic_engine_interfaces.egg-info/SOURCES.txt'
+[1.009s] writing manifest file 'aic_engine_interfaces.egg-info/SOURCES.txt'
+[1.021s] [ 74%] Built target aic_engine_interfaces
+[1.090s] [ 74%] Built target ament_cmake_python_build_aic_engine_interfaces_egg
+[1.141s] [ 77%] Built target aic_engine_interfaces__py
+[1.270s] [ 82%] Built target aic_engine_interfaces__rosidl_generator_py
+[1.384s] [ 88%] Built target aic_engine_interfaces_s__rosidl_typesupport_c
+[1.388s] [ 94%] Built target aic_engine_interfaces_s__rosidl_typesupport_introspection_c
+[1.402s] [100%] Built target aic_engine_interfaces_s__rosidl_typesupport_fastrtps_c
+[1.434s] Invoked command in '/home/radhae/ws_aic/src/aic/build/aic_engine_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --build /home/radhae/ws_aic/src/aic/build/aic_engine_interfaces -- -j12 -l12
+[1.435s] Invoking command in '/home/radhae/ws_aic/src/aic/build/aic_engine_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --install /home/radhae/ws_aic/src/aic/build/aic_engine_interfaces
+[1.563s] -- Install configuration: ""
+[1.563s] -- Execute custom install script
+[1.564s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/ament_index/resource_index/rosidl_interfaces/aic_engine_interfaces
+[1.564s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/srv/ResetJoints.json
+[1.564s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/include/aic_engine_interfaces/aic_engine_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.564s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/include/aic_engine_interfaces/aic_engine_interfaces/srv/detail/reset_joints__functions.h
+[1.564s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/include/aic_engine_interfaces/aic_engine_interfaces/srv/detail/reset_joints__struct.h
+[1.564s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/include/aic_engine_interfaces/aic_engine_interfaces/srv/detail/reset_joints__type_support.h
+[1.565s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/include/aic_engine_interfaces/aic_engine_interfaces/srv/reset_joints.h
+[1.565s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/include/aic_engine_interfaces/aic_engine_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.565s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/include/aic_engine_interfaces/aic_engine_interfaces/srv/detail/reset_joints__rosidl_typesupport_fastrtps_c.h
+[1.565s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/include/aic_engine_interfaces/aic_engine_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.566s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/include/aic_engine_interfaces/aic_engine_interfaces/srv/detail/reset_joints__builder.hpp
+[1.566s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/include/aic_engine_interfaces/aic_engine_interfaces/srv/detail/reset_joints__struct.hpp
+[1.566s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/include/aic_engine_interfaces/aic_engine_interfaces/srv/detail/reset_joints__traits.hpp
+[1.566s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/include/aic_engine_interfaces/aic_engine_interfaces/srv/detail/reset_joints__type_support.hpp
+[1.566s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/include/aic_engine_interfaces/aic_engine_interfaces/srv/reset_joints.hpp
+[1.567s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/include/aic_engine_interfaces/aic_engine_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.567s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/include/aic_engine_interfaces/aic_engine_interfaces/srv/detail/reset_joints__rosidl_typesupport_fastrtps_cpp.hpp
+[1.567s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/include/aic_engine_interfaces/aic_engine_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.567s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/include/aic_engine_interfaces/aic_engine_interfaces/srv/detail/reset_joints__rosidl_typesupport_introspection_c.h
+[1.567s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/include/aic_engine_interfaces/aic_engine_interfaces/srv/detail/reset_joints__rosidl_typesupport_introspection_cpp.hpp
+[1.568s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/environment/pythonpath.sh
+[1.568s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/environment/pythonpath.dsv
+[1.568s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages/aic_engine_interfaces-0.0.1-py3.12.egg-info/PKG-INFO
+[1.568s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages/aic_engine_interfaces-0.0.1-py3.12.egg-info/SOURCES.txt
+[1.568s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages/aic_engine_interfaces-0.0.1-py3.12.egg-info/dependency_links.txt
+[1.568s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages/aic_engine_interfaces-0.0.1-py3.12.egg-info/top_level.txt
+[1.569s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages/aic_engine_interfaces/__init__.py
+[1.569s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages/aic_engine_interfaces/_aic_engine_interfaces_s.ep.rosidl_typesupport_c.c
+[1.569s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages/aic_engine_interfaces/_aic_engine_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.569s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages/aic_engine_interfaces/_aic_engine_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.570s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages/aic_engine_interfaces/aic_engine_interfaces_s__rosidl_typesupport_c.so
+[1.570s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages/aic_engine_interfaces/aic_engine_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[1.570s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages/aic_engine_interfaces/aic_engine_interfaces_s__rosidl_typesupport_introspection_c.so
+[1.570s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages/aic_engine_interfaces/srv/__init__.py
+[1.570s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages/aic_engine_interfaces/srv/_reset_joints.py
+[1.570s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages/aic_engine_interfaces/srv/_reset_joints_s.c
+[1.570s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages/aic_engine_interfaces/aic_engine_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[1.571s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages/aic_engine_interfaces/aic_engine_interfaces_s__rosidl_typesupport_introspection_c.so
+[1.571s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages/aic_engine_interfaces/aic_engine_interfaces_s__rosidl_typesupport_c.so
+[1.571s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/ament_index/resource_index/rust_packages/aic_engine_interfaces
+[1.571s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/rust/Cargo.toml
+[1.571s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/rust/build.rs
+[1.571s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/rust/src/lib.rs
+[1.572s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/rust/src/srv.rs
+[1.572s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/rust/src/srv/rmw.rs
+[1.572s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/srv/ResetJoints.idl
+[1.572s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/srv/ResetJoints.srv
+[1.572s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/ament_index/resource_index/package_run_dependencies/aic_engine_interfaces
+[1.572s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/ament_index/resource_index/parent_prefix_path/aic_engine_interfaces
+[1.573s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/environment/ament_prefix_path.sh
+[1.573s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/environment/ament_prefix_path.dsv
+[1.573s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/environment/path.sh
+[1.573s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/environment/path.dsv
+[1.573s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/local_setup.bash
+[1.574s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/local_setup.sh
+[1.574s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/local_setup.zsh
+[1.574s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/local_setup.dsv
+[1.574s] -- Symlinking: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/package.dsv
+[1.598s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/ament_index/resource_index/packages/aic_engine_interfaces
+[1.598s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.598s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.598s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.598s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.599s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.600s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.600s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.600s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/aic_engine_interfacesConfig.cmake
+[1.600s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/aic_engine_interfacesConfig-version.cmake
+[1.600s] -- Up-to-date symlink: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/package.xml
+[1.600s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/libaic_engine_interfaces__rosidl_generator_c.so
+[1.600s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/libaic_engine_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.600s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/libaic_engine_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.600s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/libaic_engine_interfaces__rosidl_typesupport_introspection_c.so
+[1.601s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/libaic_engine_interfaces__rosidl_typesupport_c.so
+[1.601s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/libaic_engine_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.601s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/libaic_engine_interfaces__rosidl_typesupport_cpp.so
+[1.638s] Listing '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages/aic_engine_interfaces'...
+[1.638s] Listing '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages/aic_engine_interfaces/srv'...
+[1.645s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/libaic_engine_interfaces__rosidl_generator_py.so
+[1.645s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/export_aic_engine_interfaces__rosidl_generator_cExport.cmake
+[1.645s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/export_aic_engine_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.646s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/export_aic_engine_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.646s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/export_aic_engine_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.646s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/export_aic_engine_interfaces__rosidl_generator_cppExport.cmake
+[1.646s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/export_aic_engine_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.647s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/export_aic_engine_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.647s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/aic_engine_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.647s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/aic_engine_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.647s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/aic_engine_interfaces__rosidl_typesupport_cExport.cmake
+[1.647s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/aic_engine_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.647s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/aic_engine_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.647s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/aic_engine_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.647s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/aic_engine_interfaces__rosidl_typesupport_cppExport.cmake
+[1.647s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/aic_engine_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.647s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/export_aic_engine_interfaces__rosidl_generator_pyExport.cmake
+[1.647s] -- Up-to-date: /home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake/export_aic_engine_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.650s] Invoked command in '/home/radhae/ws_aic/src/aic/build/aic_engine_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --install /home/radhae/ws_aic/src/aic/build/aic_engine_interfaces

@@ -1,0 +1,28 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/aic_control_interfaces__rosidl_typesupport_c.dir/link.d"
+  "CMakeFiles/aic_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aic_control_interfaces/msg/controller_state__type_support.cpp.o"
+  "CMakeFiles/aic_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aic_control_interfaces/msg/controller_state__type_support.cpp.o.d"
+  "CMakeFiles/aic_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aic_control_interfaces/msg/joint_motion_update__type_support.cpp.o"
+  "CMakeFiles/aic_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aic_control_interfaces/msg/joint_motion_update__type_support.cpp.o.d"
+  "CMakeFiles/aic_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aic_control_interfaces/msg/motion_update__type_support.cpp.o"
+  "CMakeFiles/aic_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aic_control_interfaces/msg/motion_update__type_support.cpp.o.d"
+  "CMakeFiles/aic_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aic_control_interfaces/msg/target_mode__type_support.cpp.o"
+  "CMakeFiles/aic_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aic_control_interfaces/msg/target_mode__type_support.cpp.o.d"
+  "CMakeFiles/aic_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aic_control_interfaces/msg/trajectory_generation_mode__type_support.cpp.o"
+  "CMakeFiles/aic_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aic_control_interfaces/msg/trajectory_generation_mode__type_support.cpp.o.d"
+  "CMakeFiles/aic_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aic_control_interfaces/srv/change_target_mode__type_support.cpp.o"
+  "CMakeFiles/aic_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aic_control_interfaces/srv/change_target_mode__type_support.cpp.o.d"
+  "libaic_control_interfaces__rosidl_typesupport_c.pdb"
+  "libaic_control_interfaces__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/aic_control_interfaces/msg/controller_state__type_support.cpp"
+  "rosidl_typesupport_c/aic_control_interfaces/msg/joint_motion_update__type_support.cpp"
+  "rosidl_typesupport_c/aic_control_interfaces/msg/motion_update__type_support.cpp"
+  "rosidl_typesupport_c/aic_control_interfaces/msg/target_mode__type_support.cpp"
+  "rosidl_typesupport_c/aic_control_interfaces/msg/trajectory_generation_mode__type_support.cpp"
+  "rosidl_typesupport_c/aic_control_interfaces/srv/change_target_mode__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/aic_control_interfaces__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

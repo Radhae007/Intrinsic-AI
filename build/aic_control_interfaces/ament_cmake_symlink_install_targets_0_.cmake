@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/radhae/ws_aic/build/aic_control_interfaces/rosidl_generator_py/aic_control_interfaces/aic_control_interfaces_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "aic_control_interfaces_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/aic_control_interfaces")

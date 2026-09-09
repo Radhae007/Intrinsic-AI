@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/radhae/ws_aic/build/aic_training_interfaces/rosidl_generator_py/aic_training_interfaces/aic_training_interfaces_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "aic_training_interfaces_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/aic_training_interfaces")

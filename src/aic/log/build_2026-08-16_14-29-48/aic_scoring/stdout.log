@@ -1,0 +1,18 @@
+-- Found ament_cmake: 2.7.5 (/home/radhae/ws_aic/src/aic/.pixi/envs/default/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found aic_control_interfaces: 0.0.1 (/home/radhae/ws_aic/src/aic/install/aic_control_interfaces/share/aic_control_interfaces/cmake)
+-- Found rosidl_generator_c: 4.9.6 (/home/radhae/ws_aic/src/aic/.pixi/envs/default/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.9.6 (/home/radhae/ws_aic/src/aic/.pixi/envs/default/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found gz_math_vendor: 0.2.6 (/opt/ros/kilted/share/gz_math_vendor/cmake)
+-- Looking for gz-math8 -- found version 8.2.1
+-- Searching for dependencies of gz-math8
+-- Looking for gz-utils3 -- found version 3.1.1
+-- Searching for dependencies of gz-utils3
+-- Found rclcpp: 29.5.7 (/home/radhae/ws_aic/src/aic/.pixi/envs/default/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.8.2 (/home/radhae/ws_aic/src/aic/.pixi/envs/default/share/rmw_implementation_cmake/cmake)
+-- Found rmw_zenoh_cpp: 0.6.6 (/home/radhae/ws_aic/src/aic/.pixi/envs/default/share/rmw_zenoh_cpp/cmake)
+-- Using RMW implementation 'rmw_zenoh_cpp' as default
+-- Found rclcpp_components: 29.5.7 (/home/radhae/ws_aic/src/aic/.pixi/envs/default/share/rclcpp_components/cmake)
+-- Configuring incomplete, errors occurred!

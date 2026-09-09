@@ -1,0 +1,40 @@
+[1.246s] Invoking command in '/home/radhae/ws_aic/src/aic/aic_utils/lerobot_robot_aic': AMENT_PREFIX_PATH=/home/radhae/ws_aic/install/aic_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/radhae/ws_aic/install/aic_control_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/radhae/ws_aic/install/aic_control_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/radhae/ws_aic/build/lerobot_robot_aic/prefix_override:/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/radhae/ws_aic/install/lerobot_robot_aic/lib/python3.12/site-packages:/home/radhae/ws_aic/install/aic_control_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/lerobot_robot_aic build --build-base /home/radhae/ws_aic/build/lerobot_robot_aic/build install --record /home/radhae/ws_aic/build/lerobot_robot_aic/install.log --single-version-externally-managed install_data
+[1.517s] running egg_info
+[1.534s] creating ../../../../build/lerobot_robot_aic/lerobot_robot_aic.egg-info
+[1.534s] writing ../../../../build/lerobot_robot_aic/lerobot_robot_aic.egg-info/PKG-INFO
+[1.534s] writing dependency_links to ../../../../build/lerobot_robot_aic/lerobot_robot_aic.egg-info/dependency_links.txt
+[1.535s] writing requirements to ../../../../build/lerobot_robot_aic/lerobot_robot_aic.egg-info/requires.txt
+[1.535s] writing top-level names to ../../../../build/lerobot_robot_aic/lerobot_robot_aic.egg-info/top_level.txt
+[1.535s] writing manifest file '../../../../build/lerobot_robot_aic/lerobot_robot_aic.egg-info/SOURCES.txt'
+[1.566s] reading manifest file '../../../../build/lerobot_robot_aic/lerobot_robot_aic.egg-info/SOURCES.txt'
+[1.566s] writing manifest file '../../../../build/lerobot_robot_aic/lerobot_robot_aic.egg-info/SOURCES.txt'
+[1.566s] running build
+[1.566s] running build_py
+[1.567s] creating /home/radhae/ws_aic/build/lerobot_robot_aic/build/lib/lerobot_robot_aic
+[1.567s] copying lerobot_robot_aic/aic_teleop.py -> /home/radhae/ws_aic/build/lerobot_robot_aic/build/lib/lerobot_robot_aic
+[1.567s] copying lerobot_robot_aic/aic_robot_aic_controller.py -> /home/radhae/ws_aic/build/lerobot_robot_aic/build/lib/lerobot_robot_aic
+[1.567s] copying lerobot_robot_aic/types.py -> /home/radhae/ws_aic/build/lerobot_robot_aic/build/lib/lerobot_robot_aic
+[1.567s] copying lerobot_robot_aic/aic_robot.py -> /home/radhae/ws_aic/build/lerobot_robot_aic/build/lib/lerobot_robot_aic
+[1.567s] copying lerobot_robot_aic/__init__.py -> /home/radhae/ws_aic/build/lerobot_robot_aic/build/lib/lerobot_robot_aic
+[1.567s] running install
+[1.571s] running install_lib
+[1.585s] creating /home/radhae/ws_aic/install/lerobot_robot_aic/lib/python3.12/site-packages/lerobot_robot_aic
+[1.585s] copying /home/radhae/ws_aic/build/lerobot_robot_aic/build/lib/lerobot_robot_aic/aic_teleop.py -> /home/radhae/ws_aic/install/lerobot_robot_aic/lib/python3.12/site-packages/lerobot_robot_aic
+[1.585s] copying /home/radhae/ws_aic/build/lerobot_robot_aic/build/lib/lerobot_robot_aic/aic_robot_aic_controller.py -> /home/radhae/ws_aic/install/lerobot_robot_aic/lib/python3.12/site-packages/lerobot_robot_aic
+[1.585s] copying /home/radhae/ws_aic/build/lerobot_robot_aic/build/lib/lerobot_robot_aic/types.py -> /home/radhae/ws_aic/install/lerobot_robot_aic/lib/python3.12/site-packages/lerobot_robot_aic
+[1.585s] copying /home/radhae/ws_aic/build/lerobot_robot_aic/build/lib/lerobot_robot_aic/aic_robot.py -> /home/radhae/ws_aic/install/lerobot_robot_aic/lib/python3.12/site-packages/lerobot_robot_aic
+[1.585s] copying /home/radhae/ws_aic/build/lerobot_robot_aic/build/lib/lerobot_robot_aic/__init__.py -> /home/radhae/ws_aic/install/lerobot_robot_aic/lib/python3.12/site-packages/lerobot_robot_aic
+[1.586s] byte-compiling /home/radhae/ws_aic/install/lerobot_robot_aic/lib/python3.12/site-packages/lerobot_robot_aic/aic_teleop.py to aic_teleop.cpython-312.pyc
+[1.587s] byte-compiling /home/radhae/ws_aic/install/lerobot_robot_aic/lib/python3.12/site-packages/lerobot_robot_aic/aic_robot_aic_controller.py to aic_robot_aic_controller.cpython-312.pyc
+[1.589s] byte-compiling /home/radhae/ws_aic/install/lerobot_robot_aic/lib/python3.12/site-packages/lerobot_robot_aic/types.py to types.cpython-312.pyc
+[1.589s] byte-compiling /home/radhae/ws_aic/install/lerobot_robot_aic/lib/python3.12/site-packages/lerobot_robot_aic/aic_robot.py to aic_robot.cpython-312.pyc
+[1.590s] byte-compiling /home/radhae/ws_aic/install/lerobot_robot_aic/lib/python3.12/site-packages/lerobot_robot_aic/__init__.py to __init__.cpython-312.pyc
+[1.590s] running install_data
+[1.590s] creating /home/radhae/ws_aic/install/lerobot_robot_aic/share/ament_index/resource_index/packages
+[1.590s] copying resource/lerobot_robot_aic -> /home/radhae/ws_aic/install/lerobot_robot_aic/share/ament_index/resource_index/packages
+[1.590s] copying package.xml -> /home/radhae/ws_aic/install/lerobot_robot_aic/share/lerobot_robot_aic
+[1.590s] running install_egg_info
+[1.604s] Copying ../../../../build/lerobot_robot_aic/lerobot_robot_aic.egg-info to /home/radhae/ws_aic/install/lerobot_robot_aic/lib/python3.12/site-packages/lerobot_robot_aic-0.0.0-py3.12.egg-info
+[1.605s] running install_scripts
+[1.634s] writing list of installed files to '/home/radhae/ws_aic/build/lerobot_robot_aic/install.log'
+[1.659s] Invoked command in '/home/radhae/ws_aic/src/aic/aic_utils/lerobot_robot_aic' returned '0': AMENT_PREFIX_PATH=/home/radhae/ws_aic/install/aic_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/radhae/ws_aic/install/aic_control_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/radhae/ws_aic/install/aic_control_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/radhae/ws_aic/build/lerobot_robot_aic/prefix_override:/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/radhae/ws_aic/install/lerobot_robot_aic/lib/python3.12/site-packages:/home/radhae/ws_aic/install/aic_control_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/lerobot_robot_aic build --build-base /home/radhae/ws_aic/build/lerobot_robot_aic/build install --record /home/radhae/ws_aic/build/lerobot_robot_aic/install.log --single-version-externally-managed install_data

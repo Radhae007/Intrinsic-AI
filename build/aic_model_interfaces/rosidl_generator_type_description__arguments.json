@@ -1,0 +1,16 @@
+{
+  "package_name": "aic_model_interfaces",
+  "output_dir": "/home/radhae/ws_aic/build/aic_model_interfaces/rosidl_generator_type_description/aic_model_interfaces",
+  "idl_tuples": [
+    "/home/radhae/ws_aic/build/aic_model_interfaces/rosidl_adapter/aic_model_interfaces:msg/Observation.idl"
+  ],
+  "include_paths": [
+    "aic_control_interfaces:/home/radhae/ws_aic/install/aic_control_interfaces/share/aic_control_interfaces",
+    "builtin_interfaces:/opt/ros/kilted/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/kilted/share/geometry_msgs",
+    "std_msgs:/opt/ros/kilted/share/std_msgs",
+    "trajectory_msgs:/opt/ros/kilted/share/trajectory_msgs",
+    "service_msgs:/opt/ros/kilted/share/service_msgs",
+    "sensor_msgs:/opt/ros/kilted/share/sensor_msgs"
+  ]
+}

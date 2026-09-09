@@ -1,0 +1,300 @@
+[0.075s] Invoking command in '/home/radhae/ws_aic/build/aic_gazebo': AMENT_PREFIX_PATH=/home/radhae/ws_aic/install/aic_engine_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/radhae/ws_aic/install/aic_engine_interfaces:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/radhae/ws_aic/src/aic/install/aic_task_interfaces:/home/radhae/ws_aic/src/aic/install/aic_description:/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces:/home/radhae/ws_aic/src/aic/install/aic_control_interfaces:/home/radhae/ws_aic/src/aic/install/aic_assets:/home/radhae/cognipilot/cranium/install/synapse_ros:/home/radhae/cognipilot/cranium/install/synapse_gz:/home/radhae/cognipilot/cranium/install/synapse_tinyframe:/home/radhae/cognipilot/cranium/install/synapse_protobuf:/home/radhae/cognipilot/cranium/install/corti:/home/radhae/cognipilot/cranium/install/synapse_msgs:/home/radhae/cognipilot/cranium/install/dream_world:/home/radhae/cognipilot/cranium/install/cerebri_bringup:/home/radhae/cognipilot/cranium/install/b3rb_simulator:/home/radhae/cognipilot/cranium/install/b3rb_desktop:/home/radhae/cognipilot/cranium/install/b3rb_rviz:/home/radhae/cognipilot/cranium/install/b3rb_nav2:/home/radhae/cognipilot/cranium/install/b3rb_gz_resource:/home/radhae/cognipilot/cranium/install/b3rb_gz_bringup:/home/radhae/cognipilot/cranium/install/b3rb_description:/opt/ros/kilted:/home/radhae/ws_aic/src/aic/.pixi/envs/default:/home/radhae/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble LD_LIBRARY_PATH=/home/radhae/ws_aic/install/aic_engine_interfaces/lib:${LD_LIBRARY_PATH} PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/radhae/ws_aic/install/aic_engine_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_gazebo -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/install/aic_gazebo
+[0.233s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.233s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.233s]   CMake.
+[0.233s] 
+[0.233s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.233s]   to tell CMake that the project requires at least <min> but has been updated
+[0.233s]   to work with policies introduced by <max> or earlier.
+[0.233s] 
+[0.233s] [0m
+[0.425s] -- The C compiler identification is GNU 15.2.0
+[0.656s] -- The CXX compiler identification is GNU 15.2.0
+[0.685s] -- Detecting C compiler ABI info
+[1.022s] -- Detecting C compiler ABI info - done
+[1.075s] -- Check for working C compiler: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cc - skipped
+[1.075s] -- Detecting C compile features
+[1.076s] -- Detecting C compile features - done
+[1.171s] -- Detecting CXX compiler ABI info
+[1.493s] -- Detecting CXX compiler ABI info - done
+[1.532s] -- Check for working CXX compiler: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/c++ - skipped
+[1.532s] -- Detecting CXX compile features
+[1.532s] -- Detecting CXX compile features - done
+[1.588s] -- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+[2.081s] -- Found Python3: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/python3 (found version "3.12.13") found components: Interpreter
+[2.348s] -- Found gz_cmake_vendor: 0.3.3 (/opt/ros/kilted/share/gz_cmake_vendor/cmake)
+[2.388s] -- Found gz_plugin_vendor: 0.2.3 (/home/radhae/ws_aic/src/aic/.pixi/envs/default/share/gz_plugin_vendor/cmake)
+[2.443s] -- Looking for gz-plugin3 -- found version 3.1.0
+[2.444s] -- Searching for dependencies of gz-plugin3
+[2.448s] -- Looking for gz-utils3 -- found version 3.1.1
+[2.448s] -- Searching for dependencies of gz-utils3
+[2.449s] -- Searching for <gz-utils3> component [cli]
+[2.453s] -- Looking for gz-utils3-cli -- found version 3.1.1
+[2.453s] -- Searching for dependencies of gz-utils3-cli
+[2.455s] -- Searching for <gz-plugin3> component [register]
+[2.467s] -- Looking for gz-plugin3-register -- found version 3.1.0
+[2.467s] -- Searching for dependencies of gz-plugin3-register
+[2.487s] -- Found gz_common_vendor: 0.2.7 (/home/radhae/ws_aic/src/aic/.pixi/envs/default/share/gz_common_vendor/cmake)
+[2.515s] -- Looking for gz-common6 -- found version 6.1.0
+[2.515s] -- Searching for dependencies of gz-common6
+[2.516s] -- Looking for gz-utils3 -- found version 3.1.1
+[2.516s] -- Searching for dependencies of gz-utils3
+[2.516s] -- Searching for <gz-utils3> component [log]
+[2.520s] -- Looking for gz-utils3-log -- found version 3.1.1
+[2.520s] -- Searching for dependencies of gz-utils3-log
+[2.534s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.826s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.826s] -- Looking for pthread_create in pthreads
+[3.107s] -- Looking for pthread_create in pthreads - not found
+[3.107s] -- Looking for pthread_create in pthread
+[3.473s] -- Looking for pthread_create in pthread - found
+[3.474s] -- Found Threads: TRUE
+[3.721s] -- Checking for module 'uuid'
+[4.712s] --   Found uuid, version 2.42.2
+[7.487s] -- Found UUID: TRUE
+[7.489s] -- Searching for <gz-common6> component [profiler]
+[7.502s] -- Looking for gz-common6-profiler -- found version 6.1.0
+[7.502s] -- Searching for dependencies of gz-common6-profiler
+[7.518s] -- Found gz_msgs_vendor: 0.2.4 (/opt/ros/kilted/share/gz_msgs_vendor/cmake)
+[7.526s] -- Looking for gz-msgs11 -- found version 11.1.0
+[7.526s] -- Searching for dependencies of gz-msgs11
+[7.601s] -- Found ZLIB: /home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libz.so (found version "1.3.2")
+[7.646s] -- Looking for gz-utils3 -- found version 3.1.1
+[7.650s] -- Looking for gz-math8 -- found version 8.2.1
+[7.650s] -- Searching for dependencies of gz-math8
+[7.651s] -- Looking for gz-utils3 -- found version 3.1.1
+[7.867s] -- Checking for module 'tinyxml2'
+[8.907s] --   Found tinyxml2, version 11.0.0
+[11.785s] -- Found gz_sim_vendor: 0.2.3 (/home/radhae/ws_aic/src/aic/.pixi/envs/default/share/gz_sim_vendor/cmake)
+[11.961s] -- Looking for gz-sim9 -- found version 9.5.0
+[11.961s] -- Searching for dependencies of gz-sim9
+[11.966s] -- Looking for sdformat15 -- found version 15.4.0
+[11.966s] -- Searching for dependencies of sdformat15
+[12.170s] -- Looking for gz-math8 -- found version 8.2.1
+[12.171s] -- Looking for gz-utils3 -- found version 3.1.1
+[12.175s] -- Looking for gz-plugin3 -- found version 3.1.0
+[12.175s] -- Searching for dependencies of gz-plugin3
+[12.176s] -- Looking for gz-utils3 -- found version 3.1.1
+[12.176s] -- Searching for <gz-plugin3> component [loader]
+[12.190s] -- Looking for gz-plugin3-loader -- found version 3.1.0
+[12.190s] -- Searching for dependencies of gz-plugin3-loader
+[12.192s] -- Searching for <gz-plugin3> component [register]
+[12.198s] -- Looking for gz-transport14 -- found version 14.2.0
+[12.198s] -- Searching for dependencies of gz-transport14
+[12.411s] -- Looking for gz-utils3 -- found version 3.1.1
+[12.412s] -- Looking for gz-msgs11 -- found version 11.1.0
+[12.415s] -- Searching for <gz-transport14> component [log]
+[12.421s] -- Looking for gz-transport14-log -- found version 14.2.0
+[12.421s] -- Searching for dependencies of gz-transport14-log
+[12.422s] -- Searching for <gz-transport14> component [parameters]
+[12.428s] -- Looking for gz-transport14-parameters -- found version 14.2.0
+[12.428s] -- Searching for dependencies of gz-transport14-parameters
+[12.430s] -- Looking for gz-msgs11 -- found version 11.1.0
+[12.431s] -- Looking for gz-common6 -- found version 6.1.0
+[12.431s] -- Searching for dependencies of gz-common6
+[12.432s] -- Looking for gz-utils3 -- found version 3.1.1
+[12.641s] -- Searching for <gz-common6> component [av]
+[12.655s] -- Looking for gz-common6-av -- found version 6.1.0
+[12.655s] -- Searching for dependencies of gz-common6-av
+[12.862s] -- Checking for module 'libswscale'
+[13.876s] --   Found libswscale, version 9.5.102
+[16.754s] -- Found SWSCALE: TRUE
+[16.947s] -- Checking for module 'libavdevice >= 56.4.100'
+[17.959s] --   Found libavdevice, version 62.3.102
+[20.810s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100")
+[21.022s] -- Checking for module 'libavformat'
+[22.068s] --   Found libavformat, version 62.12.102
+[24.551s] -- Found AVFORMAT: TRUE
+[24.727s] -- Checking for module 'libavcodec'
+[25.634s] --   Found libavcodec, version 62.28.102
+[28.125s] -- Found AVCODEC: TRUE
+[28.310s] -- Checking for module 'libavutil'
+[29.254s] --   Found libavutil, version 60.26.102
+[31.833s] -- Found AVUTIL: TRUE
+[31.834s] -- Searching for <gz-common6> component [events]
+[31.844s] -- Looking for gz-common6-events -- found version 6.1.0
+[31.844s] -- Searching for dependencies of gz-common6-events
+[31.844s] -- Looking for gz-math8 -- found version 8.2.1
+[31.846s] -- Searching for <gz-common6> component [graphics]
+[31.855s] -- Looking for gz-common6-graphics -- found version 6.1.0
+[31.855s] -- Searching for dependencies of gz-common6-graphics
+[31.855s] -- Looking for gz-math8 -- found version 8.2.1
+[31.868s] -- Found GzAssimp: TRUE (found version "6.0.5")
+[31.869s] -- Searching for <gz-common6> component [io]
+[31.879s] -- Looking for gz-common6-io -- found version 6.1.0
+[31.879s] -- Searching for dependencies of gz-common6-io
+[31.880s] -- Searching for <gz-common6> component [profiler]
+[31.880s] -- Searching for <gz-common6> component [testing]
+[31.890s] -- Looking for gz-common6-testing -- found version 6.1.0
+[31.890s] -- Searching for dependencies of gz-common6-testing
+[31.901s] -- Looking for gz-fuel_tools10 -- found version 10.1.0
+[31.902s] -- Searching for dependencies of gz-fuel_tools10
+[36.094s] -- Found CURL: /home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libcurl.so (found version "8.21.0")
+[36.279s] -- Checking for module 'jsoncpp'
+[37.205s] --   Found jsoncpp, version 1.9.7
+[40.186s] -- Found JSONCPP: TRUE
+[40.383s] -- Checking for module 'yaml-0.1'
+[41.275s] --   Found yaml-0.1, version 0.2.5
+[43.777s] -- Found YAML: TRUE
+[43.965s] -- Checking for module 'libzip'
+[44.871s] --   Found libzip, version 1.11.2
+[47.425s] -- Found ZIP: TRUE
+[47.426s] -- Looking for gz-utils3 -- found version 3.1.1
+[47.426s] -- Looking for gz-common6 -- found version 6.1.0
+[47.426s] -- Looking for gz-math8 -- found version 8.2.1
+[47.426s] -- Looking for gz-msgs11 -- found version 11.1.0
+[47.440s] -- Looking for gz-gui9 -- found version 9.0.1
+[47.440s] -- Searching for dependencies of gz-gui9
+[47.626s] -- Looking for gz-utils3 -- found version 3.1.1
+[47.626s] -- Looking for gz-math8 -- found version 8.2.1
+[47.626s] -- Looking for gz-common6 -- found version 6.1.0
+[47.627s] -- Looking for gz-plugin3 -- found version 3.1.0
+[47.627s] -- Looking for gz-transport14 -- found version 14.2.0
+[47.636s] -- Looking for gz-rendering9 -- found version 9.4.0
+[47.637s] -- Searching for dependencies of gz-rendering9
+[47.637s] -- Looking for gz-math8 -- found version 8.2.1
+[47.637s] -- Searching for dependencies of gz-math8
+[47.637s] -- Looking for gz-utils3 -- found version 3.1.1
+[47.637s] -- Searching for <gz-math8> component [eigen3]
+[47.642s] -- Looking for gz-math8-eigen3 -- found version 8.2.1
+[47.642s] -- Searching for dependencies of gz-math8-eigen3
+[47.827s] -- Checking for module 'eigen3'
+[49.250s] --   Found eigen3, version 5.0.1
+[51.651s] -- Looking for gz-common6 -- found version 6.1.0
+[51.651s] -- Searching for dependencies of gz-common6
+[51.651s] -- Looking for gz-utils3 -- found version 3.1.1
+[51.820s] -- Searching for <gz-common6> component [graphics]
+[51.820s] -- Searching for <gz-common6> component [events]
+[51.820s] -- Searching for <gz-common6> component [geospatial]
+[51.832s] -- Looking for gz-common6-geospatial -- found version 6.1.0
+[51.832s] -- Searching for dependencies of gz-common6-geospatial
+[51.832s] -- Looking for gz-math8 -- found version 8.2.1
+[51.832s] -- Looking for gz-common6 -- found version 6.1.0
+[51.834s] -- Looking for gz-plugin3 -- found version 3.1.0
+[51.834s] -- Searching for dependencies of gz-plugin3
+[51.835s] -- Looking for gz-utils3 -- found version 3.1.1
+[51.835s] -- Searching for <gz-plugin3> component [all]
+[51.844s] -- Looking for all libraries of gz-plugin3 -- found version 3.1.0
+[51.845s] -- Looking for gz-plugin3 -- found version 3.1.0
+[51.846s] -- Looking for gz-utils3 -- found version 3.1.1
+[51.877s] -- Found OpenGL: /home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libOpenGL.so  found components: OpenGL
+[51.879s] -- Looking for dlfcn.h - found
+[51.881s] -- Looking for libdl - found
+[51.883s] -- Found DL: TRUE
+[51.885s] -- Looking for gz-msgs11 -- found version 11.1.0
+[51.972s] -- Looking for gz-physics8 -- found version 8.3.0
+[51.972s] -- Searching for dependencies of gz-physics8
+[51.972s] -- Looking for gz-common6 -- found version 6.1.0
+[51.973s] -- Looking for gz-math8 -- found version 8.2.1
+[51.973s] -- Looking for gz-plugin3 -- found version 3.1.0
+[51.973s] -- Looking for gz-utils3 -- found version 3.1.1
+[51.974s] -- Searching for <gz-physics8> component [heightmap]
+[51.984s] -- Looking for gz-physics8-heightmap -- found version 8.3.0
+[51.984s] -- Searching for dependencies of gz-physics8-heightmap
+[51.985s] -- Looking for gz-common6 -- found version 6.1.0
+[51.986s] -- Searching for <gz-physics8> component [mesh]
+[51.995s] -- Looking for gz-physics8-mesh -- found version 8.3.0
+[51.995s] -- Searching for dependencies of gz-physics8-mesh
+[51.995s] -- Looking for gz-common6 -- found version 6.1.0
+[51.996s] -- Searching for <gz-physics8> component [sdf]
+[52.005s] -- Looking for gz-physics8-sdf -- found version 8.3.0
+[52.005s] -- Searching for dependencies of gz-physics8-sdf
+[52.005s] -- Looking for sdformat15 -- found version 15.4.0
+[52.017s] -- Looking for gz-sensors9 -- found version 9.2.0
+[52.017s] -- Searching for dependencies of gz-sensors9
+[52.018s] -- Looking for gz-math8 -- found version 8.2.1
+[52.019s] -- Looking for gz-common6 -- found version 6.1.0
+[52.019s] -- Looking for gz-transport14 -- found version 14.2.0
+[52.019s] -- Looking for gz-rendering9 -- found version 9.4.0
+[52.019s] -- Looking for gz-msgs11 -- found version 11.1.0
+[52.020s] -- Looking for sdformat15 -- found version 15.4.0
+[52.020s] -- Searching for <gz-sensors9> component [air_pressure]
+[52.029s] -- Looking for gz-sensors9-air_pressure -- found version 9.2.0
+[52.030s] -- Searching for dependencies of gz-sensors9-air_pressure
+[52.031s] -- Searching for <gz-sensors9> component [air_speed]
+[52.040s] -- Looking for gz-sensors9-air_speed -- found version 9.2.0
+[52.040s] -- Searching for dependencies of gz-sensors9-air_speed
+[52.041s] -- Searching for <gz-sensors9> component [altimeter]
+[52.051s] -- Looking for gz-sensors9-altimeter -- found version 9.2.0
+[52.051s] -- Searching for dependencies of gz-sensors9-altimeter
+[52.052s] -- Searching for <gz-sensors9> component [imu]
+[52.061s] -- Looking for gz-sensors9-imu -- found version 9.2.0
+[52.061s] -- Searching for dependencies of gz-sensors9-imu
+[52.063s] -- Searching for <gz-sensors9> component [force_torque]
+[52.072s] -- Looking for gz-sensors9-force_torque -- found version 9.2.0
+[52.072s] -- Searching for dependencies of gz-sensors9-force_torque
+[52.073s] -- Searching for <gz-sensors9> component [logical_camera]
+[52.083s] -- Looking for gz-sensors9-logical_camera -- found version 9.2.0
+[52.083s] -- Searching for dependencies of gz-sensors9-logical_camera
+[52.084s] -- Searching for <gz-sensors9> component [magnetometer]
+[52.093s] -- Looking for gz-sensors9-magnetometer -- found version 9.2.0
+[52.093s] -- Searching for dependencies of gz-sensors9-magnetometer
+[52.095s] -- Searching for <gz-sensors9> component [navsat]
+[52.104s] -- Looking for gz-sensors9-navsat -- found version 9.2.0
+[52.104s] -- Searching for dependencies of gz-sensors9-navsat
+[52.105s] -- Searching for <gz-sensors9> component [dvl]
+[52.114s] -- Looking for gz-sensors9-dvl -- found version 9.2.0
+[52.114s] -- Searching for dependencies of gz-sensors9-dvl
+[52.115s] -- Looking for gz-sensors9 -- found version 9.2.0
+[52.115s] -- Searching for dependencies of gz-sensors9
+[52.116s] -- Looking for gz-math8 -- found version 8.2.1
+[52.117s] -- Looking for gz-common6 -- found version 6.1.0
+[52.117s] -- Looking for gz-transport14 -- found version 14.2.0
+[52.117s] -- Looking for gz-rendering9 -- found version 9.4.0
+[52.117s] -- Looking for gz-msgs11 -- found version 11.1.0
+[52.118s] -- Looking for sdformat15 -- found version 15.4.0
+[52.118s] -- Searching for <gz-sensors9> component [rendering]
+[52.127s] -- Looking for gz-sensors9-rendering -- found version 9.2.0
+[52.127s] -- Searching for dependencies of gz-sensors9-rendering
+[52.130s] -- Searching for <gz-sensors9> component [rendering]
+[52.130s] -- Searching for <gz-sensors9> component [lidar]
+[52.139s] -- Looking for gz-sensors9-lidar -- found version 9.2.0
+[52.139s] -- Searching for dependencies of gz-sensors9-lidar
+[52.139s] -- Looking for gz-sensors9 -- found version 9.2.0
+[52.141s] -- Searching for <gz-sensors9> component [gpu_lidar]
+[52.150s] -- Looking for gz-sensors9-gpu_lidar -- found version 9.2.0
+[52.150s] -- Searching for dependencies of gz-sensors9-gpu_lidar
+[52.151s] -- Looking for gz-sensors9 -- found version 9.2.0
+[52.152s] -- Searching for <gz-sensors9> component [camera]
+[52.161s] -- Looking for gz-sensors9-camera -- found version 9.2.0
+[52.162s] -- Searching for dependencies of gz-sensors9-camera
+[52.162s] -- Looking for gz-sensors9 -- found version 9.2.0
+[52.163s] -- Searching for <gz-sensors9> component [boundingbox_camera]
+[52.172s] -- Looking for gz-sensors9-boundingbox_camera -- found version 9.2.0
+[52.173s] -- Searching for dependencies of gz-sensors9-boundingbox_camera
+[52.174s] -- Searching for <gz-sensors9> component [segmentation_camera]
+[52.183s] -- Looking for gz-sensors9-segmentation_camera -- found version 9.2.0
+[52.183s] -- Searching for dependencies of gz-sensors9-segmentation_camera
+[52.184s] -- Searching for <gz-sensors9> component [depth_camera]
+[52.193s] -- Looking for gz-sensors9-depth_camera -- found version 9.2.0
+[52.194s] -- Searching for dependencies of gz-sensors9-depth_camera
+[52.194s] -- Looking for gz-sensors9 -- found version 9.2.0
+[52.195s] -- Searching for <gz-sensors9> component [rgbd_camera]
+[52.204s] -- Looking for gz-sensors9-rgbd_camera -- found version 9.2.0
+[52.205s] -- Searching for dependencies of gz-sensors9-rgbd_camera
+[52.205s] -- Looking for gz-sensors9 -- found version 9.2.0
+[52.206s] -- Searching for <gz-sensors9> component [thermal_camera]
+[52.215s] -- Looking for gz-sensors9-thermal_camera -- found version 9.2.0
+[52.215s] -- Searching for dependencies of gz-sensors9-thermal_camera
+[52.216s] -- Looking for gz-sensors9 -- found version 9.2.0
+[52.217s] -- Searching for <gz-sensors9> component [wide_angle_camera]
+[52.226s] -- Looking for gz-sensors9-wide_angle_camera -- found version 9.2.0
+[52.227s] -- Searching for dependencies of gz-sensors9-wide_angle_camera
+[52.229s] -- Looking for gz-rendering9 -- found version 9.4.0
+[52.230s] -- Looking for gz-math8 -- found version 8.2.1
+[52.230s] -- Looking for gz-utils3 -- found version 3.1.1
+[52.291s] -- Found Protobuf: /home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libprotobuf.so;-lpthread (found version "6.33.5")
+[52.294s] -- Found aic_engine_interfaces: 0.0.1 (/home/radhae/ws_aic/install/aic_engine_interfaces/share/aic_engine_interfaces/cmake)
+[52.376s] -- Found rosidl_generator_c: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[52.408s] -- Found rosidl_generator_cpp: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[52.444s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[52.480s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[52.578s] -- Found rclcpp: 29.5.7 (/opt/ros/kilted/share/rclcpp/cmake)
+[52.665s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[52.675s] -- Found rmw_zenoh_cpp: 0.6.6 (/opt/ros/kilted/share/rmw_zenoh_cpp/cmake)
+[52.677s] -- Using RMW implementation 'rmw_zenoh_cpp' as default
+[52.776s] -- Compiling against Gazebo Ionic
+[52.785s] -- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[52.870s] -- Configuring done (52.6s)
+[52.987s] -- Generating done (0.1s)
+[52.995s] -- Build files have been written to: /home/radhae/ws_aic/build/aic_gazebo

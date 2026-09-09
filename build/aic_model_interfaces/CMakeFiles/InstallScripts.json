@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/radhae/ws_aic/build/aic_model_interfaces/cmake_install.cmake",
+		"/home/radhae/ws_aic/build/aic_model_interfaces/aic_model_interfaces__py/cmake_install.cmake",
+		"/home/radhae/ws_aic/build/aic_model_interfaces/aic_model_interfaces__rs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

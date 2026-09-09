@@ -1,0 +1,962 @@
+[0.075s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-up-to', 'aic_bringup']
+[0.075s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=['aic_bringup'], packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x788a1f36be60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x788a1f2b84d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x788a1f2b84d0>>, mixin_verb=('build',))
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.102s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/radhae/ws_aic/src/aic'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(aic_adapter) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(aic_adapter) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(aic_adapter) by extension 'ignore_ament_install'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(aic_adapter) by extensions ['colcon_pkg']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(aic_adapter) by extension 'colcon_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(aic_adapter) by extensions ['colcon_meta']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(aic_adapter) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(aic_adapter) by extensions ['ros']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(aic_adapter) by extension 'ros'
+[0.126s] DEBUG:colcon.colcon_core.package_identification:Package 'aic_adapter' with type 'ros.ament_cmake' and name 'aic_adapter'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(aic_assets) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(aic_assets) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(aic_assets) by extension 'ignore_ament_install'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(aic_assets) by extensions ['colcon_pkg']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(aic_assets) by extension 'colcon_pkg'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(aic_assets) by extensions ['colcon_meta']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(aic_assets) by extension 'colcon_meta'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(aic_assets) by extensions ['ros']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(aic_assets) by extension 'ros'
+[0.127s] DEBUG:colcon.colcon_core.package_identification:Package 'aic_assets' with type 'ros.ament_cmake' and name 'aic_assets'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(aic_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(aic_bringup) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(aic_bringup) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(aic_bringup) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(aic_bringup) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(aic_bringup) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(aic_bringup) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(aic_bringup) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(aic_bringup) by extension 'ros'
+[0.127s] DEBUG:colcon.colcon_core.package_identification:Package 'aic_bringup' with type 'ros.ament_cmake' and name 'aic_bringup'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(aic_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(aic_controller) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(aic_controller) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(aic_controller) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(aic_controller) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(aic_controller) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(aic_controller) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(aic_controller) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(aic_controller) by extension 'ros'
+[0.128s] DEBUG:colcon.colcon_core.package_identification:Package 'aic_controller' with type 'ros.ament_cmake' and name 'aic_controller'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(aic_description) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(aic_description) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(aic_description) by extension 'ignore_ament_install'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(aic_description) by extensions ['colcon_pkg']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(aic_description) by extension 'colcon_pkg'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(aic_description) by extensions ['colcon_meta']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(aic_description) by extension 'colcon_meta'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(aic_description) by extensions ['ros']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(aic_description) by extension 'ros'
+[0.129s] DEBUG:colcon.colcon_core.package_identification:Package 'aic_description' with type 'ros.ament_cmake' and name 'aic_description'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(aic_engine) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(aic_engine) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(aic_engine) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(aic_engine) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(aic_engine) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(aic_engine) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(aic_engine) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(aic_engine) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(aic_engine) by extension 'ros'
+[0.130s] DEBUG:colcon.colcon_core.package_identification:Package 'aic_engine' with type 'ros.ament_cmake' and name 'aic_engine'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(aic_example_policies) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(aic_example_policies) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(aic_example_policies) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(aic_example_policies) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(aic_example_policies) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(aic_example_policies) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(aic_example_policies) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(aic_example_policies) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(aic_example_policies) by extension 'ros'
+[0.130s] DEBUG:colcon.colcon_core.package_identification:Package 'aic_example_policies' with type 'ros.ament_python' and name 'aic_example_policies'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(aic_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(aic_gazebo) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_gazebo) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_gazebo) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_gazebo) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_gazebo) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_gazebo) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_gazebo) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_gazebo) by extension 'ros'
+[0.131s] DEBUG:colcon.colcon_core.package_identification:Package 'aic_gazebo' with type 'ros.ament_cmake' and name 'aic_gazebo'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces) by extension 'ros'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces) by extensions ['cmake', 'python']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces) by extension 'cmake'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces) by extension 'python'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces) by extensions ['python_setup_py']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces) by extension 'python_setup_py'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_control_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_control_interfaces) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_control_interfaces) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_control_interfaces) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_control_interfaces) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_control_interfaces) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_control_interfaces) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_control_interfaces) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_control_interfaces) by extension 'ros'
+[0.132s] DEBUG:colcon.colcon_core.package_identification:Package 'aic_interfaces/aic_control_interfaces' with type 'ros.ament_cmake' and name 'aic_control_interfaces'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_engine_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_engine_interfaces) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_engine_interfaces) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_engine_interfaces) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_engine_interfaces) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_engine_interfaces) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_engine_interfaces) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_engine_interfaces) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_engine_interfaces) by extension 'ros'
+[0.132s] DEBUG:colcon.colcon_core.package_identification:Package 'aic_interfaces/aic_engine_interfaces' with type 'ros.ament_cmake' and name 'aic_engine_interfaces'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_model_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_model_interfaces) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_model_interfaces) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_model_interfaces) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_model_interfaces) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_model_interfaces) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_model_interfaces) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_model_interfaces) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_model_interfaces) by extension 'ros'
+[0.133s] DEBUG:colcon.colcon_core.package_identification:Package 'aic_interfaces/aic_model_interfaces' with type 'ros.ament_cmake' and name 'aic_model_interfaces'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_task_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_task_interfaces) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_task_interfaces) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_task_interfaces) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_task_interfaces) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_task_interfaces) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_task_interfaces) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_task_interfaces) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(aic_interfaces/aic_task_interfaces) by extension 'ros'
+[0.134s] DEBUG:colcon.colcon_core.package_identification:Package 'aic_interfaces/aic_task_interfaces' with type 'ros.ament_cmake' and name 'aic_task_interfaces'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(aic_model) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(aic_model) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(aic_model) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(aic_model) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(aic_model) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(aic_model) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(aic_model) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(aic_model) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(aic_model) by extension 'ros'
+[0.134s] DEBUG:colcon.colcon_core.package_identification:Package 'aic_model' with type 'ros.ament_python' and name 'aic_model'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(aic_scoring) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(aic_scoring) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(aic_scoring) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(aic_scoring) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(aic_scoring) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_scoring) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_scoring) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_scoring) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_scoring) by extension 'ros'
+[0.135s] DEBUG:colcon.colcon_core.package_identification:Package 'aic_scoring' with type 'ros.ament_cmake' and name 'aic_scoring'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils) by extension 'ros'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils) by extensions ['cmake', 'python']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils) by extension 'cmake'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils) by extension 'python'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils) by extensions ['python_setup_py']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils) by extension 'python_setup_py'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac) by extension 'python_setup_py'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab) by extension 'python_setup_py'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts) by extension 'python_setup_py'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts/rsl_rl) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts/rsl_rl) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts/rsl_rl) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts/rsl_rl) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts/rsl_rl) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts/rsl_rl) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts/rsl_rl) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts/rsl_rl) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts/rsl_rl) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts/rsl_rl) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts/rsl_rl) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts/rsl_rl) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts/rsl_rl) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/scripts/rsl_rl) by extension 'python_setup_py'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source) by extension 'ros'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source) by extensions ['cmake', 'python']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source) by extension 'cmake'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source) by extension 'python'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source) by extensions ['python_setup_py']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source) by extension 'python_setup_py'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source/aic_task) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source/aic_task) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source/aic_task) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source/aic_task) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source/aic_task) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source/aic_task) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source/aic_task) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source/aic_task) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source/aic_task) by extension 'ros'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source/aic_task) by extensions ['cmake', 'python']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source/aic_task) by extension 'cmake'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source/aic_task) by extension 'python'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source/aic_task) by extensions ['python_setup_py']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_isaac/aic_isaaclab/source/aic_task) by extension 'python_setup_py'
+[0.316s] DEBUG:colcon.colcon_core.package_identification:Package 'aic_utils/aic_isaac/aic_isaaclab/source/aic_task' with type 'python' and name 'aic_task'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_mujoco) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_mujoco) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_mujoco) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_mujoco) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_mujoco) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_mujoco) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_mujoco) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_mujoco) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_mujoco) by extension 'ros'
+[0.317s] DEBUG:colcon.colcon_core.package_identification:Package 'aic_utils/aic_mujoco' with type 'ros.ament_cmake' and name 'aic_mujoco'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_teleoperation) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_teleoperation) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_teleoperation) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_teleoperation) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_teleoperation) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_teleoperation) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_teleoperation) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_teleoperation) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_teleoperation) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'aic_utils/aic_teleoperation' with type 'ros.ament_python' and name 'aic_teleoperation'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_training_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_training_interfaces) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_training_interfaces) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_training_interfaces) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_training_interfaces) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_training_interfaces) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_training_interfaces) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_training_interfaces) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_training_interfaces) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'aic_utils/aic_training_interfaces' with type 'ros.ament_cmake' and name 'aic_training_interfaces'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_training_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_training_utils) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_training_utils) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_training_utils) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_training_utils) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_training_utils) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_training_utils) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_training_utils) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/aic_training_utils) by extension 'ros'
+[0.319s] DEBUG:colcon.colcon_core.package_identification:Package 'aic_utils/aic_training_utils' with type 'ros.ament_cmake' and name 'aic_training_utils'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/lerobot_robot_aic) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/lerobot_robot_aic) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/lerobot_robot_aic) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/lerobot_robot_aic) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/lerobot_robot_aic) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/lerobot_robot_aic) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/lerobot_robot_aic) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/lerobot_robot_aic) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(aic_utils/lerobot_robot_aic) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'aic_utils/lerobot_robot_aic' with type 'ros.ament_python' and name 'lerobot_robot_aic'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'cmake'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['python_setup_py']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python_setup_py'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_eval) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_eval) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_eval) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_eval) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_eval) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_eval) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_eval) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_eval) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_eval) by extension 'ros'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_eval) by extensions ['cmake', 'python']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_eval) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_eval) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_eval) by extensions ['python_setup_py']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_eval) by extension 'python_setup_py'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_model) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_model) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_model) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_model) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_model) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_model) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_model) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_model) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_model) by extension 'ros'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_model) by extensions ['cmake', 'python']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_model) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_model) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_model) by extensions ['python_setup_py']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/aic_model) by extension 'python_setup_py'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/rmw_zenohd) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/rmw_zenohd) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(docker/rmw_zenohd) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docker/rmw_zenohd) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docker/rmw_zenohd) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docker/rmw_zenohd) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docker/rmw_zenohd) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docker/rmw_zenohd) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docker/rmw_zenohd) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docker/rmw_zenohd) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docker/rmw_zenohd) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docker/rmw_zenohd) by extension 'python'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docker/rmw_zenohd) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docker/rmw_zenohd) by extension 'python_setup_py'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extension 'ros'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extensions ['cmake', 'python']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extension 'cmake'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extension 'python'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extensions ['python_setup_py']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train) by extension 'ros'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train) by extensions ['cmake', 'python']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train) by extension 'cmake'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train) by extension 'python'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train) by extensions ['python_setup_py']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/pretrained_model) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/pretrained_model) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/pretrained_model) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/pretrained_model) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/pretrained_model) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/pretrained_model) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/pretrained_model) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/pretrained_model) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/pretrained_model) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/pretrained_model) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/pretrained_model) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/pretrained_model) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/pretrained_model) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/pretrained_model) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/training_state) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/training_state) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/training_state) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/training_state) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/training_state) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/training_state) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/training_state) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/training_state) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/training_state) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/training_state) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/training_state) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/training_state) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/training_state) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/020000/training_state) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/pretrained_model) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/pretrained_model) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/pretrained_model) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/pretrained_model) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/pretrained_model) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/pretrained_model) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/pretrained_model) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/pretrained_model) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/pretrained_model) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/pretrained_model) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/pretrained_model) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/pretrained_model) by extension 'python'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/pretrained_model) by extensions ['python_setup_py']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/pretrained_model) by extension 'python_setup_py'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/training_state) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/training_state) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/training_state) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/training_state) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/training_state) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/training_state) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/training_state) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/training_state) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/training_state) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/training_state) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/training_state) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/training_state) by extension 'python'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/training_state) by extensions ['python_setup_py']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/checkpoints/025000/training_state) by extension 'python_setup_py'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb) by extension 'ros'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb) by extensions ['cmake', 'python']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb) by extension 'cmake'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb) by extension 'python'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb) by extensions ['python_setup_py']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb) by extension 'python_setup_py'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run) by extension 'ros'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run) by extensions ['cmake', 'python']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run) by extension 'cmake'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run) by extension 'python'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run) by extensions ['python_setup_py']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run) by extension 'python_setup_py'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/files) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/files) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/files) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/files) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/files) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/files) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/files) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/files) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/files) by extension 'ros'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/files) by extensions ['cmake', 'python']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/files) by extension 'cmake'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/files) by extension 'python'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/files) by extensions ['python_setup_py']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/files) by extension 'python_setup_py'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/logs) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/logs) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/logs) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/logs) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/logs) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/logs) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/logs) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/logs) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/logs) by extension 'ros'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/logs) by extensions ['cmake', 'python']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/logs) by extension 'cmake'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/logs) by extension 'python'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/logs) by extensions ['python_setup_py']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/logs) by extension 'python_setup_py'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp) by extension 'ros'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp) by extensions ['cmake', 'python']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp) by extension 'cmake'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp) by extension 'python'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp) by extensions ['python_setup_py']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp) by extension 'python_setup_py'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp/code) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp/code) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp/code) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp/code) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp/code) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp/code) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp/code) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp/code) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp/code) by extension 'ros'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp/code) by extensions ['cmake', 'python']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp/code) by extension 'cmake'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp/code) by extension 'python'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp/code) by extensions ['python_setup_py']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(outputs/train/smolvla_aug_9_9:20/wandb/latest-run/tmp/code) by extension 'python_setup_py'
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.346s] INFO:colcon.colcon_core.package_selection:Skipping package 'aic_training_utils' in 'aic_utils/aic_training_utils'
+[0.346s] INFO:colcon.colcon_core.package_selection:Skipping package 'aic_mujoco' in 'aic_utils/aic_mujoco'
+[0.346s] INFO:colcon.colcon_core.package_selection:Skipping package 'aic_example_policies' in 'aic_example_policies'
+[0.346s] INFO:colcon.colcon_core.package_selection:Skipping package 'aic_model' in 'aic_model'
+[0.346s] INFO:colcon.colcon_core.package_selection:Skipping package 'aic_adapter' in 'aic_adapter'
+[0.346s] INFO:colcon.colcon_core.package_selection:Skipping package 'lerobot_robot_aic' in 'aic_utils/lerobot_robot_aic'
+[0.346s] INFO:colcon.colcon_core.package_selection:Skipping package 'aic_teleoperation' in 'aic_utils/aic_teleoperation'
+[0.346s] INFO:colcon.colcon_core.package_selection:Skipping package 'aic_model_interfaces' in 'aic_interfaces/aic_model_interfaces'
+[0.346s] INFO:colcon.colcon_core.package_selection:Skipping package 'aic_training_interfaces' in 'aic_utils/aic_training_interfaces'
+[0.346s] INFO:colcon.colcon_core.package_selection:Skipping package 'aic_task' in 'aic_utils/aic_isaac/aic_isaaclab/source/aic_task'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_assets' build argument 'cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_assets' build argument 'cmake_target' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_assets' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_assets' build argument 'cmake_clean_cache' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_assets' build argument 'cmake_clean_first' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_assets' build argument 'cmake_force_configure' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_assets' build argument 'ament_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_assets' build argument 'catkin_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_assets' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.347s] DEBUG:colcon.colcon_core.verb:Building package 'aic_assets' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/radhae/ws_aic/src/aic/build/aic_assets', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/radhae/ws_aic/src/aic/install/aic_assets', 'merge_install': False, 'path': '/home/radhae/ws_aic/src/aic/aic_assets', 'symlink_install': True, 'test_result_base': None}
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_control_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_control_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_control_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_control_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_control_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_control_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_control_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_control_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_control_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.347s] DEBUG:colcon.colcon_core.verb:Building package 'aic_control_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/radhae/ws_aic/src/aic/build/aic_control_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/radhae/ws_aic/src/aic/install/aic_control_interfaces', 'merge_install': False, 'path': '/home/radhae/ws_aic/src/aic/aic_interfaces/aic_control_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_engine_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_engine_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_engine_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_engine_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_engine_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_engine_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_engine_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_engine_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_engine_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.347s] DEBUG:colcon.colcon_core.verb:Building package 'aic_engine_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/radhae/ws_aic/src/aic/build/aic_engine_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces', 'merge_install': False, 'path': '/home/radhae/ws_aic/src/aic/aic_interfaces/aic_engine_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_task_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_task_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_task_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_task_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_task_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_task_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_task_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_task_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'aic_task_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.347s] DEBUG:colcon.colcon_core.verb:Building package 'aic_task_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/radhae/ws_aic/src/aic/build/aic_task_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces', 'merge_install': False, 'path': '/home/radhae/ws_aic/src/aic/aic_interfaces/aic_task_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_controller' build argument 'cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_controller' build argument 'cmake_target' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] DEBUG:colcon.colcon_core.verb:Building package 'aic_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/radhae/ws_aic/src/aic/build/aic_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/radhae/ws_aic/src/aic/install/aic_controller', 'merge_install': False, 'path': '/home/radhae/ws_aic/src/aic/aic_controller', 'symlink_install': True, 'test_result_base': None}
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] DEBUG:colcon.colcon_core.verb:Building package 'aic_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/radhae/ws_aic/src/aic/build/aic_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/radhae/ws_aic/src/aic/install/aic_gazebo', 'merge_install': False, 'path': '/home/radhae/ws_aic/src/aic/aic_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_scoring' build argument 'cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_scoring' build argument 'cmake_target' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_scoring' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_scoring' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_scoring' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_scoring' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_scoring' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_scoring' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_scoring' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] DEBUG:colcon.colcon_core.verb:Building package 'aic_scoring' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/radhae/ws_aic/src/aic/build/aic_scoring', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/radhae/ws_aic/src/aic/install/aic_scoring', 'merge_install': False, 'path': '/home/radhae/ws_aic/src/aic/aic_scoring', 'symlink_install': True, 'test_result_base': None}
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_description' build argument 'cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_description' build argument 'cmake_target' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] DEBUG:colcon.colcon_core.verb:Building package 'aic_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/radhae/ws_aic/src/aic/build/aic_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/radhae/ws_aic/src/aic/install/aic_description', 'merge_install': False, 'path': '/home/radhae/ws_aic/src/aic/aic_description', 'symlink_install': True, 'test_result_base': None}
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_engine' build argument 'cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_engine' build argument 'cmake_target' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_engine' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_engine' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_engine' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_engine' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_engine' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_engine' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'aic_engine' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] DEBUG:colcon.colcon_core.verb:Building package 'aic_engine' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/radhae/ws_aic/src/aic/build/aic_engine', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/radhae/ws_aic/src/aic/install/aic_engine', 'merge_install': False, 'path': '/home/radhae/ws_aic/src/aic/aic_engine', 'symlink_install': True, 'test_result_base': None}
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'aic_bringup' build argument 'cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'aic_bringup' build argument 'cmake_target' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'aic_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'aic_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'aic_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'aic_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'aic_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'aic_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'aic_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.349s] DEBUG:colcon.colcon_core.verb:Building package 'aic_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/radhae/ws_aic/src/aic/build/aic_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/radhae/ws_aic/src/aic/install/aic_bringup', 'merge_install': False, 'path': '/home/radhae/ws_aic/src/aic/aic_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.349s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.349s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.350s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/radhae/ws_aic/src/aic/aic_interfaces/aic_control_interfaces' with build type 'ament_cmake'
+[0.350s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/radhae/ws_aic/src/aic/aic_interfaces/aic_control_interfaces'
+[0.352s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.352s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.352s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.355s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/radhae/ws_aic/src/aic/aic_interfaces/aic_engine_interfaces' with build type 'ament_cmake'
+[0.355s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/radhae/ws_aic/src/aic/aic_interfaces/aic_engine_interfaces'
+[0.355s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.355s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.357s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/radhae/ws_aic/src/aic/aic_assets' with build type 'ament_cmake'
+[0.357s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/radhae/ws_aic/src/aic/aic_assets'
+[0.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.359s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/radhae/ws_aic/src/aic/aic_interfaces/aic_task_interfaces' with build type 'ament_cmake'
+[0.360s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/radhae/ws_aic/src/aic/aic_interfaces/aic_task_interfaces'
+[0.360s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.360s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/radhae/ws_aic/src/aic/build/aic_task_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_interfaces/aic_task_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/src/aic/install/aic_task_interfaces
+[0.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/radhae/ws_aic/src/aic/build/aic_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_interfaces/aic_control_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/src/aic/install/aic_control_interfaces
+[0.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/radhae/ws_aic/src/aic/build/aic_engine_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_interfaces/aic_engine_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces
+[0.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/radhae/ws_aic/src/aic/build/aic_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_assets -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/src/aic/install/aic_assets
+[2.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/radhae/ws_aic/src/aic/build/aic_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_assets -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/src/aic/install/aic_assets
+[2.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/radhae/ws_aic/src/aic/build/aic_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --build /home/radhae/ws_aic/src/aic/build/aic_assets -- -j12 -l12
+[2.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/radhae/ws_aic/src/aic/build/aic_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --build /home/radhae/ws_aic/src/aic/build/aic_assets -- -j12 -l12
+[2.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/radhae/ws_aic/src/aic/build/aic_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --install /home/radhae/ws_aic/src/aic/build/aic_assets
+[5.182s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aic_assets)
+[5.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/radhae/ws_aic/src/aic/build/aic_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --install /home/radhae/ws_aic/src/aic/build/aic_assets
+[5.186s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_assets' for CMake module files
+[5.186s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_assets' for CMake config files
+[5.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('aic_assets', 'cmake_prefix_path')
+[5.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_assets/share/aic_assets/hook/cmake_prefix_path.ps1'
+[5.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radhae/ws_aic/src/aic/install/aic_assets/share/aic_assets/hook/cmake_prefix_path.dsv'
+[5.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_assets/share/aic_assets/hook/cmake_prefix_path.sh'
+[5.189s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_assets/bin'
+[5.189s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_assets/lib/pkgconfig/aic_assets.pc'
+[5.191s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_assets/lib/python3.12/site-packages'
+[5.192s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_assets/bin'
+[5.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_assets/share/aic_assets/package.ps1'
+[5.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/radhae/ws_aic/src/aic/install/aic_assets/share/aic_assets/package.dsv'
+[5.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_assets/share/aic_assets/package.sh'
+[5.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_assets/share/aic_assets/package.bash'
+[5.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_assets/share/aic_assets/package.zsh'
+[5.195s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/radhae/ws_aic/src/aic/install/aic_assets/share/colcon-core/packages/aic_assets)
+[5.195s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aic_assets)
+[5.195s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_assets' for CMake module files
+[5.196s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_assets' for CMake config files
+[5.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('aic_assets', 'cmake_prefix_path')
+[5.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_assets/share/aic_assets/hook/cmake_prefix_path.ps1'
+[5.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radhae/ws_aic/src/aic/install/aic_assets/share/aic_assets/hook/cmake_prefix_path.dsv'
+[5.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_assets/share/aic_assets/hook/cmake_prefix_path.sh'
+[5.197s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_assets/bin'
+[5.198s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_assets/lib/pkgconfig/aic_assets.pc'
+[5.198s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_assets/lib/python3.12/site-packages'
+[5.198s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_assets/bin'
+[5.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_assets/share/aic_assets/package.ps1'
+[5.199s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/radhae/ws_aic/src/aic/install/aic_assets/share/aic_assets/package.dsv'
+[5.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_assets/share/aic_assets/package.sh'
+[5.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_assets/share/aic_assets/package.bash'
+[5.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_assets/share/aic_assets/package.zsh'
+[5.200s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/radhae/ws_aic/src/aic/install/aic_assets/share/colcon-core/packages/aic_assets)
+[7.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/radhae/ws_aic/src/aic/build/aic_task_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_interfaces/aic_task_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/src/aic/install/aic_task_interfaces
+[7.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/radhae/ws_aic/src/aic/build/aic_task_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --build /home/radhae/ws_aic/src/aic/build/aic_task_interfaces -- -j12 -l12
+[7.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/radhae/ws_aic/src/aic/build/aic_engine_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_interfaces/aic_engine_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces
+[7.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/radhae/ws_aic/src/aic/build/aic_engine_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --build /home/radhae/ws_aic/src/aic/build/aic_engine_interfaces -- -j12 -l12
+[7.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/radhae/ws_aic/src/aic/build/aic_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_interfaces/aic_control_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/src/aic/install/aic_control_interfaces
+[7.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/radhae/ws_aic/src/aic/build/aic_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --build /home/radhae/ws_aic/src/aic/build/aic_control_interfaces -- -j12 -l12
+[14.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/radhae/ws_aic/src/aic/build/aic_engine_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --build /home/radhae/ws_aic/src/aic/build/aic_engine_interfaces -- -j12 -l12
+[14.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/radhae/ws_aic/src/aic/build/aic_engine_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --install /home/radhae/ws_aic/src/aic/build/aic_engine_interfaces
+[15.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/radhae/ws_aic/src/aic/build/aic_task_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --build /home/radhae/ws_aic/src/aic/build/aic_task_interfaces -- -j12 -l12
+[15.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/radhae/ws_aic/src/aic/build/aic_task_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --install /home/radhae/ws_aic/src/aic/build/aic_task_interfaces
+[15.988s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aic_engine_interfaces)
+[15.988s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces' for CMake module files
+[15.989s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces' for CMake config files
+[15.990s] Level 1:colcon.colcon_core.shell:create_environment_hook('aic_engine_interfaces', 'cmake_prefix_path')
+[15.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/hook/cmake_prefix_path.ps1'
+[15.991s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/hook/cmake_prefix_path.dsv'
+[15.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/hook/cmake_prefix_path.sh'
+[15.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/radhae/ws_aic/src/aic/build/aic_engine_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --install /home/radhae/ws_aic/src/aic/build/aic_engine_interfaces
+[15.994s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib'
+[15.994s] Level 1:colcon.colcon_core.shell:create_environment_hook('aic_engine_interfaces', 'ld_library_path_lib')
+[15.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/hook/ld_library_path_lib.ps1'
+[15.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/hook/ld_library_path_lib.dsv'
+[15.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/hook/ld_library_path_lib.sh'
+[15.997s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/bin'
+[15.997s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/pkgconfig/aic_engine_interfaces.pc'
+[15.997s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages'
+[15.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('aic_engine_interfaces', 'pythonpath')
+[15.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/hook/pythonpath.ps1'
+[15.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/hook/pythonpath.dsv'
+[15.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/hook/pythonpath.sh'
+[16.001s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/bin'
+[16.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/package.ps1'
+[16.002s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/package.dsv'
+[16.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/package.sh'
+[16.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/package.bash'
+[16.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/package.zsh'
+[16.005s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/colcon-core/packages/aic_engine_interfaces)
+[16.006s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aic_engine_interfaces)
+[16.006s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces' for CMake module files
+[16.007s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces' for CMake config files
+[16.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('aic_engine_interfaces', 'cmake_prefix_path')
+[16.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/hook/cmake_prefix_path.ps1'
+[16.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/hook/cmake_prefix_path.dsv'
+[16.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/hook/cmake_prefix_path.sh'
+[16.011s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib'
+[16.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('aic_engine_interfaces', 'ld_library_path_lib')
+[16.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/hook/ld_library_path_lib.ps1'
+[16.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/hook/ld_library_path_lib.dsv'
+[16.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/hook/ld_library_path_lib.sh'
+[16.013s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/bin'
+[16.013s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/pkgconfig/aic_engine_interfaces.pc'
+[16.013s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages'
+[16.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('aic_engine_interfaces', 'pythonpath')
+[16.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/hook/pythonpath.ps1'
+[16.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/hook/pythonpath.dsv'
+[16.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/hook/pythonpath.sh'
+[16.016s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/bin'
+[16.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/package.ps1'
+[16.017s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/package.dsv'
+[16.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/package.sh'
+[16.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/package.bash'
+[16.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/aic_engine_interfaces/package.zsh'
+[16.018s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/share/colcon-core/packages/aic_engine_interfaces)
+[16.018s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/radhae/ws_aic/src/aic/aic_gazebo' with build type 'ament_cmake'
+[16.018s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/radhae/ws_aic/src/aic/aic_gazebo'
+[16.019s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.019s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.060s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/radhae/ws_aic/src/aic/build/aic_gazebo': AMENT_PREFIX_PATH=/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/radhae/cognipilot/cranium/install/synapse_ros:/home/radhae/cognipilot/cranium/install/synapse_gz:/home/radhae/cognipilot/cranium/install/synapse_tinyframe:/home/radhae/cognipilot/cranium/install/synapse_protobuf:/home/radhae/cognipilot/cranium/install/corti:/home/radhae/cognipilot/cranium/install/synapse_msgs:/home/radhae/cognipilot/cranium/install/dream_world:/home/radhae/cognipilot/cranium/install/cerebri_bringup:/home/radhae/cognipilot/cranium/install/b3rb_simulator:/home/radhae/cognipilot/cranium/install/b3rb_desktop:/home/radhae/cognipilot/cranium/install/b3rb_rviz:/home/radhae/cognipilot/cranium/install/b3rb_nav2:/home/radhae/cognipilot/cranium/install/b3rb_gz_resource:/home/radhae/cognipilot/cranium/install/b3rb_gz_bringup:/home/radhae/cognipilot/cranium/install/b3rb_description:/home/radhae/ws_aic/src/aic/.pixi/envs/default LD_LIBRARY_PATH=/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib:${LD_LIBRARY_PATH} PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/src/aic/install/aic_gazebo
+[17.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/radhae/ws_aic/src/aic/build/aic_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --build /home/radhae/ws_aic/src/aic/build/aic_control_interfaces -- -j12 -l12
+[17.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/radhae/ws_aic/src/aic/build/aic_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --install /home/radhae/ws_aic/src/aic/build/aic_control_interfaces
+[17.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aic_task_interfaces)
+[17.577s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces' for CMake module files
+[17.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/radhae/ws_aic/src/aic/build/aic_task_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/radhae/ws_aic/src/aic/.pixi/envs/default PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --install /home/radhae/ws_aic/src/aic/build/aic_task_interfaces
+[17.578s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces' for CMake config files
+[17.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('aic_task_interfaces', 'cmake_prefix_path')
+[17.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/hook/cmake_prefix_path.ps1'
+[17.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/hook/cmake_prefix_path.dsv'
+[17.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/hook/cmake_prefix_path.sh'
+[17.581s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/lib'
+[17.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('aic_task_interfaces', 'ld_library_path_lib')
+[17.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/hook/ld_library_path_lib.ps1'
+[17.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/hook/ld_library_path_lib.dsv'
+[17.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/hook/ld_library_path_lib.sh'
+[17.583s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/bin'
+[17.583s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/lib/pkgconfig/aic_task_interfaces.pc'
+[17.583s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/lib/python3.12/site-packages'
+[17.583s] Level 1:colcon.colcon_core.shell:create_environment_hook('aic_task_interfaces', 'pythonpath')
+[17.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/hook/pythonpath.ps1'
+[17.584s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/hook/pythonpath.dsv'
+[17.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/hook/pythonpath.sh'
+[17.585s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/bin'
+[17.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/package.ps1'
+[17.586s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/package.dsv'
+[17.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/package.sh'
+[17.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/package.bash'
+[17.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/package.zsh'
+[17.588s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/colcon-core/packages/aic_task_interfaces)
+[17.588s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aic_task_interfaces)
+[17.588s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces' for CMake module files
+[17.589s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces' for CMake config files
+[17.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('aic_task_interfaces', 'cmake_prefix_path')
+[17.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/hook/cmake_prefix_path.ps1'
+[17.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/hook/cmake_prefix_path.dsv'
+[17.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/hook/cmake_prefix_path.sh'
+[17.591s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/lib'
+[17.591s] Level 1:colcon.colcon_core.shell:create_environment_hook('aic_task_interfaces', 'ld_library_path_lib')
+[17.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/hook/ld_library_path_lib.ps1'
+[17.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/hook/ld_library_path_lib.dsv'
+[17.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/hook/ld_library_path_lib.sh'
+[17.593s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/bin'
+[17.593s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/lib/pkgconfig/aic_task_interfaces.pc'
+[17.593s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/lib/python3.12/site-packages'
+[17.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('aic_task_interfaces', 'pythonpath')
+[17.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/hook/pythonpath.ps1'
+[17.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/hook/pythonpath.dsv'
+[17.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/hook/pythonpath.sh'
+[17.595s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/bin'
+[17.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/package.ps1'
+[17.596s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/package.dsv'
+[17.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/package.sh'
+[17.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/package.bash'
+[17.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/aic_task_interfaces/package.zsh'
+[17.597s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/radhae/ws_aic/src/aic/install/aic_task_interfaces/share/colcon-core/packages/aic_task_interfaces)
+[17.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/radhae/ws_aic/src/aic/build/aic_gazebo' returned '1': AMENT_PREFIX_PATH=/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/radhae/cognipilot/cranium/install/synapse_ros:/home/radhae/cognipilot/cranium/install/synapse_gz:/home/radhae/cognipilot/cranium/install/synapse_tinyframe:/home/radhae/cognipilot/cranium/install/synapse_protobuf:/home/radhae/cognipilot/cranium/install/corti:/home/radhae/cognipilot/cranium/install/synapse_msgs:/home/radhae/cognipilot/cranium/install/dream_world:/home/radhae/cognipilot/cranium/install/cerebri_bringup:/home/radhae/cognipilot/cranium/install/b3rb_simulator:/home/radhae/cognipilot/cranium/install/b3rb_desktop:/home/radhae/cognipilot/cranium/install/b3rb_rviz:/home/radhae/cognipilot/cranium/install/b3rb_nav2:/home/radhae/cognipilot/cranium/install/b3rb_gz_resource:/home/radhae/cognipilot/cranium/install/b3rb_gz_bringup:/home/radhae/cognipilot/cranium/install/b3rb_description:/home/radhae/ws_aic/src/aic/.pixi/envs/default LD_LIBRARY_PATH=/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib:${LD_LIBRARY_PATH} PIXI_PROMPT=(aic) PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/radhae/ws_aic/src/aic/install/aic_engine_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/src/aic/install/aic_gazebo
+[18.059s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aic_gazebo)
+[18.059s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_gazebo' for CMake module files
+[18.060s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_gazebo' for CMake config files
+[18.060s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_gazebo/bin'
+[18.060s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_gazebo/lib/pkgconfig/aic_gazebo.pc'
+[18.060s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_gazebo/lib/python3.12/site-packages'
+[18.061s] Level 1:colcon.colcon_core.environment:checking '/home/radhae/ws_aic/src/aic/install/aic_gazebo/bin'
+[18.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_gazebo/share/aic_gazebo/package.ps1'
+[18.061s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/radhae/ws_aic/src/aic/install/aic_gazebo/share/aic_gazebo/package.dsv'
+[18.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_gazebo/share/aic_gazebo/package.sh'
+[18.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_gazebo/share/aic_gazebo/package.bash'
+[18.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/radhae/ws_aic/src/aic/install/aic_gazebo/share/aic_gazebo/package.zsh'
+[18.063s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/radhae/ws_aic/src/aic/install/aic_gazebo/share/colcon-core/packages/aic_gazebo)
+[20.308s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.308s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.308s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[20.308s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.314s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[20.314s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.314s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.314s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.332s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.332s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/radhae/ws_aic/src/aic/install/local_setup.ps1'
+[20.333s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/radhae/ws_aic/src/aic/install/_local_setup_util_ps1.py'
+[20.333s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/radhae/ws_aic/src/aic/install/setup.ps1'
+[20.334s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/radhae/ws_aic/src/aic/install/local_setup.sh'
+[20.335s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/radhae/ws_aic/src/aic/install/_local_setup_util_sh.py'
+[20.335s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/radhae/ws_aic/src/aic/install/setup.sh'
+[20.336s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/radhae/ws_aic/src/aic/install/local_setup.bash'
+[20.336s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/radhae/ws_aic/src/aic/install/setup.bash'
+[20.337s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/radhae/ws_aic/src/aic/install/local_setup.zsh'
+[20.337s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/radhae/ws_aic/src/aic/install/setup.zsh'

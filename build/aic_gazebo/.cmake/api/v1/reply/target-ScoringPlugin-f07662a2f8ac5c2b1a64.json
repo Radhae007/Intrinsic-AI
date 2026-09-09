@@ -1,0 +1,2228 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libScoringPlugin.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"find_dependency",
+			"set_property",
+			"_populate_Quick_target_properties",
+			"_populate_Qml_target_properties",
+			"gz_import_target",
+			"gz_pkg_check_modules_quiet",
+			"add_compile_options",
+			"target_include_directories",
+			"target_sources",
+			"protobuf_generate"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/gz-sim9/gz-sim9-targets.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/gz-sim9/gz-sim9-config.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/opt/gz_sim_vendor/extra_cmake/lib/cmake/gz-sim/gz-sim-config.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/gz-plugin3-loader/gz-plugin3-loader-config.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/python3.12/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/gz-plugin3/gz-plugin3-config.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/Qt5QuickControls2/Qt5QuickControls2Config.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/Qt5/Qt5Config.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/gz-gui9/gz-gui9-config.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/Qt5Quick/Qt5QuickConfig.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/Qt5QmlModels/Qt5QmlModelsConfig.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/gz-physics8/gz-physics8-config.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/opt/gz_plugin_vendor/extra_cmake/lib/cmake/gz-plugin/gz-plugin-config.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/gz-rendering9/gz-rendering9-config.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/gz-common6-profiler/gz-common6-profiler-config.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/gz-common6/gz-common6-config.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/opt/gz_common_vendor/extra_cmake/lib/cmake/gz-common/gz-common-config.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/gz-common6-events/gz-common6-events-config.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/gz-common6-geospatial/gz-common6-geospatial-config.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/gz-common6-av/gz-common6-av-targets.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/gz-common6-av/gz-common6-av-config.cmake",
+			"/opt/ros/kilted/opt/gz_cmake_vendor/share/cmake/gz-cmake4/cmake4/GzImportTarget.cmake",
+			"/opt/ros/kilted/opt/gz_cmake_vendor/share/cmake/gz-cmake4/cmake4/GzPkgConfig.cmake",
+			"/opt/ros/kilted/opt/gz_cmake_vendor/share/cmake/gz-cmake4/cmake4/FindSWSCALE.cmake",
+			"/opt/ros/kilted/opt/gz_cmake_vendor/share/cmake/gz-cmake4/cmake4/FindAVDEVICE.cmake",
+			"/opt/ros/kilted/opt/gz_cmake_vendor/share/cmake/gz-cmake4/cmake4/FindAVFORMAT.cmake",
+			"/opt/ros/kilted/opt/gz_cmake_vendor/share/cmake/gz-cmake4/cmake4/FindAVCODEC.cmake",
+			"/opt/ros/kilted/opt/gz_cmake_vendor/share/cmake/gz-cmake4/cmake4/FindAVUTIL.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/gz-common6-graphics/gz-common6-graphics-config.cmake",
+			"/opt/ros/kilted/opt/gz_utils_vendor/lib/cmake/gz-utils3-log/gz-utils3-log-config.cmake",
+			"/opt/ros/kilted/opt/gz_utils_vendor/lib/cmake/gz-utils3/gz-utils3-config.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/gz-common6/gz-common6-targets.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/spdlog/spdlogConfigTargets.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/spdlog/spdlogConfig.cmake",
+			"/opt/ros/kilted/opt/gz_transport_vendor/lib/cmake/gz-transport14-parameters/gz-transport14-parameters-config.cmake",
+			"/opt/ros/kilted/opt/gz_transport_vendor/lib/cmake/gz-transport14/gz-transport14-config.cmake",
+			"/opt/ros/kilted/opt/gz_cmake_vendor/share/cmake/gz-cmake4/cmake4/FindUUID.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/gz-gui9/gz-gui9-targets.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/absl/abslTargets.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/absl/abslConfig.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/protobuf/protobuf-config.cmake",
+			"/opt/ros/kilted/opt/gz_cmake_vendor/share/cmake/gz-cmake4/cmake4/FindGzProtobuf.cmake",
+			"/opt/ros/kilted/opt/gz_msgs_vendor/lib/cmake/gz-msgs11/gz-msgs11-config.cmake",
+			"/opt/ros/kilted/opt/gz_msgs_vendor/extra_cmake/lib/cmake/gz-msgs/gz-msgs-config.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/cmake/protobuf/protobuf-targets.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/python3.12/site-packages/cmake/data/share/cmake-4.1/Modules/FindThreads.cmake",
+			"/opt/ros/kilted/opt/gz_cmake_vendor/share/cmake/gz-cmake4/cmake4/FindTINYXML2.cmake",
+			"/opt/ros/kilted/opt/gz_math_vendor/lib/cmake/gz-math8/gz-math8-config.cmake",
+			"/opt/ros/kilted/opt/gz_transport_vendor/lib/cmake/gz-transport14/gz-transport14-targets.cmake",
+			"/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/python3.12/site-packages/cmake/data/share/cmake-4.1/Modules/FindProtobuf.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 3,
+				"parent" : 5
+			},
+			{
+				"file" : 2,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 135,
+				"parent" : 7
+			},
+			{
+				"file" : 1,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 61,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 93,
+				"parent" : 7
+			},
+			{
+				"file" : 6,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 191,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 78,
+				"parent" : 13
+			},
+			{
+				"file" : 4,
+				"parent" : 14
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 115,
+				"parent" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 98,
+				"parent" : 7
+			},
+			{
+				"file" : 9,
+				"parent" : 17
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 101,
+				"parent" : 18
+			},
+			{
+				"file" : 8,
+				"parent" : 19
+			},
+			{
+				"command" : 5,
+				"file" : 8,
+				"line" : 28,
+				"parent" : 20
+			},
+			{
+				"file" : 7,
+				"parent" : 21
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 241,
+				"parent" : 22
+			},
+			{
+				"command" : 5,
+				"file" : 8,
+				"line" : 28,
+				"parent" : 20
+			},
+			{
+				"file" : 10,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 10,
+				"line" : 241,
+				"parent" : 25
+			},
+			{
+				"command" : 8,
+				"file" : 10,
+				"line" : 202,
+				"parent" : 25
+			},
+			{
+				"command" : 7,
+				"file" : 10,
+				"line" : 45,
+				"parent" : 27
+			},
+			{
+				"command" : 5,
+				"file" : 10,
+				"line" : 100,
+				"parent" : 25
+			},
+			{
+				"file" : 12,
+				"parent" : 29
+			},
+			{
+				"command" : 5,
+				"file" : 12,
+				"line" : 100,
+				"parent" : 30
+			},
+			{
+				"file" : 11,
+				"parent" : 31
+			},
+			{
+				"command" : 3,
+				"file" : 11,
+				"line" : 242,
+				"parent" : 32
+			},
+			{
+				"command" : 9,
+				"file" : 11,
+				"line" : 202,
+				"parent" : 32
+			},
+			{
+				"command" : 7,
+				"file" : 11,
+				"line" : 45,
+				"parent" : 34
+			},
+			{
+				"command" : 5,
+				"file" : 8,
+				"line" : 28,
+				"parent" : 20
+			},
+			{
+				"file" : 13,
+				"parent" : 36
+			},
+			{
+				"command" : 3,
+				"file" : 13,
+				"line" : 243,
+				"parent" : 37
+			},
+			{
+				"command" : 5,
+				"file" : 8,
+				"line" : 28,
+				"parent" : 20
+			},
+			{
+				"file" : 14,
+				"parent" : 39
+			},
+			{
+				"command" : 3,
+				"file" : 14,
+				"line" : 243,
+				"parent" : 40
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 100,
+				"parent" : 7
+			},
+			{
+				"file" : 15,
+				"parent" : 42
+			},
+			{
+				"command" : 3,
+				"file" : 15,
+				"line" : 131,
+				"parent" : 43
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 16,
+				"parent" : 45
+			},
+			{
+				"command" : 5,
+				"file" : 16,
+				"line" : 3,
+				"parent" : 46
+			},
+			{
+				"file" : 6,
+				"parent" : 47
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 127,
+				"parent" : 48
+			},
+			{
+				"command" : 5,
+				"file" : 9,
+				"line" : 99,
+				"parent" : 18
+			},
+			{
+				"file" : 17,
+				"parent" : 50
+			},
+			{
+				"command" : 3,
+				"file" : 17,
+				"line" : 132,
+				"parent" : 51
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"file" : 20,
+				"parent" : 53
+			},
+			{
+				"command" : 5,
+				"file" : 20,
+				"line" : 3,
+				"parent" : 54
+			},
+			{
+				"file" : 19,
+				"parent" : 55
+			},
+			{
+				"command" : 6,
+				"file" : 19,
+				"line" : 192,
+				"parent" : 56
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 78,
+				"parent" : 57
+			},
+			{
+				"file" : 18,
+				"parent" : 58
+			},
+			{
+				"command" : 3,
+				"file" : 18,
+				"line" : 115,
+				"parent" : 59
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 96,
+				"parent" : 7
+			},
+			{
+				"file" : 19,
+				"parent" : 61
+			},
+			{
+				"command" : 6,
+				"file" : 19,
+				"line" : 192,
+				"parent" : 62
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 78,
+				"parent" : 63
+			},
+			{
+				"file" : 21,
+				"parent" : 64
+			},
+			{
+				"command" : 3,
+				"file" : 21,
+				"line" : 116,
+				"parent" : 65
+			},
+			{
+				"command" : 5,
+				"file" : 17,
+				"line" : 93,
+				"parent" : 51
+			},
+			{
+				"file" : 19,
+				"parent" : 67
+			},
+			{
+				"command" : 6,
+				"file" : 19,
+				"line" : 192,
+				"parent" : 68
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 78,
+				"parent" : 69
+			},
+			{
+				"file" : 22,
+				"parent" : 70
+			},
+			{
+				"command" : 3,
+				"file" : 22,
+				"line" : 134,
+				"parent" : 71
+			},
+			{
+				"command" : 6,
+				"file" : 19,
+				"line" : 192,
+				"parent" : 62
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 78,
+				"parent" : 73
+			},
+			{
+				"file" : 24,
+				"parent" : 74
+			},
+			{
+				"command" : 4,
+				"file" : 24,
+				"line" : 115,
+				"parent" : 75
+			},
+			{
+				"file" : 23,
+				"parent" : 76
+			},
+			{
+				"command" : 3,
+				"file" : 23,
+				"line" : 61,
+				"parent" : 77
+			},
+			{
+				"command" : 5,
+				"file" : 24,
+				"line" : 104,
+				"parent" : 75
+			},
+			{
+				"file" : 27,
+				"parent" : 79
+			},
+			{
+				"command" : 11,
+				"file" : 27,
+				"line" : 19,
+				"parent" : 80
+			},
+			{
+				"command" : 10,
+				"file" : 26,
+				"line" : 165,
+				"parent" : 81
+			},
+			{
+				"command" : 3,
+				"file" : 25,
+				"line" : 108,
+				"parent" : 82
+			},
+			{
+				"command" : 5,
+				"file" : 24,
+				"line" : 105,
+				"parent" : 75
+			},
+			{
+				"file" : 28,
+				"parent" : 84
+			},
+			{
+				"command" : 11,
+				"file" : 28,
+				"line" : 23,
+				"parent" : 85
+			},
+			{
+				"command" : 10,
+				"file" : 26,
+				"line" : 165,
+				"parent" : 86
+			},
+			{
+				"command" : 3,
+				"file" : 25,
+				"line" : 108,
+				"parent" : 87
+			},
+			{
+				"command" : 5,
+				"file" : 24,
+				"line" : 106,
+				"parent" : 75
+			},
+			{
+				"file" : 29,
+				"parent" : 89
+			},
+			{
+				"command" : 11,
+				"file" : 29,
+				"line" : 19,
+				"parent" : 90
+			},
+			{
+				"command" : 10,
+				"file" : 26,
+				"line" : 165,
+				"parent" : 91
+			},
+			{
+				"command" : 3,
+				"file" : 25,
+				"line" : 108,
+				"parent" : 92
+			},
+			{
+				"command" : 5,
+				"file" : 24,
+				"line" : 107,
+				"parent" : 75
+			},
+			{
+				"file" : 30,
+				"parent" : 94
+			},
+			{
+				"command" : 11,
+				"file" : 30,
+				"line" : 19,
+				"parent" : 95
+			},
+			{
+				"command" : 10,
+				"file" : 26,
+				"line" : 165,
+				"parent" : 96
+			},
+			{
+				"command" : 3,
+				"file" : 25,
+				"line" : 108,
+				"parent" : 97
+			},
+			{
+				"command" : 5,
+				"file" : 24,
+				"line" : 108,
+				"parent" : 75
+			},
+			{
+				"file" : 31,
+				"parent" : 99
+			},
+			{
+				"command" : 11,
+				"file" : 31,
+				"line" : 19,
+				"parent" : 100
+			},
+			{
+				"command" : 10,
+				"file" : 26,
+				"line" : 165,
+				"parent" : 101
+			},
+			{
+				"command" : 3,
+				"file" : 25,
+				"line" : 108,
+				"parent" : 102
+			},
+			{
+				"command" : 6,
+				"file" : 19,
+				"line" : 192,
+				"parent" : 62
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 78,
+				"parent" : 104
+			},
+			{
+				"file" : 32,
+				"parent" : 105
+			},
+			{
+				"command" : 3,
+				"file" : 32,
+				"line" : 117,
+				"parent" : 106
+			},
+			{
+				"command" : 5,
+				"file" : 19,
+				"line" : 92,
+				"parent" : 56
+			},
+			{
+				"file" : 34,
+				"parent" : 108
+			},
+			{
+				"command" : 6,
+				"file" : 34,
+				"line" : 191,
+				"parent" : 109
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 78,
+				"parent" : 110
+			},
+			{
+				"file" : 33,
+				"parent" : 111
+			},
+			{
+				"command" : 3,
+				"file" : 33,
+				"line" : 113,
+				"parent" : 112
+			},
+			{
+				"command" : 4,
+				"file" : 19,
+				"line" : 123,
+				"parent" : 56
+			},
+			{
+				"file" : 35,
+				"parent" : 114
+			},
+			{
+				"command" : 3,
+				"file" : 35,
+				"line" : 61,
+				"parent" : 115
+			},
+			{
+				"command" : 5,
+				"file" : 33,
+				"line" : 104,
+				"parent" : 112
+			},
+			{
+				"file" : 37,
+				"parent" : 117
+			},
+			{
+				"command" : 4,
+				"file" : 37,
+				"line" : 42,
+				"parent" : 118
+			},
+			{
+				"file" : 36,
+				"parent" : 119
+			},
+			{
+				"command" : 3,
+				"file" : 36,
+				"line" : 61,
+				"parent" : 120
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 94,
+				"parent" : 7
+			},
+			{
+				"file" : 39,
+				"parent" : 122
+			},
+			{
+				"command" : 6,
+				"file" : 39,
+				"line" : 196,
+				"parent" : 123
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 78,
+				"parent" : 124
+			},
+			{
+				"file" : 38,
+				"parent" : 125
+			},
+			{
+				"command" : 3,
+				"file" : 38,
+				"line" : 115,
+				"parent" : 126
+			},
+			{
+				"command" : 5,
+				"file" : 19,
+				"line" : 93,
+				"parent" : 56
+			},
+			{
+				"file" : 40,
+				"parent" : 128
+			},
+			{
+				"command" : 11,
+				"file" : 40,
+				"line" : 21,
+				"parent" : 129
+			},
+			{
+				"command" : 10,
+				"file" : 26,
+				"line" : 165,
+				"parent" : 130
+			},
+			{
+				"command" : 3,
+				"file" : 25,
+				"line" : 108,
+				"parent" : 131
+			},
+			{
+				"command" : 4,
+				"file" : 9,
+				"line" : 131,
+				"parent" : 18
+			},
+			{
+				"file" : 41,
+				"parent" : 133
+			},
+			{
+				"command" : 3,
+				"file" : 41,
+				"line" : 61,
+				"parent" : 134
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"file" : 47,
+				"parent" : 136
+			},
+			{
+				"command" : 5,
+				"file" : 47,
+				"line" : 3,
+				"parent" : 137
+			},
+			{
+				"file" : 46,
+				"parent" : 138
+			},
+			{
+				"command" : 5,
+				"file" : 46,
+				"line" : 92,
+				"parent" : 139
+			},
+			{
+				"file" : 45,
+				"parent" : 140
+			},
+			{
+				"command" : 5,
+				"file" : 45,
+				"line" : 29,
+				"parent" : 141
+			},
+			{
+				"file" : 44,
+				"parent" : 142
+			},
+			{
+				"command" : 5,
+				"file" : 44,
+				"line" : 9,
+				"parent" : 143
+			},
+			{
+				"file" : 43,
+				"parent" : 144
+			},
+			{
+				"command" : 4,
+				"file" : 43,
+				"line" : 32,
+				"parent" : 145
+			},
+			{
+				"file" : 42,
+				"parent" : 146
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 923,
+				"parent" : 147
+			},
+			{
+				"command" : 4,
+				"file" : 44,
+				"line" : 16,
+				"parent" : 143
+			},
+			{
+				"file" : 48,
+				"parent" : 149
+			},
+			{
+				"command" : 3,
+				"file" : 48,
+				"line" : 71,
+				"parent" : 150
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 986,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 932,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 1004,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 824,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 815,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 761,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 806,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 788,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 1121,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 1112,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 1202,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 374,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 509,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 1373,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 1517,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 1535,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 1553,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 1571,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 1463,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 1418,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 1779,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 1725,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 1752,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 590,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 734,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 1607,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 1689,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 635,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 896,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 527,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 644,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 680,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 707,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 698,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 1815,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 1824,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 1635,
+				"parent" : 147
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 177,
+				"parent" : 147
+			},
+			{
+				"command" : 5,
+				"file" : 37,
+				"line" : 30,
+				"parent" : 118
+			},
+			{
+				"file" : 49,
+				"parent" : 190
+			},
+			{
+				"command" : 7,
+				"file" : 49,
+				"line" : 238,
+				"parent" : 191
+			},
+			{
+				"command" : 3,
+				"file" : 42,
+				"line" : 320,
+				"parent" : 147
+			},
+			{
+				"command" : 5,
+				"file" : 46,
+				"line" : 95,
+				"parent" : 139
+			},
+			{
+				"file" : 50,
+				"parent" : 194
+			},
+			{
+				"command" : 11,
+				"file" : 50,
+				"line" : 22,
+				"parent" : 195
+			},
+			{
+				"command" : 10,
+				"file" : 26,
+				"line" : 165,
+				"parent" : 196
+			},
+			{
+				"command" : 3,
+				"file" : 25,
+				"line" : 108,
+				"parent" : 197
+			},
+			{
+				"command" : 5,
+				"file" : 46,
+				"line" : 94,
+				"parent" : 139
+			},
+			{
+				"file" : 51,
+				"parent" : 199
+			},
+			{
+				"command" : 3,
+				"file" : 51,
+				"line" : 136,
+				"parent" : 200
+			},
+			{
+				"command" : 4,
+				"file" : 39,
+				"line" : 127,
+				"parent" : 123
+			},
+			{
+				"file" : 52,
+				"parent" : 202
+			},
+			{
+				"command" : 3,
+				"file" : 52,
+				"line" : 61,
+				"parent" : 203
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 53,
+				"line" : 743,
+				"parent" : 207
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 205,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 205,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 205,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-I/home/radhae/ws_aic/src/aic/.pixi/envs/default/include/uuid"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-I/home/radhae/ws_aic/src/aic/.pixi/envs/default/include"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "FMT_SHARED"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_PYBIND11"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "PROTOBUF_USE_DLLS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_QUICKCONTROLS2_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "SPDLOG_COMPILED_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "SPDLOG_FMT_EXTERNAL"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "SPDLOG_SHARED_LIB"
+				},
+				{
+					"define" : "ScoringPlugin_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 206,
+					"path" : "/home/radhae/ws_aic/src/aic/aic_gazebo/include"
+				},
+				{
+					"backtrace" : 206,
+					"path" : "/home/radhae/ws_aic/build/aic_gazebo"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/include/gz/sim9"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/opt/gz_math_vendor/include/gz/math8"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/opt/gz_utils_vendor/include/gz/utils3"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/include/gz/plugin3"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/include/gz/common6"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/include/uuid"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/include/gz/fuel_tools10"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/opt/gz_msgs_vendor/include/gz/msgs11"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/include/gz/gui9"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/opt/gz_transport_vendor/include/gz/transport14"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/include/qt"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/include/qt/QtCore"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/./mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/include/qt/QtQml"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/include/qt/QtNetwork"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/include/qt/QtQuick"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/include/qt/QtGui"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/include/qt/QtQmlModels"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/include/qt/QtQuickControls2"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/include/qt/QtWidgets"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/include/gz/physics8"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/include/eigen3"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/include/gz/rendering9"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/ros/kilted/opt/sdformat_vendor/include/gz/sdformat15"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				3
+			]
+		}
+	],
+	"id" : "ScoringPlugin::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib/aic_gazebo"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib/aic_gazebo"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/radhae/ws_aic/install/aic_gazebo"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-shared",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libgz-sim9.so.9.5.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libgz-fuel_tools10.so.10.1.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libgz-gui9.so.9.0.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libgz-plugin3-loader.so.3.1.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libQt5QuickControls2.so.5.15.15",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libQt5Quick.so.5.15.15",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libQt5QmlModels.so.5.15.15",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 33,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libQt5Qml.so.5.15.15",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 35,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libQt5Network.so.5.15.15",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libQt5Widgets.so.5.15.15",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libQt5Gui.so.5.15.15",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 41,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libQt5Core.so.5.15.15",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libgz-physics8.so.8.3.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 49,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libgz-plugin3.so.3.1.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 52,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libgz-rendering9.so.9.4.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 60,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libgz-common6-profiler.so.6.1.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 66,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libgz-common6-events.so.6.1.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 72,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libgz-common6-av.so.6.1.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 78,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libswscale.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 83,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libswscale.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 78,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libavdevice.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 88,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libavdevice.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 78,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libavformat.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 93,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libavformat.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 78,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libavcodec.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 98,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libavcodec.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 78,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libavutil.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 103,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libavutil.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 72,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libgz-common6-io.so.6.1.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 72,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libgz-common6-testing.so.6.1.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 72,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libgz-common6-geospatial.so.6.1.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 107,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libgz-common6-graphics.so.6.1.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libgz-common6.so.6.1.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 113,
+				"fragment" : "/opt/ros/kilted/opt/gz_utils_vendor/lib/libgz-utils3-log.so.3.1.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 116,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libspdlog.so.1.17.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 121,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libfmt.so.12.1.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 116,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 116,
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 127,
+				"fragment" : "/opt/ros/kilted/opt/gz_transport_vendor/lib/libgz-transport14-parameters.so.14.2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/opt/ros/kilted/opt/gz_transport_vendor/lib/libgz-transport14.so.14.2.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 116,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libuuid.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 132,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libuuid.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 135,
+				"fragment" : "/opt/ros/kilted/opt/gz_msgs_vendor/lib/libgz-msgs11.so.11.1.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libprotobuf.so.33.5.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 148,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_log_internal_check_op.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 151,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_die_if_null.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 148,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_log_internal_conditions.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 152,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_log_internal_message.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 153,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_log_internal_nullguard.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 154,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_examine_stack.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 154,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_log_internal_format.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 154,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_log_internal_structured_proto.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 154,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_log_internal_log_sink_set.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 154,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_log_sink.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 154,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_log_entry.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 154,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_log_internal_proto.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 155,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_flags_internal.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 156,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_flags_marshalling.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 155,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_flags_reflection.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 155,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_flags_config.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 157,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_flags_program_name.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 158,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_flags_private_handle_accessor.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 155,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_flags_commandlineflag.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 159,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_flags_commandlineflag_internal.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 151,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_log_initialize.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 160,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_log_internal_globals.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 151,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_log_globals.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 161,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_vlog_config_internal.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 162,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_log_internal_fnmatch.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 163,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_raw_hash_set.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 164,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_hashtablez_sampler.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 151,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_random_distributions.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 165,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_random_seed_sequences.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 166,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_random_internal_entropy_pool.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 167,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_random_internal_randen.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 168,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_random_internal_randen_hwaes.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 169,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_random_internal_randen_hwaes_impl.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 168,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_random_internal_randen_slow.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 170,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_random_internal_platform.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 166,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_random_internal_seed_material.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 171,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_random_seed_gen_exception.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 151,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_statusor.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 151,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_status.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 151,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_cord.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 172,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_cordz_info.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 172,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_cord_internal.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 172,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_cordz_functions.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 173,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_exponential_biased.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 174,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_cordz_handle.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 172,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_crc_cord_state.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 172,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_crc32c.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 175,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_crc_internal.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 175,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_crc_cpu_detect.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 176,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_leak_check.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 177,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_strerror.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 178,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_str_format_internal.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 151,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_synchronization.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 176,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_stacktrace.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 179,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_borrowed_fixup_buffer.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 151,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_hash.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 180,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_city.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 177,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_symbolize.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 181,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_debugging_internal.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 182,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_demangle_internal.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 183,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_demangle_rust.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 184,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_decode_rust_punycode.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 185,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_utf8_for_code_point.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 186,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_graphcycles_internal.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 186,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_kernel_timeout_internal.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 186,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_malloc_internal.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 186,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_tracing_internal.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 151,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_time.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 187,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_civil_time.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 187,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_time_zone.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 151,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libutf8_validity.so.33.5.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 151,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_strings.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 180,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_int128.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 188,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_strings_internal.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 151,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_base.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 189,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_spinlock_wait.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 192,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 193,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_throw_delegate.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 189,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_raw_logging_internal.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 151,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libabsl_log_severity.so.2601.0.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 135,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libtinyxml2.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 198,
+				"fragment" : "/home/radhae/ws_aic/src/aic/.pixi/envs/default/lib/libtinyxml2.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/opt/ros/kilted/opt/sdformat_vendor/lib/libsdformat15.so.15.4.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 201,
+				"fragment" : "/opt/ros/kilted/opt/gz_math_vendor/lib/libgz-math8.so.8.2.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 204,
+				"fragment" : "/opt/ros/kilted/opt/gz_utils_vendor/lib/libgz-utils3.so.3.1.1",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "ScoringPlugin",
+	"nameOnDisk" : "libScoringPlugin.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				3
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ScoringPlugin.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "proto/scoring.proto",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 208,
+			"isGenerated" : true,
+			"path" : "/home/radhae/ws_aic/build/aic_gazebo/proto/scoring.pb.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 208,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/radhae/ws_aic/build/aic_gazebo/proto/scoring.pb.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/radhae/ws_aic/build/aic_gazebo/proto/scoring.pb.h.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

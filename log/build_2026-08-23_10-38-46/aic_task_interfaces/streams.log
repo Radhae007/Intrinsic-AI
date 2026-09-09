@@ -1,0 +1,307 @@
+[0.049s] Invoking command in '/home/radhae/ws_aic/build/aic_task_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted:/home/radhae/ws_aic/src/aic/.pixi/envs/default:/home/radhae/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_interfaces/aic_task_interfaces -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/install/aic_task_interfaces
+[0.174s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.174s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.174s]   CMake.
+[0.174s] 
+[0.174s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.174s]   to tell CMake that the project requires at least <min> but has been updated
+[0.174s]   to work with policies introduced by <max> or earlier.
+[0.174s] 
+[0.175s] [0m
+[0.347s] -- The C compiler identification is GNU 15.2.0
+[0.614s] -- The CXX compiler identification is GNU 15.2.0
+[0.644s] -- Detecting C compiler ABI info
+[0.954s] -- Detecting C compiler ABI info - done
+[0.986s] -- Check for working C compiler: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cc - skipped
+[0.986s] -- Detecting C compile features
+[0.986s] -- Detecting C compile features - done
+[1.058s] -- Detecting CXX compiler ABI info
+[1.404s] -- Detecting CXX compiler ABI info - done
+[1.436s] -- Check for working CXX compiler: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/c++ - skipped
+[1.436s] -- Detecting CXX compile features
+[1.437s] -- Detecting CXX compile features - done
+[1.493s] -- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+[2.007s] -- Found Python3: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/python3 (found version "3.12.13") found components: Interpreter
+[2.220s] -- Found builtin_interfaces: 2.3.1 (/opt/ros/kilted/share/builtin_interfaces/cmake)
+[2.288s] -- Found rosidl_generator_c: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[2.326s] -- Found rosidl_generator_cpp: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[2.370s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.415s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.455s] -- Found rosidl_default_generators: 1.7.2 (/opt/ros/kilted/share/rosidl_default_generators/cmake)
+[2.504s] -- Found rosidl_adapter: 4.9.6 (/opt/ros/kilted/share/rosidl_adapter/cmake)
+[3.670s] -- Found ament_cmake_cppcheck: 0.19.2 (/opt/ros/kilted/share/ament_cmake_cppcheck/cmake)
+[3.682s] -- Found ament_cmake_cpplint: 0.19.2 (/opt/ros/kilted/share/ament_cmake_cpplint/cmake)
+[3.690s] -- Found ament_cmake_uncrustify: 0.19.2 (/opt/ros/kilted/share/ament_cmake_uncrustify/cmake)
+[3.699s] -- Found ament_cmake_ros_core: 0.14.7 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)
+[5.147s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.690s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.388s] -- Found Python3: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/python3 (found version "3.12.13") found components: Interpreter Development NumPy Development.Module Development.Embed
+[6.454s] -- Found ament_cmake_flake8: 0.19.2 (/opt/ros/kilted/share/ament_cmake_flake8/cmake)
+[6.466s] -- Found ament_cmake_pep257: 0.19.2 (/opt/ros/kilted/share/ament_cmake_pep257/cmake)
+[6.533s] -- Found Python3: /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/python3 (found version "3.12.13") found components: Interpreter
+[6.543s] -- Configuring done (6.4s)
+[6.607s] -- Generating done (0.1s)
+[6.618s] -- Build files have been written to: /home/radhae/ws_aic/build/aic_task_interfaces
+[6.634s] Invoked command in '/home/radhae/ws_aic/build/aic_task_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted:/home/radhae/ws_aic/src/aic/.pixi/envs/default:/home/radhae/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake /home/radhae/ws_aic/src/aic/aic_interfaces/aic_task_interfaces -DCMAKE_INSTALL_PREFIX=/home/radhae/ws_aic/install/aic_task_interfaces
+[6.635s] Invoking command in '/home/radhae/ws_aic/build/aic_task_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted:/home/radhae/ws_aic/src/aic/.pixi/envs/default:/home/radhae/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --build /home/radhae/ws_aic/build/aic_task_interfaces -- -j12 -l12
+[7.062s] [  2%] [1m[34mGenerating type hashes for ROS interfaces[0m
+[7.073s] [  2%] Built target ament_cmake_python_copy_aic_task_interfaces
+[7.073s] [  4%] [1m[34mGenerating Rust code for ROS interfaces[0m
+[7.431s] [  4%] Built target aic_task_interfaces__rosidl_generator_type_description
+[7.486s] [  6%] [1m[34mGenerating C code for ROS interfaces[0m
+[7.559s] [  8%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[7.579s] running egg_info
+[7.608s] creating aic_task_interfaces.egg-info
+[7.608s] writing aic_task_interfaces.egg-info/PKG-INFO
+[7.611s] writing dependency_links to aic_task_interfaces.egg-info/dependency_links.txt
+[7.611s] writing top-level names to aic_task_interfaces.egg-info/top_level.txt
+[7.611s] writing manifest file 'aic_task_interfaces.egg-info/SOURCES.txt'
+[7.679s] [  8%] Built target aic_task_interfaces__rs
+[7.705s] reading manifest file 'aic_task_interfaces.egg-info/SOURCES.txt'
+[7.706s] writing manifest file 'aic_task_interfaces.egg-info/SOURCES.txt'
+[7.794s] [  8%] Built target ament_cmake_python_build_aic_task_interfaces_egg
+[8.337s] [  8%] Built target aic_task_interfaces__cpp
+[8.512s] [ 11%] [32mBuilding C object CMakeFiles/aic_task_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aic_task_interfaces/msg/detail/task__description.c.o[0m
+[8.525s] [ 13%] [32mBuilding C object CMakeFiles/aic_task_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aic_task_interfaces/action/detail/insert_cable__functions.c.o[0m
+[8.536s] [ 15%] [32mBuilding C object CMakeFiles/aic_task_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aic_task_interfaces/msg/detail/task__type_support.c.o[0m
+[8.538s] [ 17%] [32mBuilding C object CMakeFiles/aic_task_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aic_task_interfaces/action/detail/insert_cable__description.c.o[0m
+[8.556s] [ 20%] [32mBuilding C object CMakeFiles/aic_task_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aic_task_interfaces/action/detail/insert_cable__type_support.c.o[0m
+[8.571s] [ 22%] [32mBuilding C object CMakeFiles/aic_task_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aic_task_interfaces/msg/detail/task__functions.c.o[0m
+[8.915s] [ 24%] [1m[32mLinking C shared library libaic_task_interfaces__rosidl_generator_c.so[0m
+[9.177s] [ 24%] Built target aic_task_interfaces__rosidl_generator_c
+[9.302s] [ 26%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[9.312s] [ 28%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[9.316s] [ 31%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[9.320s] [ 33%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[9.345s] [ 35%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.345s] [ 37%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.474s] [ 40%] [32mBuilding CXX object CMakeFiles/aic_task_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aic_task_interfaces/action/insert_cable__type_support.cpp.o[0m
+[10.526s] [ 42%] [32mBuilding CXX object CMakeFiles/aic_task_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aic_task_interfaces/msg/task__type_support.cpp.o[0m
+[10.584s] [ 44%] [32mBuilding CXX object CMakeFiles/aic_task_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aic_task_interfaces/msg/task__type_support.cpp.o[0m
+[10.633s] [ 46%] [32mBuilding CXX object CMakeFiles/aic_task_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aic_task_interfaces/action/insert_cable__type_support.cpp.o[0m
+[10.902s] [ 48%] [32mBuilding CXX object CMakeFiles/aic_task_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aic_task_interfaces/msg/detail/task__type_support.cpp.o[0m
+[10.909s] [ 51%] [32mBuilding CXX object CMakeFiles/aic_task_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aic_task_interfaces/action/detail/insert_cable__type_support.cpp.o[0m
+[10.932s] [ 53%] [1m[32mLinking CXX shared library libaic_task_interfaces__rosidl_typesupport_c.so[0m
+[11.003s] [ 55%] [32mBuilding CXX object CMakeFiles/aic_task_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aic_task_interfaces/action/detail/insert_cable__type_support_c.cpp.o[0m
+[11.005s] [ 57%] [32mBuilding CXX object CMakeFiles/aic_task_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aic_task_interfaces/msg/detail/task__type_support_c.cpp.o[0m
+[11.172s] [ 60%] [32mBuilding CXX object CMakeFiles/aic_task_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aic_task_interfaces/msg/detail/dds_fastrtps/task__type_support.cpp.o[0m
+[11.188s] [ 62%] [32mBuilding C object CMakeFiles/aic_task_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aic_task_interfaces/msg/detail/task__type_support.c.o[0m
+[11.195s] [ 64%] [32mBuilding C object CMakeFiles/aic_task_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aic_task_interfaces/action/detail/insert_cable__type_support.c.o[0m
+[11.200s] [ 66%] [32mBuilding CXX object CMakeFiles/aic_task_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aic_task_interfaces/action/detail/dds_fastrtps/insert_cable__type_support.cpp.o[0m
+[11.411s] [ 66%] Built target aic_task_interfaces__rosidl_typesupport_c
+[11.686s] [ 68%] [1m[32mLinking C shared library libaic_task_interfaces__rosidl_typesupport_introspection_c.so[0m
+[12.057s] [ 68%] Built target aic_task_interfaces__rosidl_typesupport_introspection_c
+[12.529s] [ 71%] [1m[32mLinking CXX shared library libaic_task_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[12.893s] [ 73%] [1m[32mLinking CXX shared library libaic_task_interfaces__rosidl_typesupport_cpp.so[0m
+[12.940s] [ 73%] Built target aic_task_interfaces__rosidl_typesupport_introspection_cpp
+[12.982s] [ 75%] [1m[32mLinking CXX shared library libaic_task_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[13.034s] [ 77%] [1m[32mLinking CXX shared library libaic_task_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.332s] [ 77%] Built target aic_task_interfaces__rosidl_typesupport_cpp
+[13.350s] [ 77%] Built target aic_task_interfaces__rosidl_typesupport_fastrtps_c
+[13.383s] [ 77%] Built target aic_task_interfaces__rosidl_typesupport_fastrtps_cpp
+[13.600s] [ 77%] Built target aic_task_interfaces
+[13.836s] [ 80%] [1m[34mGenerating Python code for ROS interfaces[0m
+[15.128s] [ 80%] Built target aic_task_interfaces__py
+[15.302s] [ 82%] [32mBuilding C object CMakeFiles/aic_task_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aic_task_interfaces/msg/_task_s.c.o[0m
+[15.302s] [ 84%] [32mBuilding C object CMakeFiles/aic_task_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aic_task_interfaces/action/_insert_cable_s.c.o[0m
+[15.700s] [ 86%] [1m[32mLinking C shared library libaic_task_interfaces__rosidl_generator_py.so[0m
+[15.838s] [ 86%] Built target aic_task_interfaces__rosidl_generator_py
+[15.934s] [ 88%] [32mBuilding C object CMakeFiles/aic_task_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/aic_task_interfaces/_aic_task_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[15.969s] [ 91%] [32mBuilding C object CMakeFiles/aic_task_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/aic_task_interfaces/_aic_task_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.972s] [ 93%] [32mBuilding C object CMakeFiles/aic_task_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/aic_task_interfaces/_aic_task_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.124s] [ 95%] [1m[32mLinking C shared module rosidl_generator_py/aic_task_interfaces/aic_task_interfaces_s__rosidl_typesupport_c.so[0m
+[16.231s] [ 97%] [1m[32mLinking C shared module rosidl_generator_py/aic_task_interfaces/aic_task_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[16.234s] [100%] [1m[32mLinking C shared module rosidl_generator_py/aic_task_interfaces/aic_task_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[16.241s] [100%] Built target aic_task_interfaces_s__rosidl_typesupport_c
+[16.369s] [100%] Built target aic_task_interfaces_s__rosidl_typesupport_fastrtps_c
+[16.371s] [100%] Built target aic_task_interfaces_s__rosidl_typesupport_introspection_c
+[16.407s] Invoked command in '/home/radhae/ws_aic/build/aic_task_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted:/home/radhae/ws_aic/src/aic/.pixi/envs/default:/home/radhae/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --build /home/radhae/ws_aic/build/aic_task_interfaces -- -j12 -l12
+[16.409s] Invoking command in '/home/radhae/ws_aic/build/aic_task_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted:/home/radhae/ws_aic/src/aic/.pixi/envs/default:/home/radhae/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --install /home/radhae/ws_aic/build/aic_task_interfaces
+[16.583s] -- Install configuration: ""
+[16.584s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/ament_index/resource_index/rosidl_interfaces/aic_task_interfaces
+[16.586s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/msg/Task.json
+[16.586s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/action/InsertCable.json
+[16.587s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces
+[16.587s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action
+[16.587s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail
+[16.587s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail/insert_cable__functions.h
+[16.587s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail/insert_cable__functions.c
+[16.587s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail/insert_cable__type_support.c
+[16.588s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail/insert_cable__type_support.h
+[16.588s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail/insert_cable__struct.h
+[16.588s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail/insert_cable__description.c
+[16.589s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/insert_cable.h
+[16.589s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg
+[16.589s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/rosidl_generator_c__visibility_control.h
+[16.589s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail
+[16.589s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail/task__functions.h
+[16.589s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail/task__functions.c
+[16.589s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail/task__type_support.h
+[16.589s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail/task__struct.h
+[16.590s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail/task__type_support.c
+[16.590s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail/task__description.c
+[16.590s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/task.h
+[16.590s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/environment/library_path.sh
+[16.590s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/environment/library_path.dsv
+[16.591s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/libaic_task_interfaces__rosidl_generator_c.so
+[16.591s] -- Set non-toolchain portion of runtime path of "/home/radhae/ws_aic/install/aic_task_interfaces/lib/libaic_task_interfaces__rosidl_generator_c.so" to ""
+[16.591s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces
+[16.591s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action
+[16.591s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail
+[16.591s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail/insert_cable__rosidl_typesupport_fastrtps_c.h
+[16.591s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg
+[16.591s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.592s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail
+[16.592s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail/task__rosidl_typesupport_fastrtps_c.h
+[16.592s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/libaic_task_interfaces__rosidl_typesupport_fastrtps_c.so
+[16.592s] -- Set non-toolchain portion of runtime path of "/home/radhae/ws_aic/install/aic_task_interfaces/lib/libaic_task_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[16.592s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces
+[16.592s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action
+[16.592s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/insert_cable.hpp
+[16.593s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail
+[16.593s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail/insert_cable__traits.hpp
+[16.593s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail/insert_cable__struct.hpp
+[16.593s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail/insert_cable__type_support.hpp
+[16.593s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail/insert_cable__builder.hpp
+[16.593s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg
+[16.593s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail
+[16.593s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail/task__traits.hpp
+[16.594s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail/task__type_support.hpp
+[16.594s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail/task__builder.hpp
+[16.594s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail/task__struct.hpp
+[16.594s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.594s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/task.hpp
+[16.594s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces
+[16.594s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action
+[16.595s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail
+[16.595s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail/dds_fastrtps
+[16.595s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail/insert_cable__rosidl_typesupport_fastrtps_cpp.hpp
+[16.595s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg
+[16.595s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail
+[16.595s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail/task__rosidl_typesupport_fastrtps_cpp.hpp
+[16.595s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail/dds_fastrtps
+[16.596s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.596s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/libaic_task_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[16.596s] -- Set non-toolchain portion of runtime path of "/home/radhae/ws_aic/install/aic_task_interfaces/lib/libaic_task_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.597s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces
+[16.597s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action
+[16.597s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail
+[16.597s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail/insert_cable__rosidl_typesupport_introspection_c.h
+[16.597s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail/insert_cable__type_support.c
+[16.597s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg
+[16.597s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.597s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail
+[16.597s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail/task__rosidl_typesupport_introspection_c.h
+[16.598s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail/task__type_support.c
+[16.598s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/libaic_task_interfaces__rosidl_typesupport_introspection_c.so
+[16.598s] -- Set non-toolchain portion of runtime path of "/home/radhae/ws_aic/install/aic_task_interfaces/lib/libaic_task_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[16.598s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/libaic_task_interfaces__rosidl_typesupport_c.so
+[16.599s] -- Set non-toolchain portion of runtime path of "/home/radhae/ws_aic/install/aic_task_interfaces/lib/libaic_task_interfaces__rosidl_typesupport_c.so" to ""
+[16.599s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces
+[16.599s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action
+[16.599s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail
+[16.599s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail/insert_cable__rosidl_typesupport_introspection_cpp.hpp
+[16.599s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/action/detail/insert_cable__type_support.cpp
+[16.599s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg
+[16.599s] -- Up-to-date: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail
+[16.599s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail/task__rosidl_typesupport_introspection_cpp.hpp
+[16.600s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/include/aic_task_interfaces/aic_task_interfaces/msg/detail/task__type_support.cpp
+[16.600s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/libaic_task_interfaces__rosidl_typesupport_introspection_cpp.so
+[16.600s] -- Set non-toolchain portion of runtime path of "/home/radhae/ws_aic/install/aic_task_interfaces/lib/libaic_task_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[16.600s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/libaic_task_interfaces__rosidl_typesupport_cpp.so
+[16.601s] -- Set non-toolchain portion of runtime path of "/home/radhae/ws_aic/install/aic_task_interfaces/lib/libaic_task_interfaces__rosidl_typesupport_cpp.so" to ""
+[16.601s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/environment/pythonpath.sh
+[16.601s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/environment/pythonpath.dsv
+[16.601s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces-0.0.1-py3.12.egg-info
+[16.602s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces-0.0.1-py3.12.egg-info/top_level.txt
+[16.602s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces-0.0.1-py3.12.egg-info/SOURCES.txt
+[16.602s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces-0.0.1-py3.12.egg-info/dependency_links.txt
+[16.603s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces-0.0.1-py3.12.egg-info/PKG-INFO
+[16.603s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces
+[16.603s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/_aic_task_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.603s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/action
+[16.603s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/action/_insert_cable_s.c
+[16.603s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/action/_insert_cable.py
+[16.604s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/action/__init__.py
+[16.604s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/aic_task_interfaces_s__rosidl_typesupport_c.so
+[16.604s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/_aic_task_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[16.604s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/aic_task_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[16.604s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/msg
+[16.604s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/msg/_task.py
+[16.605s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/msg/_task_s.c
+[16.605s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/msg/__init__.py
+[16.605s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/aic_task_interfaces_s__rosidl_typesupport_introspection_c.so
+[16.605s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/_aic_task_interfaces_s.ep.rosidl_typesupport_c.c
+[16.605s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/__init__.py
+[16.672s] Listing '/home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces'...
+[16.672s] Compiling '/home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/__init__.py'...
+[16.672s] Listing '/home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/action'...
+[16.673s] Compiling '/home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/action/__init__.py'...
+[16.673s] Compiling '/home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/action/_insert_cable.py'...
+[16.673s] Listing '/home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/msg'...
+[16.673s] Compiling '/home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/msg/__init__.py'...
+[16.673s] Compiling '/home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/msg/_task.py'...
+[16.680s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/aic_task_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[16.681s] -- Set non-toolchain portion of runtime path of "/home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/aic_task_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[16.681s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/aic_task_interfaces_s__rosidl_typesupport_introspection_c.so
+[16.681s] -- Set non-toolchain portion of runtime path of "/home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/aic_task_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[16.682s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/aic_task_interfaces_s__rosidl_typesupport_c.so
+[16.682s] -- Set non-toolchain portion of runtime path of "/home/radhae/ws_aic/install/aic_task_interfaces/lib/python3.12/site-packages/aic_task_interfaces/aic_task_interfaces_s__rosidl_typesupport_c.so" to ""
+[16.682s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/lib/libaic_task_interfaces__rosidl_generator_py.so
+[16.683s] -- Set non-toolchain portion of runtime path of "/home/radhae/ws_aic/install/aic_task_interfaces/lib/libaic_task_interfaces__rosidl_generator_py.so" to ""
+[16.683s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/ament_index/resource_index/rust_packages/aic_task_interfaces
+[16.683s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/rust
+[16.683s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/rust/build.rs
+[16.683s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/rust/src
+[16.683s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/rust/src/action
+[16.683s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/rust/src/action/rmw.rs
+[16.683s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/rust/src/lib.rs
+[16.684s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/rust/src/msg.rs
+[16.684s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/rust/src/action.rs
+[16.684s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/rust/src/msg
+[16.684s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/rust/src/msg/rmw.rs
+[16.684s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/rust/Cargo.toml
+[16.684s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/msg/Task.idl
+[16.685s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/action/InsertCable.idl
+[16.685s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/msg/Task.msg
+[16.685s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/action/InsertCable.action
+[16.685s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/ament_index/resource_index/package_run_dependencies/aic_task_interfaces
+[16.685s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/ament_index/resource_index/parent_prefix_path/aic_task_interfaces
+[16.686s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/environment/ament_prefix_path.sh
+[16.686s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/environment/ament_prefix_path.dsv
+[16.686s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/environment/path.sh
+[16.686s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/environment/path.dsv
+[16.686s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/local_setup.bash
+[16.687s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/local_setup.sh
+[16.687s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/local_setup.zsh
+[16.687s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/local_setup.dsv
+[16.687s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/package.dsv
+[16.687s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/ament_index/resource_index/packages/aic_task_interfaces
+[16.688s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/export_aic_task_interfaces__rosidl_generator_cExport.cmake
+[16.688s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/export_aic_task_interfaces__rosidl_generator_cExport-noconfig.cmake
+[16.688s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/export_aic_task_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[16.688s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/export_aic_task_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.688s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/export_aic_task_interfaces__rosidl_generator_cppExport.cmake
+[16.689s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/export_aic_task_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.689s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/export_aic_task_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.689s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/aic_task_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[16.689s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/aic_task_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.689s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/aic_task_interfaces__rosidl_typesupport_cExport.cmake
+[16.689s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/aic_task_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[16.690s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/aic_task_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[16.690s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/aic_task_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.690s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/aic_task_interfaces__rosidl_typesupport_cppExport.cmake
+[16.690s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/aic_task_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[16.690s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/export_aic_task_interfaces__rosidl_generator_pyExport.cmake
+[16.691s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/export_aic_task_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[16.691s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/rosidl_cmake-extras.cmake
+[16.691s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.691s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.691s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[16.691s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[16.692s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.692s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.692s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/aic_task_interfacesConfig.cmake
+[16.692s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/cmake/aic_task_interfacesConfig-version.cmake
+[16.692s] -- Installing: /home/radhae/ws_aic/install/aic_task_interfaces/share/aic_task_interfaces/package.xml
+[16.698s] Invoked command in '/home/radhae/ws_aic/build/aic_task_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted:/home/radhae/ws_aic/src/aic/.pixi/envs/default:/home/radhae/cognipilot/cranium/install/b3rb_ros_line_follower:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /home/radhae/ws_aic/src/aic/.pixi/envs/default/bin/cmake --install /home/radhae/ws_aic/build/aic_task_interfaces

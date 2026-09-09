@@ -1,0 +1,6 @@
+{
+  "package_name": "aic_engine_interfaces",
+  "non_idl_tuples": [
+    "/home/radhae/ws_aic/src/aic/aic_interfaces/aic_engine_interfaces:srv/ResetJoints.srv"
+  ]
+}

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/radhae/ws_aic/build/aic_engine_interfaces/rosidl_generator_py/aic_engine_interfaces/aic_engine_interfaces_s__rosidl_typesupport_introspection_c.so" "TARGETS" "aic_engine_interfaces_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/aic_engine_interfaces")

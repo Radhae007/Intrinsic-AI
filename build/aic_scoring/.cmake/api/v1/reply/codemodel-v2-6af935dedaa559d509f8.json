@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-686bbd309aec2f968d21.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "aic_scoring",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "aic_scoring::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aic_scoring-5ff39f61e53d3a2214cc.json",
+					"name" : "aic_scoring",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aic_scoring_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aic_scoring_uninstall-9cc2ea60edb3e876284a.json",
+					"name" : "aic_scoring_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scoring_tier1_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scoring_tier1_main-7c3fec50b98695206753.json",
+					"name" : "scoring_tier1_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scoring_tier2_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scoring_tier2_main-15978bb2f3ced2caae30.json",
+					"name" : "scoring_tier2_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-867f7436c791157739c0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/radhae/ws_aic/build/aic_scoring",
+		"source" : "/home/radhae/ws_aic/src/aic/aic_scoring"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
