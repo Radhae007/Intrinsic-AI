@@ -1,2 +1,4 @@
 outputs/
 *.safetensors
+*.safetensors
+outputs/
